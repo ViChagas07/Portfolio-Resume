@@ -372,35 +372,35 @@ body {
 }
 
 /* ── Orb positioning & sizing (desktop) ── */
-.orb-pos-1 { top: 10%;  left: -10%; width: 600px; height: 600px; }
-.orb-pos-2 { top: 25%;  right: -8%; width: 400px; height: 400px; }
-.orb-pos-3 { top: 48%;  left: 20%;  width: 500px; height: 500px; }
-.orb-pos-4 { top: 65%;  right: 10%; width: 350px; height: 350px; }
-.orb-pos-5 { top: 80%;  left: 5%;   width: 250px; height: 250px; }
-.orb-pos-6 { top: 90%;  right: -5%; width: 550px; height: 550px; }
+.orb-pos-1 { top: 10%;  left: -10%; width: 700px; height: 700px; }
+.orb-pos-2 { top: 25%;  right: -8%; width: 500px; height: 500px; }
+.orb-pos-3 { top: 48%;  left: 20%;  width: 600px; height: 600px; }
+.orb-pos-4 { top: 65%;  right: 10%; width: 450px; height: 450px; }
+.orb-pos-5 { top: 80%;  left: 5%;   width: 320px; height: 320px; }
+.orb-pos-6 { top: 90%;  right: -5%; width: 650px; height: 650px; }
 
 /* ── Orb gradient styles ── */
 .orb-blue {
-  background: radial-gradient(circle, rgba(0,71,171,0.18), transparent 70%);
-  filter: blur(80px);
-}
-.orb-red {
-  background: radial-gradient(circle, rgba(204,0,0,0.12), transparent 70%);
+  background: radial-gradient(circle, rgba(0,71,171,0.32), transparent 70%);
   filter: blur(60px);
 }
-.orb-white {
-  background: radial-gradient(circle, rgba(255,255,255,0.06), transparent 70%);
+.orb-red {
+  background: radial-gradient(circle, rgba(204,0,0,0.22), transparent 70%);
   filter: blur(50px);
+}
+.orb-white {
+  background: radial-gradient(circle, rgba(255,255,255,0.12), transparent 70%);
+  filter: blur(40px);
 }
 
 /* ── Mobile sizing ── */
 @media (max-width: 767px) {
-  .orb-pos-1 { width: 300px; height: 300px; }
-  .orb-pos-2 { width: 200px; height: 200px; }
-  .orb-pos-3 { width: 250px; height: 250px; }
-  .orb-pos-4 { width: 180px; height: 180px; }
-  .orb-pos-5 { width: 120px; height: 120px; }
-  .orb-pos-6 { width: 280px; height: 280px; }
+  .orb-pos-1 { width: 380px; height: 380px; }
+  .orb-pos-2 { width: 260px; height: 260px; }
+  .orb-pos-3 { width: 320px; height: 320px; }
+  .orb-pos-4 { width: 240px; height: 240px; }
+  .orb-pos-5 { width: 160px; height: 160px; }
+  .orb-pos-6 { width: 360px; height: 360px; }
 }
 
 /* ── Readability guard: headings stay crisp over orbs ── */
