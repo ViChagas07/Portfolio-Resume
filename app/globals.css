@@ -166,33 +166,53 @@ body {
 
 /* ── Aurora borealis drift animations ── */
 @keyframes aurora-blue {
-  0%   { transform: translate(0px, 0px); opacity: 0.2; }
-  8%   { transform: translate(40px, -60px); opacity: 0.28; }
-  16%  { transform: translate(80px, -20px); opacity: 0.17; }
-  25%  { transform: translate(50px, 30px); opacity: 0.30; }
-  33%  { transform: translate(-10px, 60px); opacity: 0.16; }
-  41%  { transform: translate(-60px, 40px); opacity: 0.25; }
-  50%  { transform: translate(-70px, -10px); opacity: 0.18; }
-  58%  { transform: translate(-40px, -50px); opacity: 0.27; }
-  66%  { transform: translate(10px, -70px); opacity: 0.19; }
-  75%  { transform: translate(40px, -30px); opacity: 0.26; }
-  83%  { transform: translate(60px, 20px); opacity: 0.18; }
-  91%  { transform: translate(20px, 50px); opacity: 0.29; }
-  100% { transform: translate(0px, 0px); opacity: 0.2; }
+  0%   { transform: translate(0px, 0px); opacity: 0.20; }
+  7%   { transform: translate(70px, -50px); opacity: 0.28; }
+  14%  { transform: translate(100px, 10px); opacity: 0.17; }
+  21%  { transform: translate(40px, 60px); opacity: 0.30; }
+  28%  { transform: translate(-50px, 80px); opacity: 0.15; }
+  35%  { transform: translate(-90px, 30px); opacity: 0.26; }
+  42%  { transform: translate(-100px, -40px); opacity: 0.18; }
+  50%  { transform: translate(-30px, -80px); opacity: 0.29; }
+  57%  { transform: translate(50px, -70px); opacity: 0.19; }
+  64%  { transform: translate(90px, -20px); opacity: 0.27; }
+  71%  { transform: translate(80px, 40px); opacity: 0.16; }
+  78%  { transform: translate(-10px, 70px); opacity: 0.25; }
+  85%  { transform: translate(-60px, 20px); opacity: 0.18; }
+  92%  { transform: translate(-40px, -50px); opacity: 0.28; }
+  100% { transform: translate(0px, 0px); opacity: 0.20; }
 }
 
 @keyframes aurora-red {
   0%   { transform: translate(0px, 0px); opacity: 0.16; }
-  10%  { transform: translate(-50px, -40px); opacity: 0.25; }
-  20%  { transform: translate(-30px, -70px); opacity: 0.15; }
-  30%  { transform: translate(30px, -50px); opacity: 0.24; }
-  40%  { transform: translate(60px, -10px); opacity: 0.17; }
-  50%  { transform: translate(50px, 40px); opacity: 0.27; }
-  60%  { transform: translate(10px, 60px); opacity: 0.16; }
-  70%  { transform: translate(-40px, 30px); opacity: 0.23; }
-  80%  { transform: translate(-60px, -20px); opacity: 0.18; }
-  90%  { transform: translate(-40px, -50px); opacity: 0.26; }
+  8%   { transform: translate(50px, -60px); opacity: 0.26; }
+  16%  { transform: translate(90px, -10px); opacity: 0.14; }
+  25%  { transform: translate(60px, 50px); opacity: 0.28; }
+  33%  { transform: translate(-30px, 80px); opacity: 0.16; }
+  41%  { transform: translate(-80px, 40px); opacity: 0.24; }
+  50%  { transform: translate(-90px, -30px); opacity: 0.17; }
+  58%  { transform: translate(-40px, -70px); opacity: 0.27; }
+  66%  { transform: translate(30px, -80px); opacity: 0.15; }
+  75%  { transform: translate(80px, -40px); opacity: 0.25; }
+  83%  { transform: translate(70px, 30px); opacity: 0.18; }
+  91%  { transform: translate(-20px, 60px); opacity: 0.26; }
   100% { transform: translate(0px, 0px); opacity: 0.16; }
+}
+
+@keyframes aurora-white {
+  0%   { transform: translate(0px, 0px); opacity: 0.15; }
+  8%   { transform: translate(60px, -40px); opacity: 0.24; }
+  16%  { transform: translate(95px, 20px); opacity: 0.12; }
+  25%  { transform: translate(40px, 70px); opacity: 0.25; }
+  33%  { transform: translate(-50px, 85px); opacity: 0.14; }
+  41%  { transform: translate(-90px, 30px); opacity: 0.22; }
+  50%  { transform: translate(-100px, -50px); opacity: 0.13; }
+  58%  { transform: translate(-20px, -80px); opacity: 0.24; }
+  66%  { transform: translate(50px, -70px); opacity: 0.15; }
+  75%  { transform: translate(85px, -30px); opacity: 0.23; }
+  83%  { transform: translate(70px, 40px); opacity: 0.13; }
+  91%  { transform: translate(-30px, 60px); opacity: 0.22; }
+  100% { transform: translate(0px, 0px); opacity: 0.15; }
 }
 
 .animate-aurora-blue {
@@ -205,21 +225,8 @@ body {
   will-change: transform, opacity;
 }
 
-@keyframes aurora-white {
-  0%   { transform: translate(0px, 0px); opacity: 0.08; }
-  11%  { transform: translate(-35px, -45px); opacity: 0.14; }
-  22%  { transform: translate(-60px, 10px); opacity: 0.07; }
-  33%  { transform: translate(-20px, 55px); opacity: 0.13; }
-  44%  { transform: translate(30px, 35px); opacity: 0.09; }
-  55%  { transform: translate(55px, -15px); opacity: 0.15; }
-  66%  { transform: translate(35px, -50px); opacity: 0.08; }
-  77%  { transform: translate(-10px, -30px); opacity: 0.12; }
-  88%  { transform: translate(-50px, -10px); opacity: 0.10; }
-  100% { transform: translate(0px, 0px); opacity: 0.08; }
-}
-
 .animate-aurora-white {
-  animation: aurora-white 19s ease-in-out infinite;
+  animation: aurora-white 23s ease-in-out infinite;
   will-change: transform, opacity;
 }
 
