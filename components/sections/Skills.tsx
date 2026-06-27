@@ -75,9 +75,13 @@ export function Skills() {
         {SKILL_CATEGORIES.map((cat) => (
           <article
             key={cat.key}
-            className="rounded-2xl border border-[var(--color-navy-lighter)] bg-[var(--color-navy-light)] p-5 transition-all duration-300 hover:border-[var(--color-blue)]/30"
-            style={{ borderTopColor: "var(--color-blue)", borderTopWidth: "2px" }}
+            className="relative rounded-2xl border border-[var(--color-navy-lighter)] bg-[var(--color-navy-light)] p-5 transition-all duration-300 hover:border-[var(--color-blue)]/30"
           >
+            {/* Gradient top border: blue → red */}
+            <div
+              className="absolute inset-x-0 top-0 h-[2px] rounded-t-2xl bg-gradient-to-r from-[var(--color-blue)] to-[var(--color-red)]"
+              aria-hidden="true"
+            />
             {/* Icon + Name */}
             <div className="mb-4 flex items-center gap-3">
               <span className="text-[var(--color-blue)]" aria-hidden="true">

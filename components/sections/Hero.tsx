@@ -36,12 +36,22 @@ export function Hero() {
 
       {/* AD Monogram Crest */}
       <div
-        className="relative mb-10 flex h-28 w-28 items-center justify-center rounded-full border-2 border-[var(--color-blue)] shadow-[0_0_40px_var(--color-blue-glow)]"
+        className="relative mb-10 flex h-28 w-28 items-center justify-center"
         aria-label="Alisson Davi logo"
       >
-        {/* Outer ring accent */}
+        {/* Radar ring — outer blue pulsing */}
         <div
-          className="absolute inset-0 rounded-full border border-[var(--color-red)]/50"
+          className="absolute inset-[-6px] animate-radar rounded-full border-2 border-[var(--color-blue)]/70 shadow-[0_0_30px_var(--color-blue-glow)]"
+          aria-hidden="true"
+        />
+        {/* Middle red ring */}
+        <div
+          className="absolute inset-0 rounded-full border-2 border-[var(--color-red)]/60"
+          aria-hidden="true"
+        />
+        {/* Inner red ring */}
+        <div
+          className="absolute inset-[5px] rounded-full border border-[var(--color-red)]/40"
           aria-hidden="true"
         />
         <span className="font-heading text-4xl font-bold text-white">
@@ -72,9 +82,9 @@ export function Hero() {
         className="mt-8 flex items-center gap-2 font-mono text-sm text-[var(--color-gray-light)]"
         aria-live="polite"
       >
-        <span className="text-[var(--color-blue)]">&gt;</span>
+        <span className="text-[var(--color-red)]">&gt;</span>
         <span>{typedText}</span>
-        <span className="inline-block h-4 w-0.5 animate-pulse bg-[var(--color-blue)]" aria-hidden="true" />
+        <span className="inline-block h-4 w-0.5 animate-pulse bg-[var(--color-red)]" aria-hidden="true" />
       </div>
 
       {/* CTA Buttons */}
