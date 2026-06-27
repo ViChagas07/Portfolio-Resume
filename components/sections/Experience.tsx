@@ -5,18 +5,6 @@ import { useInView } from "@/hooks/useInView";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { TIMELINE_ITEMS, CERTIFICATIONS } from "@/lib/constants";
 
-/* ── Timeline dot marker ── */
-function Dot({ color, className = "" }: { color: "blue" | "red"; className?: string }) {
-  return (
-    <div
-      className={`absolute z-10 h-3 w-3 rounded-full border-2 border-[var(--color-navy)] ${
-        color === "blue" ? "bg-[var(--color-blue)]" : "bg-[var(--color-red)]"
-      } ${className}`}
-      aria-hidden="true"
-    />
-  );
-}
-
 /* ── Reusable card ── */
 function Card({
   title,
@@ -30,8 +18,8 @@ function Card({
   return (
     <div className="card-mobile-pulse w-full rounded-xl border border-[var(--color-navy-lighter)] bg-[var(--color-navy-light)] p-5 transition-all duration-300 hover:border-[var(--color-blue)]/30">
       <h3 className="font-heading text-lg font-bold text-white">{title}</h3>
-      <p className="mt-1 text-sm text-[var(--color-blue)]">{subtitle}</p>
-      <p className="mt-2 text-xs text-[var(--color-gray-dark)]">{period}</p>
+      <p className="mt-1 text-sm text-white lg:text-[var(--color-blue)]">{subtitle}</p>
+      <p className="mt-2 text-xs text-white lg:text-[var(--color-gray-dark)]">{period}</p>
     </div>
   );
 }
@@ -51,8 +39,8 @@ function CertCard({
   return (
     <article className="card-mobile-pulse rounded-xl border border-[var(--color-navy-lighter)] bg-[var(--color-navy-light)] p-5 transition-all duration-300 hover:border-[var(--color-blue)]/30">
       <h4 className="font-heading text-base font-semibold text-white">{name}</h4>
-      <p className="mt-1 text-sm text-[var(--color-gray)]">{issuer}</p>
-      <div className="mt-2 flex gap-3 text-xs text-[var(--color-gray-dark)]">
+      <p className="mt-1 text-sm text-white lg:text-[var(--color-gray)]">{issuer}</p>
+      <div className="mt-2 flex gap-3 text-xs text-white lg:text-[var(--color-gray-dark)]">
         <span>{hours}</span>
         <span aria-hidden="true">·</span>
         <span>{year}</span>
@@ -93,10 +81,6 @@ export function Experience() {
         <div className="flex flex-col gap-8">
           {TIMELINE_ITEMS.map((item, idx) => (
             <div key={item.key} className="relative">
-              <Dot
-                color={idx % 2 === 0 ? "blue" : "red"}
-                className="left-1/2 top-6 -translate-x-1/2"
-              />
               <Card
                 title={t(`${item.titleKey}`)}
                 subtitle={t(`${item.subtitleKey}`)}
@@ -118,11 +102,6 @@ export function Experience() {
         <div className="col-start-1 row-start-1 flex flex-col gap-8">
           {leftItems.map((item, idx) => (
             <div key={item.key} className="relative flex justify-end">
-              {/* Dot on center line (extends past right edge of card) */}
-              <Dot
-                color={idx % 2 === 0 ? "blue" : "red"}
-                className="-right-[49px] top-6"
-              />
               <div className="w-[calc(100%-2rem)]">
                 <Card
                   title={t(`${item.titleKey}`)}
@@ -138,11 +117,6 @@ export function Experience() {
         <div className="col-start-3 row-start-1 flex flex-col gap-8 pt-8">
           {rightItems.map((item, idx) => (
             <div key={item.key} className="relative flex justify-start">
-              {/* Dot on center line (extends past left edge of card) */}
-              <Dot
-                color={(leftItems.length + idx) % 2 === 0 ? "blue" : "red"}
-                className="-left-[49px] top-6"
-              />
               <div className="w-[calc(100%-2rem)]">
                 <Card
                   title={t(`${item.titleKey}`)}
