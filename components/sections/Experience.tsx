@@ -134,24 +134,66 @@ export function Experience() {
         <SectionTitle title={t("experience.education_title")} />
       </div>
 
-      <div className="relative mt-6">
-        {/* Vertical connector line — gradient blue → red */}
+      <h3 className="mt-6 mb-6 font-heading text-xl font-bold text-white text-center lg:text-left">
+        {t("certifications.title")}
+      </h3>
+
+      {/* ═══════ MOBILE: single column, centered timeline ═══════ */}
+      <div className="relative sm:hidden">
         <div
-          className="absolute left-3 sm:left-4 top-0 bottom-0 w-0.5 bg-gradient-to-b from-[var(--color-blue)] via-[var(--color-navy-lighter)] to-[var(--color-red)]"
+          className="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-gradient-to-b from-[var(--color-blue)] via-[var(--color-navy-lighter)] to-[var(--color-red)]"
           aria-hidden="true"
         />
-        <h3 className="mb-6 pl-8 sm:pl-10 font-heading text-xl font-bold text-white text-center lg:text-left">
-          {t("certifications.title")}
-        </h3>
-        <div className="grid gap-4 sm:grid-cols-2 pl-8 sm:pl-10">
+        <div className="flex flex-col gap-4">
           {CERTIFICATIONS.map((cert) => (
-            <CertCard
-              key={cert.key}
-              name={t(`${cert.nameKey}`)}
-              issuer={t(`${cert.issuerKey}`)}
-              hours={t(`${cert.hoursKey}`)}
-              year={t(`${cert.yearKey}`)}
-            />
+            <div key={cert.key} className="relative">
+              <CertCard
+                name={t(`${cert.nameKey}`)}
+                issuer={t(`${cert.issuerKey}`)}
+                hours={t(`${cert.hoursKey}`)}
+                year={t(`${cert.yearKey}`)}
+              />
+            </div>
+          ))}
+        </div>
+      </div>
+
+      {/* ═══════ DESKTOP: two-column mirrored grid ═══════ */}
+      <div className="relative hidden sm:grid sm:grid-cols-[1fr_2px_1fr] sm:gap-x-8">
+        {/* Center timeline spine — gradient blue → red */}
+        <div className="relative col-start-2 row-start-1" aria-hidden="true">
+          <div className="absolute inset-0 w-0.5 left-1/2 -translate-x-1/2 bg-gradient-to-b from-[var(--color-blue)] to-[var(--color-red)]" />
+        </div>
+
+        {/* Left column */}
+        <div className="col-start-1 row-start-1 flex flex-col gap-4">
+          {CERTIFICATIONS.filter((_, i) => i % 2 === 0).map((cert) => (
+            <div key={cert.key} className="relative flex justify-end">
+              <div className="w-[calc(100%-2rem)]">
+                <CertCard
+                  name={t(`${cert.nameKey}`)}
+                  issuer={t(`${cert.issuerKey}`)}
+                  hours={t(`${cert.hoursKey}`)}
+                  year={t(`${cert.yearKey}`)}
+                />
+              </div>
+            </div>
+          ))}
+        </div>
+
+        {/* Right column */}
+        <div className="col-start-3 row-start-1 flex flex-col gap-4 pt-4">
+          {CERTIFICATIONS.filter((_, i) => i % 2 === 1).map((cert) => (
+            <div key={cert.key} className="relative flex justify-start">
+              <div className="w-[calc(100%-2rem)]">
+                <CertCard
+                  name={t(`${cert.nameKey}`)}
+                  issuer={t(`${cert.issuerKey}`)}
+                  hours={t(`${cert.hoursKey}`)}
+                  year={t(`${cert.yearKey}`)}
+                />
+              </div>
+            </div>
           ))}
         </div>
       </div>
