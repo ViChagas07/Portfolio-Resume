@@ -457,3 +457,12 @@ section, .section {
 .shake-permission-banner.dismissing {
   animation: fade-out-down 0.3s ease forwards;
 }
+
+/* ── Scroll indicator dot animation (Hero) ── */
+@keyframes scroll-dot {
+  0%, 100% { transform: translateY(0);   opacity: 1; }
+  50%      { transform: translateY(-18px); opacity: 0.2; }
+}
+.animate-scroll-dot {
+  animation: scroll-dot 1.8s cubic-bezier(0.45, 0, 0.55, 1) infinite;
+}

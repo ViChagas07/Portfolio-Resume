@@ -22,7 +22,7 @@ export function Hero() {
     <section
       id="hero"
       ref={ref}
-      className={`relative flex min-h-[100dvh] flex-col items-center justify-center overflow-hidden bg-[var(--color-navy)] px-4 md:px-6 lg:px-12 py-20 md:py-24 ${animationClass}`}
+      className={`relative flex min-h-[100dvh] flex-col items-center justify-center overflow-hidden px-4 md:px-6 lg:px-12 py-20 md:py-24 ${animationClass}`}
       aria-labelledby="hero-heading"
     >
       {/* AD Monogram Crest */}
@@ -100,8 +100,8 @@ export function Hero() {
         <span className="text-xs text-[var(--color-gray-dark)]">
           {t("scroll_down")}
         </span>
-        <div className="h-8 w-5 rounded-full border border-[var(--color-blue)]/50">
-          <div className="mx-auto mt-1.5 h-1.5 w-1.5 animate-bounce rounded-full bg-[var(--color-blue)]" />
+        <div className="relative flex h-8 w-5 items-end justify-center rounded-full border border-[var(--color-blue)]/50 pb-1">
+          <div className="h-1.5 w-1.5 animate-scroll-dot rounded-full bg-[var(--color-blue)]" />
         </div>
       </div>
     </section>
