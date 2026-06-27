@@ -164,6 +164,47 @@ body {
   animation: radar 2.5s ease-in-out infinite;
 }
 
+/* ── Aurora borealis drift animations ── */
+@keyframes aurora-blue {
+  0%   { transform: translate(0px, 0px); opacity: 0.2; }
+  8%   { transform: translate(40px, -60px); opacity: 0.28; }
+  16%  { transform: translate(80px, -20px); opacity: 0.17; }
+  25%  { transform: translate(50px, 30px); opacity: 0.30; }
+  33%  { transform: translate(-10px, 60px); opacity: 0.16; }
+  41%  { transform: translate(-60px, 40px); opacity: 0.25; }
+  50%  { transform: translate(-70px, -10px); opacity: 0.18; }
+  58%  { transform: translate(-40px, -50px); opacity: 0.27; }
+  66%  { transform: translate(10px, -70px); opacity: 0.19; }
+  75%  { transform: translate(40px, -30px); opacity: 0.26; }
+  83%  { transform: translate(60px, 20px); opacity: 0.18; }
+  91%  { transform: translate(20px, 50px); opacity: 0.29; }
+  100% { transform: translate(0px, 0px); opacity: 0.2; }
+}
+
+@keyframes aurora-red {
+  0%   { transform: translate(0px, 0px); opacity: 0.16; }
+  10%  { transform: translate(-50px, -40px); opacity: 0.25; }
+  20%  { transform: translate(-30px, -70px); opacity: 0.15; }
+  30%  { transform: translate(30px, -50px); opacity: 0.24; }
+  40%  { transform: translate(60px, -10px); opacity: 0.17; }
+  50%  { transform: translate(50px, 40px); opacity: 0.27; }
+  60%  { transform: translate(10px, 60px); opacity: 0.16; }
+  70%  { transform: translate(-40px, 30px); opacity: 0.23; }
+  80%  { transform: translate(-60px, -20px); opacity: 0.18; }
+  90%  { transform: translate(-40px, -50px); opacity: 0.26; }
+  100% { transform: translate(0px, 0px); opacity: 0.16; }
+}
+
+.animate-aurora-blue {
+  animation: aurora-blue 17s ease-in-out infinite;
+  will-change: transform, opacity;
+}
+
+.animate-aurora-red {
+  animation: aurora-red 21s ease-in-out infinite;
+  will-change: transform, opacity;
+}
+
 /* ── Glass navbar ── */
 .nav-glass {
   background: rgba(5, 13, 26, 0.85);

@@ -25,13 +25,19 @@ export function Hero() {
       className={`relative flex min-h-[100dvh] flex-col items-center justify-center overflow-hidden bg-[var(--color-navy)] px-6 py-24 ${animationClass}`}
       aria-labelledby="hero-heading"
     >
-      {/* Subtle animated gradient background */}
+      {/* Aurora borealis background — drifting blue & red auras */}
       <div
-        className="pointer-events-none absolute inset-0 opacity-20"
+        className="pointer-events-none absolute inset-0"
         aria-hidden="true"
       >
-        <div className="absolute -top-40 left-1/2 h-[500px] w-[500px] -translate-x-1/2 rounded-full bg-[var(--color-blue)] blur-[120px]" />
-        <div className="absolute bottom-0 right-1/4 h-[300px] w-[300px] rounded-full bg-[var(--color-red)] blur-[100px]" />
+        {/* Blue aura — positioned container, inner div drifts */}
+        <div className="absolute -top-40 left-1/2 h-[500px] w-[500px] -translate-x-1/2">
+          <div className="animate-aurora-blue h-full w-full rounded-full bg-[var(--color-blue)] blur-[120px]" />
+        </div>
+        {/* Red aura — positioned container, inner div drifts */}
+        <div className="absolute bottom-0 right-1/4 h-[300px] w-[300px]">
+          <div className="animate-aurora-red h-full w-full rounded-full bg-[var(--color-red)] blur-[100px]" />
+        </div>
       </div>
 
       {/* AD Monogram Crest */}
