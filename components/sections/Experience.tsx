@@ -18,7 +18,7 @@ function Card({
   return (
     <div className="card-mobile-pulse w-full rounded-xl border border-[var(--color-navy-lighter)] bg-[var(--color-navy-light)] p-5 transition-all duration-300 hover:border-[var(--color-blue)]/30">
       <h3 className="font-heading text-lg font-bold text-white">{title}</h3>
-      <p className="mt-1 text-sm text-white lg:text-[var(--color-blue)]">{subtitle}</p>
+      <p className="mt-1 text-sm font-medium text-black">{subtitle}</p>
       <p className="mt-2 text-xs text-white lg:text-[var(--color-gray-dark)]">{period}</p>
     </div>
   );
@@ -39,7 +39,7 @@ function CertCard({
   return (
     <article className="card-mobile-pulse rounded-xl border border-[var(--color-navy-lighter)] bg-[var(--color-navy-light)] p-5 transition-all duration-300 hover:border-[var(--color-blue)]/30">
       <h4 className="font-heading text-base font-semibold text-white">{name}</h4>
-      <p className="mt-1 text-sm text-white lg:text-[var(--color-gray)]">{issuer}</p>
+      <p className="mt-1 text-sm font-medium text-black">{issuer}</p>
       <div className="mt-2 flex gap-3 text-xs text-white lg:text-[var(--color-gray-dark)]">
         <span>{hours}</span>
         <span aria-hidden="true">·</span>
@@ -134,11 +134,16 @@ export function Experience() {
         <SectionTitle title={t("experience.education_title")} />
       </div>
 
-      <div className="mt-6">
-        <h3 className="mb-6 font-heading text-xl font-bold text-white text-center lg:text-left">
+      <div className="relative mt-6">
+        {/* Vertical connector line — gradient blue → red */}
+        <div
+          className="absolute left-3 sm:left-4 top-0 bottom-0 w-0.5 bg-gradient-to-b from-[var(--color-blue)] via-[var(--color-navy-lighter)] to-[var(--color-red)]"
+          aria-hidden="true"
+        />
+        <h3 className="mb-6 pl-8 sm:pl-10 font-heading text-xl font-bold text-white text-center lg:text-left">
           {t("certifications.title")}
         </h3>
-        <div className="grid gap-4 sm:grid-cols-2">
+        <div className="grid gap-4 sm:grid-cols-2 pl-8 sm:pl-10">
           {CERTIFICATIONS.map((cert) => (
             <CertCard
               key={cert.key}
