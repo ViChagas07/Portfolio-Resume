@@ -14,6 +14,7 @@ export interface Project {
   liveUrl?: string;
   githubUrl: string;
   monogram: string;
+  imagePath: string;
 }
 
 /* ── Locale metadata ── */
@@ -154,6 +155,7 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://pay-sentinel-iq.vercel.app",
     githubUrl: "https://github.com/ViChagas07/PaySentinelIQ",
     monogram: "PSI",
+    imagePath: "/projects/paysentinel-iq.png",
   },
   {
     key: "pytomatiza",
@@ -177,6 +179,7 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://pytomatiza.vercel.app",
     githubUrl: "https://github.com/ViChagas07/Pytomatiza",
     monogram: "PY+",
+    imagePath: "/projects/pytomatiza.png",
   },
   {
     key: "clark",
@@ -199,6 +202,7 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://clark-player.vercel.app",
     githubUrl: "https://github.com/ViChagas07/ClarkPlayer",
     monogram: "CP",
+    imagePath: "/projects/clarkplayer.png",
   },
   {
     key: "facilit",
@@ -219,6 +223,7 @@ export const PROJECTS: Project[] = [
     ],
     githubUrl: "https://github.com/ViChagas07/Facilit_Bot",
     monogram: "FB",
+    imagePath: "/projects/facilitbot.jpg",
   },
 ];
 

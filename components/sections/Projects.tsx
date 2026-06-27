@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { useInView } from "@/hooks/useInView";
 import { SectionTitle } from "@/components/ui/SectionTitle";
@@ -102,14 +103,17 @@ export function Projects() {
                 </div>
               </div>
 
-              {/* Right: decorative monogram card */}
+              {/* Right: project logo */}
               <div
                 className="relative flex min-h-[200px] items-center justify-center bg-gradient-to-br from-[var(--color-blue)]/20 via-[var(--color-navy)]/50 to-[var(--color-red)]/10 lg:w-[40%] lg:min-h-[300px]"
-                aria-hidden="true"
               >
-                <span className="font-heading text-6xl font-bold text-white/10 sm:text-7xl lg:text-8xl">
-                  {project.monogram}
-                </span>
+                <Image
+                  src={project.imagePath}
+                  alt={`${project.name} logo`}
+                  fill
+                  className="object-contain p-8"
+                  sizes="(max-width: 1024px) 100vw, 40vw"
+                />
               </div>
             </article>
           );
