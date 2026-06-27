@@ -28,7 +28,7 @@ function Card({
   period: string;
 }) {
   return (
-    <div className="w-full rounded-xl border border-[var(--color-navy-lighter)] bg-[var(--color-navy-light)] p-5 transition-all duration-300 hover:border-[var(--color-blue)]/30">
+    <div className="card-mobile-pulse w-full rounded-xl border border-[var(--color-navy-lighter)] bg-[var(--color-navy-light)] p-5 transition-all duration-300 hover:border-[var(--color-blue)]/30">
       <h3 className="font-heading text-lg font-bold text-white">{title}</h3>
       <p className="mt-1 text-sm text-[var(--color-blue)]">{subtitle}</p>
       <p className="mt-2 text-xs text-[var(--color-gray-dark)]">{period}</p>
@@ -49,7 +49,7 @@ function CertCard({
   year: string;
 }) {
   return (
-    <article className="rounded-xl border border-[var(--color-navy-lighter)] bg-[var(--color-navy-light)] p-5 transition-all duration-300 hover:border-[var(--color-blue)]/30">
+    <article className="card-mobile-pulse rounded-xl border border-[var(--color-navy-lighter)] bg-[var(--color-navy-light)] p-5 transition-all duration-300 hover:border-[var(--color-blue)]/30">
       <h4 className="font-heading text-base font-semibold text-white">{name}</h4>
       <p className="mt-1 text-sm text-[var(--color-gray)]">{issuer}</p>
       <div className="mt-2 flex gap-3 text-xs text-[var(--color-gray-dark)]">
