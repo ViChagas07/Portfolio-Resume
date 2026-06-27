@@ -44,6 +44,7 @@ html {
   scroll-behavior: smooth;
   background-color: var(--color-navy);
   color: var(--color-white);
+  overflow-x: hidden;
 }
 
 body {

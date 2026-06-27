@@ -22,7 +22,7 @@ export function Hero() {
     <section
       id="hero"
       ref={ref}
-      className={`relative flex min-h-[100dvh] flex-col items-center justify-center overflow-hidden bg-[var(--color-navy)] px-6 py-24 ${animationClass}`}
+      className={`relative flex min-h-[100dvh] flex-col items-center justify-center overflow-hidden bg-[var(--color-navy)] px-4 md:px-6 lg:px-12 py-20 md:py-24 ${animationClass}`}
       aria-labelledby="hero-heading"
     >
       {/* Aurora borealis background — drifting blue & red auras */}
@@ -72,7 +72,7 @@ export function Hero() {
       {/* Name */}
       <h1
         id="hero-heading"
-        className="font-heading text-4xl font-bold text-white sm:text-5xl lg:text-6xl"
+        className="font-heading text-[2.5rem] font-bold leading-tight text-white sm:text-4xl lg:text-5xl xl:text-6xl"
       >
         {t("name")}
       </h1>
@@ -97,11 +97,10 @@ export function Hero() {
         <span className="inline-block h-4 w-0.5 animate-pulse bg-[var(--color-red)]" aria-hidden="true" />
       </div>
 
-      {/* CTA Buttons */}
-      <div className="mt-10 flex flex-col gap-4 sm:flex-row">
+      <div className="mt-10 flex w-full flex-col gap-4 sm:w-auto sm:flex-row">
         <a
           href="#projects"
-          className="inline-flex items-center justify-center gap-2 rounded-lg bg-[var(--color-blue)] px-6 py-3 font-heading text-sm font-semibold text-white transition-all duration-300 hover:bg-[var(--color-blue-light)] hover:shadow-[0_0_30px_var(--color-blue-glow)]"
+          className="inline-flex w-full items-center justify-center gap-2 rounded-lg bg-[var(--color-blue)] px-6 py-3 font-heading text-sm font-semibold text-white transition-all duration-300 hover:bg-[var(--color-blue-light)] hover:shadow-[0_0_30px_var(--color-blue-glow)] sm:w-auto sm:min-w-[44px]"
         >
           {t("cta_projects")}
         </a>
@@ -109,7 +108,7 @@ export function Hero() {
           href="/resume.pdf"
           target="_blank"
           rel="noopener noreferrer"
-          className="inline-flex items-center justify-center gap-2 rounded-lg border border-[var(--color-blue)] px-6 py-3 font-heading text-sm font-semibold text-[var(--color-blue)] transition-all duration-300 hover:bg-[var(--color-blue)] hover:text-white hover:shadow-[0_0_30px_var(--color-blue-glow)]"
+          className="inline-flex w-full items-center justify-center gap-2 rounded-lg border border-[var(--color-blue)] px-6 py-3 font-heading text-sm font-semibold text-[var(--color-blue)] transition-all duration-300 hover:bg-[var(--color-blue)] hover:text-white hover:shadow-[0_0_30px_var(--color-blue-glow)] sm:w-auto sm:min-w-[44px]"
         >
           {t("cta_resume")}
         </a>

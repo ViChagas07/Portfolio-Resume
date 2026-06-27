@@ -19,7 +19,7 @@ export function About() {
     <section
       id="about"
       ref={ref}
-      className={`${animationClass} mx-auto max-w-6xl px-6 py-24`}
+      className={`${animationClass} mx-auto max-w-6xl px-4 md:px-6 lg:px-12 py-20 md:py-24`}
       aria-labelledby="about-title"
     >
       <SectionTitle title={t("title")} />

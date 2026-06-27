@@ -101,7 +101,7 @@ export default async function LocaleLayout({
       dir={dir}
       className={`${spaceGrotesk.variable} ${inter.variable} ${jetbrainsMono.variable} h-full antialiased`}
     >
-      <body className="flex min-h-full flex-col bg-[var(--color-navy)] text-[var(--color-white)] font-sans">
+      <body className="flex min-h-full flex-col overflow-x-hidden bg-[var(--color-navy)] text-[var(--color-white)] font-sans">
         {/* Skip to main content */}
         <a
           href="#main"

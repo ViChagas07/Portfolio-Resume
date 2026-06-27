@@ -66,12 +66,12 @@ export function Skills() {
     <section
       id="skills"
       ref={ref}
-      className={`${animationClass} mx-auto max-w-6xl px-6 py-24`}
+      className={`${animationClass} mx-auto max-w-6xl px-4 md:px-6 lg:px-12 py-20 md:py-24`}
       aria-labelledby="skills-title"
     >
       <SectionTitle title={t("title")} />
 
-      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
+      <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
         {SKILL_CATEGORIES.map((cat) => (
           <article
             key={cat.key}

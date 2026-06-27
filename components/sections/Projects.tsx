@@ -33,7 +33,7 @@ export function Projects() {
     <section
       id="projects"
       ref={ref}
-      className={`${animationClass} mx-auto max-w-6xl px-6 py-24`}
+      className={`${animationClass} mx-auto max-w-6xl px-4 md:px-6 lg:px-12 py-20 md:py-24`}
       aria-labelledby="projects-title"
     >
       <SectionTitle title={t("title")} />
@@ -45,7 +45,7 @@ export function Projects() {
           return (
             <article
               key={project.key}
-              className="flex flex-col gap-6 overflow-hidden rounded-2xl border border-[var(--color-navy-lighter)] bg-[var(--color-navy-light)] transition-all duration-300 hover:border-[var(--color-blue)]/30 lg:flex-row"
+              className="flex flex-col-reverse gap-0 overflow-hidden rounded-2xl border border-[var(--color-navy-lighter)] bg-[var(--color-navy-light)] transition-all duration-300 hover:border-[var(--color-blue)]/30 lg:flex-row"
             >
               {/* Left: info */}
               <div className="flex flex-1 flex-col justify-between p-6 lg:p-8">
@@ -103,9 +103,9 @@ export function Projects() {
                 </div>
               </div>
 
-              {/* Right: project logo */}
+              {/* Top (mobile) / Right (desktop): project logo */}
               <div
-                className="relative flex min-h-[200px] items-center justify-center bg-gradient-to-br from-[var(--color-blue)]/20 via-[var(--color-navy)]/50 to-[var(--color-red)]/10 lg:w-[40%] lg:min-h-[300px]"
+                className="relative flex min-h-[160px] items-center justify-center bg-gradient-to-br from-[var(--color-blue)]/20 via-[var(--color-navy)]/50 to-[var(--color-red)]/10 lg:min-h-[300px] lg:w-[40%]"
               >
                 <Image
                   src={project.imagePath}

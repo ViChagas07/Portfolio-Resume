@@ -22,7 +22,7 @@ export function Contact() {
       className={`${animationClass} border-t-2 border-[var(--color-blue)] bg-[var(--color-navy-light)]`}
       aria-labelledby="contact-title"
     >
-      <div className="mx-auto max-w-6xl px-6 py-24">
+      <div className="mx-auto max-w-6xl px-4 md:px-6 lg:px-12 py-20 md:py-24">
         <SectionTitle title={t("title")} subtitle={t("subtitle")} />
 
         {/* Link cards — 1 col mobile, 2x2 grid tablet+ */}
