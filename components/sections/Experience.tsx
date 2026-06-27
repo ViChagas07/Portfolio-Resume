@@ -1,9 +1,20 @@
 "use client";
 
+import React from "react";
 import { useTranslations } from "next-intl";
 import { useInView } from "@/hooks/useInView";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { TIMELINE_ITEMS, CERTIFICATIONS } from "@/lib/constants";
+
+/* ── Timeline dot (desktop >= 1024px only) ── */
+function TimelineDot({ color }: { color: "blue" | "red" }) {
+  return (
+    <div
+      className={`timeline-dot ${color === "blue" ? "timeline-dot-blue" : "timeline-dot-red"}`}
+      aria-hidden="true"
+    />
+  );
+}
 
 /* ── Reusable card ── */
 function Card({
@@ -63,6 +74,26 @@ export function Experience() {
   const leftItems = TIMELINE_ITEMS.filter((i) => i.side === "left");
   const rightItems = TIMELINE_ITEMS.filter((i) => i.side === "right");
 
+  // Paired rows for desktop dots
+  const maxExpRows = Math.max(leftItems.length, rightItems.length);
+  const expRows = Array.from({ length: maxExpRows }, (_, i) => ({
+    left: leftItems[i] ?? null,
+    right: rightItems[i] ?? null,
+    dotColor: (i % 2 === 0 ? "blue" : "red") as "blue" | "red",
+  }));
+
+  // Certifications paired rows (even=left, odd=right)
+  const leftCerts = CERTIFICATIONS.filter((_, i) => i % 2 === 0);
+  const rightCerts = CERTIFICATIONS.filter((_, i) => i % 2 === 1);
+  const certRows = Array.from(
+    { length: Math.max(leftCerts.length, rightCerts.length) },
+    (_, i) => ({
+      left: leftCerts[i] ?? null,
+      right: rightCerts[i] ?? null,
+      dotColor: (i % 2 === 0 ? "blue" : "red") as "blue" | "red",
+    })
+  );
+
   return (
     <section
       id="experience"
@@ -72,7 +103,7 @@ export function Experience() {
     >
       <SectionTitle title={t("experience.title")} />
 
-      {/* ═══════ MOBILE: single column, centered timeline ═══════ */}
+      {/* ═══════ MOBILE: single column, centered timeline — UNCHANGED ═══════ */}
       <div className="relative lg:hidden">
         <div
           className="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-gradient-to-b from-[var(--color-blue)] via-[var(--color-navy-lighter)] to-[var(--color-red)]"
@@ -91,42 +122,45 @@ export function Experience() {
         </div>
       </div>
 
-      {/* ═══════ DESKTOP: two-column mirrored grid ═══════ */}
-      <div className="relative hidden lg:grid lg:grid-cols-[1fr_2px_1fr] lg:gap-x-12">
+      {/* ═══════ DESKTOP: two-column mirrored grid WITH DOTS ═══════ */}
+      <div className="relative hidden lg:grid lg:grid-cols-[1fr_12px_1fr] lg:gap-y-8">
         {/* Center timeline spine — gradient blue → red */}
-        <div className="relative col-start-2 row-start-1" aria-hidden="true">
-          <div className="absolute inset-0 w-0.5 left-1/2 -translate-x-1/2 bg-gradient-to-b from-[var(--color-blue)] to-[var(--color-red)]" />
-        </div>
+        <div className="absolute left-1/2 top-0 bottom-0 w-0.5 -translate-x-1/2 bg-gradient-to-b from-[var(--color-blue)] to-[var(--color-red)] z-0" aria-hidden="true" />
 
-        {/* Left column: Experience */}
-        <div className="col-start-1 row-start-1 flex flex-col gap-8">
-          {leftItems.map((item, idx) => (
-            <div key={item.key} className="relative flex justify-end">
-              <div className="w-[calc(100%-2rem)]">
-                <Card
-                  title={t(`${item.titleKey}`)}
-                  subtitle={t(`${item.subtitleKey}`)}
-                  period={t(`${item.periodKey}`)}
-                />
-              </div>
+        {expRows.map((row, i) => (
+          <React.Fragment key={i}>
+            {/* Left cell */}
+            <div className="flex justify-end pr-3 z-10">
+              {row.left && (
+                <div className="w-[calc(100%-2rem)]">
+                  <Card
+                    title={t(`${row.left.titleKey}`)}
+                    subtitle={t(`${row.left.subtitleKey}`)}
+                    period={t(`${row.left.periodKey}`)}
+                  />
+                </div>
+              )}
             </div>
-          ))}
-        </div>
 
-        {/* Right column: Education */}
-        <div className="col-start-3 row-start-1 flex flex-col gap-8 pt-8">
-          {rightItems.map((item, idx) => (
-            <div key={item.key} className="relative flex justify-start">
-              <div className="w-[calc(100%-2rem)]">
-                <Card
-                  title={t(`${item.titleKey}`)}
-                  subtitle={t(`${item.subtitleKey}`)}
-                  period={t(`${item.periodKey}`)}
-                />
-              </div>
+            {/* Dot cell — centered on the line */}
+            <div className="flex items-center justify-center z-10">
+              <TimelineDot color={row.dotColor} />
             </div>
-          ))}
-        </div>
+
+            {/* Right cell */}
+            <div className="flex justify-start pl-3 z-10">
+              {row.right && (
+                <div className="w-[calc(100%-2rem)]">
+                  <Card
+                    title={t(`${row.right.titleKey}`)}
+                    subtitle={t(`${row.right.subtitleKey}`)}
+                    period={t(`${row.right.periodKey}`)}
+                  />
+                </div>
+              )}
+            </div>
+          </React.Fragment>
+        ))}
       </div>
 
       {/* ═══════ Certifications ═══════ */}
@@ -138,8 +172,8 @@ export function Experience() {
         {t("certifications.title")}
       </h3>
 
-      {/* ═══════ MOBILE: single column, centered timeline ═══════ */}
-      <div className="relative sm:hidden">
+      {/* ═══════ MOBILE: single column, centered timeline — UNCHANGED ═══════ */}
+      <div className="relative lg:hidden">
         <div
           className="absolute left-1/2 top-0 h-full w-0.5 -translate-x-1/2 bg-gradient-to-b from-[var(--color-blue)] via-[var(--color-navy-lighter)] to-[var(--color-red)]"
           aria-hidden="true"
@@ -158,44 +192,47 @@ export function Experience() {
         </div>
       </div>
 
-      {/* ═══════ DESKTOP: two-column mirrored grid ═══════ */}
-      <div className="relative hidden sm:grid sm:grid-cols-[1fr_2px_1fr] sm:gap-x-8">
+      {/* ═══════ DESKTOP: two-column mirrored grid WITH DOTS ═══════ */}
+      <div className="relative hidden lg:grid lg:grid-cols-[1fr_12px_1fr] lg:gap-y-6">
         {/* Center timeline spine — gradient blue → red */}
-        <div className="relative col-start-2 row-start-1" aria-hidden="true">
-          <div className="absolute inset-0 w-0.5 left-1/2 -translate-x-1/2 bg-gradient-to-b from-[var(--color-blue)] to-[var(--color-red)]" />
-        </div>
+        <div className="absolute left-1/2 top-0 bottom-0 w-0.5 -translate-x-1/2 bg-gradient-to-b from-[var(--color-blue)] to-[var(--color-red)] z-0" aria-hidden="true" />
 
-        {/* Left column */}
-        <div className="col-start-1 row-start-1 flex flex-col gap-4">
-          {CERTIFICATIONS.filter((_, i) => i % 2 === 0).map((cert) => (
-            <div key={cert.key} className="relative flex justify-end">
-              <div className="w-[calc(100%-2rem)]">
-                <CertCard
-                  name={t(`${cert.nameKey}`)}
-                  issuer={t(`${cert.issuerKey}`)}
-                  hours={t(`${cert.hoursKey}`)}
-                  year={t(`${cert.yearKey}`)}
-                />
-              </div>
+        {certRows.map((row, i) => (
+          <React.Fragment key={i}>
+            {/* Left cell */}
+            <div className="flex justify-end pr-3 z-10">
+              {row.left && (
+                <div className="w-[calc(100%-2rem)]">
+                  <CertCard
+                    name={t(`${row.left.nameKey}`)}
+                    issuer={t(`${row.left.issuerKey}`)}
+                    hours={t(`${row.left.hoursKey}`)}
+                    year={t(`${row.left.yearKey}`)}
+                  />
+                </div>
+              )}
             </div>
-          ))}
-        </div>
 
-        {/* Right column */}
-        <div className="col-start-3 row-start-1 flex flex-col gap-4 pt-4">
-          {CERTIFICATIONS.filter((_, i) => i % 2 === 1).map((cert) => (
-            <div key={cert.key} className="relative flex justify-start">
-              <div className="w-[calc(100%-2rem)]">
-                <CertCard
-                  name={t(`${cert.nameKey}`)}
-                  issuer={t(`${cert.issuerKey}`)}
-                  hours={t(`${cert.hoursKey}`)}
-                  year={t(`${cert.yearKey}`)}
-                />
-              </div>
+            {/* Dot cell — centered on the line */}
+            <div className="flex items-center justify-center z-10">
+              <TimelineDot color={row.dotColor} />
             </div>
-          ))}
-        </div>
+
+            {/* Right cell */}
+            <div className="flex justify-start pl-3 z-10">
+              {row.right && (
+                <div className="w-[calc(100%-2rem)]">
+                  <CertCard
+                    name={t(`${row.right.nameKey}`)}
+                    issuer={t(`${row.right.issuerKey}`)}
+                    hours={t(`${row.right.hoursKey}`)}
+                    year={t(`${row.right.yearKey}`)}
+                  />
+                </div>
+              )}
+            </div>
+          </React.Fragment>
+        ))}
       </div>
     </section>
   );

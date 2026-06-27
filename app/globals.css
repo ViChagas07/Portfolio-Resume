@@ -463,3 +463,23 @@ section, .section {
 .animate-scroll-dot {
   animation: scroll-dot 1.8s cubic-bezier(0.45, 0, 0.55, 1) infinite;
 }
+
+/* ── Timeline dots (desktop >= 1024px only) ── */
+@media (min-width: 1024px) {
+  .timeline-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    flex-shrink: 0;
+    position: relative;
+    z-index: 2;
+  }
+  .timeline-dot-blue {
+    background-color: #0047AB;
+    box-shadow: 0 0 8px 2px rgba(0, 71, 171, 0.6);
+  }
+  .timeline-dot-red {
+    background-color: #CC0000;
+    box-shadow: 0 0 8px 2px rgba(204, 0, 0, 0.6);
+  }
+}
