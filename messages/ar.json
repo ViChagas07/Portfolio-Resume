@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "about": "نبذة عني",
+    "skills": "المهارات",
+    "projects": "المشاريع",
+    "experience": "الخبرات",
+    "contact": "اتصل بي",
+    "skipToContent": "تخطَّ إلى المحتوى الرئيسي",
+    "languageLabel": "تغيير اللغة، الحالية: الإنجليزية"
+  },
+  "hero": {
+    "name": "Alisson Davi",
+    "subtitle": "مهندس برمجيات شامل متوسط المستوى",
+    "location": "سالفادور، باهيا 🇧🇷 · عمل عن بُعد حول العالم",
+    "cta_projects": "تصفح المشاريع",
+    "cta_resume": "تحميل السيرة الذاتية",
+    "scroll_down": "اسحب للأسفل",
+    "typing_words": [
+      "Python · FastAPI",
+      "Next.js · TypeScript",
+      "AI Agents · LangChain",
+      "Clean Architecture"
+    ]
+  },
+  "about": {
+    "title": "نبذة عني",
+    "p1": "مهندس برمجيات شامل عصامي مقيم في سالفادور، باهيا، أقوم ببناء تطبيقات SaaS احترافية من الصفر. متمكن من كامل المنظومة — واجهات خلفية بـ FastAPI، واجهات أمامية بـ Next.js، قواعد بيانات PostgreSQL و Redis، وخطوط أنابيب وكلاء ذكاء اصطناعي بـ LangChain و CrewAI.",
+    "p2": "أدرس حالياً بكالوريوس هندسة البرمجيات في UNICESUMAR وأبحث بنشاط عن فرص عمل دولية عن بُعد.",
+    "p3": "شغوف بالكود النظيف، والأنظمة القابلة للمراقبة، وإطلاق منتجات تعمل فعلياً في بيئة الإنتاج."
+  },
+  "skills": {
+    "title": "الترسانة التقنية",
+    "categories": {
+      "languages": "لغات البرمجة",
+      "frontend": "الواجهات الأمامية",
+      "backend": "الواجهات الخلفية",
+      "ai": "الذكاء الاصطناعي / الوكلاء",
+      "databases": "قواعد البيانات",
+      "devops": "DevOps / السحابة",
+      "monitoring": "المراقبة",
+      "tools": "الأدوات"
+    }
+  },
+  "projects": {
+    "title": "مشاريع مميزة",
+    "live_demo": "عرض حي",
+    "view_code": "GitHub",
+    "highlights": {
+      "psi": [
+        "خط أنابيب ذكاء اصطناعي متعدد المراحل: OCR ← استخراج ← تحليل LLM بـ 7 مراحل ← تقييم مخاطر من 5 مستويات (0–100)",
+        "واجهة خلفية بـ FastAPI + Clean Architecture مع SQLAlchemy ORM و Alembic",
+        "تعاون متعدد الوكلاء عبر CrewAI — تنسيق Gemini + DeepSeek",
+        "تكامل ونشر مستمر كامل: GitHub Actions ← Railway (API) + Vercel (الواجهة الأمامية)"
+      ],
+      "pytomatiza": [
+        "خطوط أنابيب وكلاء CrewAI/LangChain لأتمتة سير العمل متعددة المجالات",
+        "واجهة أمامية بـ Next.js + واجهة خلفية بـ FastAPI مع حاويات Docker",
+        "نشر إنتاجي على Railway + Vercel مع CI/CD واعٍ بالبيئة",
+        "أدوات وكلاء قابلة للتكوين تمكّن المستخدمين غير التقنيين من إنشاء أتمتة مخصصة"
+      ],
+      "clark": [
+        "قوائم مسارات موسيقية افتراضية ضخمة بـ react-window لأداء 60 إطار/ثانية",
+        "إدارة قوائم التشغيل بالسحب والإفلات عبر dnd-kit",
+        "إدارة جلسات بـ Redis + مصادقة بريد إلكتروني عبر Resend",
+        "إثراء البيانات الوصفية عبر MusicBrainz و iTunes و Spotify API"
+      ],
+      "facilit": [
+        "وكلاء CrewAI + Z-API للتعامل الذكي مع محادثات واتساب",
+        "واجهة خلفية بـ Flask مع واجهة أمامية للجوال بـ React Native (Expo)",
+        "مبني لعميل حقيقي في مجال الأجهزة المنزلية"
+      ]
+    }
+  },
+  "experience": {
+    "title": "الخبرات",
+    "education_title": "التعليم والشهادات",
+    "freelance": {
+      "title": "مهندس برمجيات شامل",
+      "subtitle": "عمل حر / مستقل",
+      "period": "2024 – حتى الآن"
+    },
+    "it_intern": {
+      "title": "متدرب دعم تقني",
+      "subtitle": "Colégio Góes Calmon",
+      "period": "2022 – 2023 · 6 أشهر"
+    },
+    "bsc": {
+      "title": "بكالوريوس هندسة البرمجيات",
+      "subtitle": "UNICESUMAR",
+      "period": "2024 – حتى الآن · الفصل الرابع"
+    },
+    "technical": {
+      "title": "دبلوم تقني في تقنية المعلومات",
+      "subtitle": "ICEIA",
+      "period": "2023"
+    },
+    "english": {
+      "title": "الإنجليزية B2",
+      "subtitle": "CCAA",
+      "period": "2024"
+    }
+  },
+  "certifications": {
+    "title": "الشهادات",
+    "js_ts": {
+      "name": "JavaScript و TypeScript من المبتدئ ← المتقدم",
+      "issuer": "Udemy",
+      "hours": "146h",
+      "year": "2024"
+    },
+    "python": {
+      "name": "Python 3 من المبتدئ ← المتقدم",
+      "issuer": "Udemy",
+      "hours": "141h",
+      "year": "2025"
+    },
+    "git": {
+      "name": "Git و GitHub من المبتدئ ← المتقدم",
+      "issuer": "Udemy",
+      "hours": "19h",
+      "year": "2025"
+    },
+    "excel": {
+      "name": "Excel شامل",
+      "issuer": "Udemy",
+      "hours": "28h",
+      "year": "2025"
+    }
+  },
+  "contact": {
+    "title": "لنبنِ شيئاً معاً",
+    "subtitle": "متاح لفرص العمل الدولية عن بُعد",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "alissongonzaga986@gmail.com",
+    "location": "سالفادور، باهيا 🇧🇷",
+    "footer": "مبني بـ Next.js · منشور على Vercel · © 2025 Alisson Davi"
+  }
+}

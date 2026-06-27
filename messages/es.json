@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "about": "Sobre mí",
+    "skills": "Habilidades",
+    "projects": "Proyectos",
+    "experience": "Experiencia",
+    "contact": "Contacto",
+    "skipToContent": "Saltar al contenido principal",
+    "languageLabel": "Cambiar idioma, actual: Español"
+  },
+  "hero": {
+    "name": "Alisson Davi",
+    "subtitle": "Desarrollador Fullstack Semi-Senior",
+    "location": "Salvador, BA \uD83C\uDDE7\uD83C\uDDF7 \u00B7 Remoto Global",
+    "cta_projects": "Ver Proyectos",
+    "cta_resume": "Descargar CV",
+    "scroll_down": "Desplazar abajo",
+    "typing_words": [
+      "Python \u00B7 FastAPI",
+      "Next.js \u00B7 TypeScript",
+      "AI Agents \u00B7 LangChain",
+      "Clean Architecture"
+    ]
+  },
+  "about": {
+    "title": "Sobre mí",
+    "p1": "Ingeniero Fullstack autodidacta con base en Salvador, Bahía, construyendo aplicaciones SaaS listas para producción desde cero. Cómodo en todo el stack \u2014 backends con FastAPI, frontends con Next.js, PostgreSQL, Redis, pipelines de agentes de IA con LangChain y CrewAI.",
+    "p2": "Actualmente cursando la Licenciatura en Ingeniería de Software en UNICESUMAR y en búsqueda activa de oportunidades remotas internacionales.",
+    "p3": "Apasionado por el código limpio, los sistemas observables y entregar productos que realmente funcionan en producción."
+  },
+  "skills": {
+    "title": "Arsenal Técnico",
+    "categories": {
+      "languages": "Lenguajes",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "ai": "IA / Agentes",
+      "databases": "Bases de Datos",
+      "devops": "DevOps / Nube",
+      "monitoring": "Monitoreo",
+      "tools": "Herramientas"
+    }
+  },
+  "projects": {
+    "title": "Proyectos Destacados",
+    "live_demo": "Demo en Vivo",
+    "view_code": "GitHub",
+    "highlights": {
+      "psi": [
+        "Pipeline de IA en múltiples etapas: OCR \u2192 extracción \u2192 análisis LLM en 7 fases \u2192 puntuación de riesgo de 5 niveles (0\u2013100)",
+        "Backend con FastAPI + Clean Architecture usando SQLAlchemy ORM y Alembic",
+        "Colaboración multi-agente con CrewAI \u2014 orquestación de Gemini + DeepSeek",
+        "CI/CD completo: GitHub Actions \u2192 Railway (API) + Vercel (frontend)"
+      ],
+      "pytomatiza": [
+        "Pipelines de agentes CrewAI/LangChain para automatización de flujos multi-dominio",
+        "Frontend Next.js + backend FastAPI con contenedores Docker",
+        "Despliegues en producción en Railway + Vercel con CI/CD sensible al entorno",
+        "Herramientas de agente configurables que permiten a usuarios no técnicos componer automatizaciones"
+      ],
+      "clark": [
+        "Listas de pistas virtualizadas con react-window para rendimiento a 60fps",
+        "Gestión de playlists con arrastrar y soltar mediante dnd-kit",
+        "Gestión de sesiones con Redis + integración de autenticación por email con Resend",
+        "Enriquecimiento de metadatos con APIs de MusicBrainz, iTunes y Spotify"
+      ],
+      "facilit": [
+        "Agentes CrewAI + Z-API para manejo inteligente de conversaciones en WhatsApp",
+        "Backend Flask con frontend móvil React Native (Expo)",
+        "Construido para un cliente real del sector de electrodomésticos"
+      ]
+    }
+  },
+  "experience": {
+    "title": "Experiencia",
+    "education_title": "Educación y Certificaciones",
+    "freelance": {
+      "title": "Ingeniero Fullstack",
+      "subtitle": "Independiente / Freelance",
+      "period": "2024 \u2013 Presente"
+    },
+    "it_intern": {
+      "title": "Pasante de Soporte TI",
+      "subtitle": "Col\u00E9gio G\u00F3es Calmon",
+      "period": "2022 \u2013 2023 \u00B7 6 meses"
+    },
+    "bsc": {
+      "title": "Licenciatura en Ingeniería de Software",
+      "subtitle": "UNICESUMAR",
+      "period": "2024 \u2013 Presente \u00B7 4\u00BA semestre"
+    },
+    "technical": {
+      "title": "Título Técnico en Informática",
+      "subtitle": "ICEIA",
+      "period": "2023"
+    },
+    "english": {
+      "title": "Inglés B2",
+      "subtitle": "CCAA",
+      "period": "2024"
+    }
+  },
+  "certifications": {
+    "title": "Certificaciones",
+    "js_ts": {
+      "name": "JavaScript y TypeScript Principiante \u2192 Avanzado",
+      "issuer": "Udemy",
+      "hours": "146h",
+      "year": "2024"
+    },
+    "python": {
+      "name": "Python 3 Principiante \u2192 Avanzado",
+      "issuer": "Udemy",
+      "hours": "141h",
+      "year": "2025"
+    },
+    "git": {
+      "name": "Git y GitHub Principiante \u2192 Avanzado",
+      "issuer": "Udemy",
+      "hours": "19h",
+      "year": "2025"
+    },
+    "excel": {
+      "name": "Excel Completo",
+      "issuer": "Udemy",
+      "hours": "28h",
+      "year": "2025"
+    }
+  },
+  "contact": {
+    "title": "Construyamos Algo",
+    "subtitle": "Abierto a oportunidades remotas internacionales",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "alissongonzaga986@gmail.com",
+    "location": "Salvador, Bah\u00EDa \uD83C\uDDE7\uD83C\uDDF7",
+    "footer": "Creado con Next.js \u00B7 Desplegado en Vercel \u00B7 \u00A9 2025 Alisson Davi"
+  }
+}

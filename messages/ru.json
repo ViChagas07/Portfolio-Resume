@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "about": "Обо мне",
+    "skills": "Навыки",
+    "projects": "Проекты",
+    "experience": "Опыт",
+    "contact": "Контакты",
+    "skipToContent": "Перейти к основному содержанию",
+    "languageLabel": "Сменить язык, текущий: Английский"
+  },
+  "hero": {
+    "name": "Alisson Davi",
+    "subtitle": "Middle Fullstack-разработчик",
+    "location": "Салвадор, Баия \uD83C\uDDE7\uD83C\uDDF7 \u00B7 Удалённо по всему миру",
+    "cta_projects": "Смотреть проекты",
+    "cta_resume": "Скачать резюме",
+    "scroll_down": "Листайте вниз",
+    "typing_words": [
+      "Python \u00B7 FastAPI",
+      "Next.js \u00B7 TypeScript",
+      "AI Agents \u00B7 LangChain",
+      "Clean Architecture"
+    ]
+  },
+  "about": {
+    "title": "Обо мне",
+    "p1": "Fullstack-разработчик из Салвадора, Баия, создаю production-grade SaaS-приложения с нуля. Уверенно работаю со всем стеком \u2014 бэкенд на FastAPI, фронтенд на Next.js, PostgreSQL, Redis, пайплайны AI-агентов на LangChain и CrewAI.",
+    "p2": "Получаю степень бакалавра по программной инженерии в UNICESUMAR и активно ищу международные удалённые вакансии.",
+    "p3": "Увлечён чистым кодом, наблюдаемыми системами и созданием продуктов, которые действительно работают в продакшене."
+  },
+  "skills": {
+    "title": "Технический арсенал",
+    "categories": {
+      "languages": "Языки",
+      "frontend": "Фронтенд",
+      "backend": "Бэкенд",
+      "ai": "AI / Агенты",
+      "databases": "Базы данных",
+      "devops": "DevOps / Облако",
+      "monitoring": "Мониторинг",
+      "tools": "Инструменты"
+    }
+  },
+  "projects": {
+    "title": "Избранные проекты",
+    "live_demo": "Демо",
+    "view_code": "GitHub",
+    "highlights": {
+      "psi": [
+        "Многоэтапный AI-пайплайн: OCR \u2192 извлечение \u2192 7-фазный LLM-анализ \u2192 5-уровневая оценка риска (0\u2013100)",
+        "Бэкенд FastAPI + Clean Architecture с SQLAlchemy ORM и Alembic",
+        "Мультиагентное взаимодействие через CrewAI \u2014 оркестрация Gemini + DeepSeek",
+        "Полный CI/CD: GitHub Actions \u2192 Railway (API) + Vercel (фронтенд)"
+      ],
+      "pytomatiza": [
+        "Пайплайны агентов CrewAI/LangChain для мультидоменной автоматизации",
+        "Фронтенд Next.js + бэкенд FastAPI с контейнеризацией Docker",
+        "Продакшен-развёртывание на Railway + Vercel с CI/CD, учитывающим окружение",
+        "Настраиваемые инструменты агентов, позволяющие нетехническим пользователям создавать автоматизации"
+      ],
+      "clark": [
+        "Виртуализация больших списков треков через react-window с производительностью 60fps",
+        "Управление плейлистами drag-and-drop с помощью dnd-kit",
+        "Управление сессиями через Redis + интеграция email-аутентификации Resend",
+        "Обогащение метаданных через API MusicBrainz, iTunes и Spotify"
+      ],
+      "facilit": [
+        "Агенты CrewAI + Z-API для интеллектуальной обработки диалогов в WhatsApp",
+        "Бэкенд Flask + мобильный фронтенд React Native (Expo)",
+        "Разработано для реального клиента в сфере бытовой техники"
+      ]
+    }
+  },
+  "experience": {
+    "title": "Опыт",
+    "education_title": "Образование и сертификаты",
+    "freelance": {
+      "title": "Fullstack-разработчик",
+      "subtitle": "Соло / Фриланс",
+      "period": "2024 \u2013 настоящее время"
+    },
+    "it_intern": {
+      "title": "Стажёр IT-поддержки",
+      "subtitle": "Colégio Góes Calmon",
+      "period": "2022 \u2013 2023 \u00B7 6 месяцев"
+    },
+    "bsc": {
+      "title": "Бакалавр программной инженерии",
+      "subtitle": "UNICESUMAR",
+      "period": "2024 \u2013 настоящее время \u00B7 4-й семестр"
+    },
+    "technical": {
+      "title": "Техническое образование в IT",
+      "subtitle": "ICEIA",
+      "period": "2023"
+    },
+    "english": {
+      "title": "Английский B2",
+      "subtitle": "CCAA",
+      "period": "2024"
+    }
+  },
+  "certifications": {
+    "title": "Сертификаты",
+    "js_ts": {
+      "name": "JavaScript и TypeScript с нуля \u2192 до продвинутого",
+      "issuer": "Udemy",
+      "hours": "146 ч",
+      "year": "2024"
+    },
+    "python": {
+      "name": "Python 3 с нуля \u2192 до продвинутого",
+      "issuer": "Udemy",
+      "hours": "141 ч",
+      "year": "2025"
+    },
+    "git": {
+      "name": "Git и GitHub с нуля \u2192 до продвинутого",
+      "issuer": "Udemy",
+      "hours": "19 ч",
+      "year": "2025"
+    },
+    "excel": {
+      "name": "Excel полностью",
+      "issuer": "Udemy",
+      "hours": "28 ч",
+      "year": "2025"
+    }
+  },
+  "contact": {
+    "title": "Создадим что-то вместе",
+    "subtitle": "Открыт к международным удалённым проектам",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "alissongonzaga986@gmail.com",
+    "location": "Салвадор, Баия \uD83C\uDDE7\uD83C\uDDF7",
+    "footer": "Создано на Next.js \u00B7 Развёрнуто на Vercel \u00B7 \u00A9 2025 Alisson Davi"
+  }
+}

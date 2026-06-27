@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "about": "About",
+    "skills": "Skills",
+    "projects": "Projects",
+    "experience": "Experience",
+    "contact": "Contact",
+    "skipToContent": "Skip to main content",
+    "languageLabel": "Change language, current: English"
+  },
+  "hero": {
+    "name": "Alisson Davi",
+    "subtitle": "Mid-Level Fullstack Software Engineer",
+    "location": "Salvador, BA \uD83C\uDDE7\uD83C\uDDF7 \u00B7 Remote Worldwide",
+    "cta_projects": "View Projects",
+    "cta_resume": "Download Resume",
+    "scroll_down": "Scroll down",
+    "typing_words": [
+      "Python \u00B7 FastAPI",
+      "Next.js \u00B7 TypeScript",
+      "AI Agents \u00B7 LangChain",
+      "Clean Architecture"
+    ]
+  },
+  "about": {
+    "title": "About Me",
+    "p1": "Self-driven Fullstack Engineer based in Salvador, Bahia, building production-grade SaaS applications from scratch. Comfortable across the full stack \u2014 FastAPI backends, Next.js frontends, PostgreSQL, Redis, AI agent pipelines with LangChain and CrewAI.",
+    "p2": "Currently pursuing a Bachelor's in Software Engineering at UNICESUMAR and actively seeking international remote opportunities.",
+    "p3": "Passionate about clean code, observable systems, and shipping products that actually work in production."
+  },
+  "skills": {
+    "title": "Technical Arsenal",
+    "categories": {
+      "languages": "Languages",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "ai": "AI / Agents",
+      "databases": "Databases",
+      "devops": "DevOps / Cloud",
+      "monitoring": "Monitoring",
+      "tools": "Tools"
+    }
+  },
+  "projects": {
+    "title": "Featured Projects",
+    "live_demo": "Live Demo",
+    "view_code": "GitHub",
+    "highlights": {
+      "psi": [
+        "Multi-stage AI pipeline: OCR \u2192 extraction \u2192 7-phase LLM analysis \u2192 5-tier risk score (0\u2013100)",
+        "FastAPI + Clean Architecture backend with SQLAlchemy ORM and Alembic",
+        "Multi-agent collaboration via CrewAI \u2014 Gemini + DeepSeek orchestration",
+        "Full CI/CD: GitHub Actions \u2192 Railway (API) + Vercel (frontend)"
+      ],
+      "pytomatiza": [
+        "CrewAI/LangChain agent pipelines for multi-domain workflow automation",
+        "Next.js frontend + FastAPI backend with Docker containerisation",
+        "Production deployments on Railway + Vercel with env-aware CI/CD",
+        "Configurable agent tools enabling non-technical users to compose automations"
+      ],
+      "clark": [
+        "Virtualized large track lists with react-window for 60fps performance",
+        "Drag-and-drop playlist management via dnd-kit",
+        "Redis session management + Resend email auth integration",
+        "MusicBrainz, iTunes & Spotify API metadata enrichment"
+      ],
+      "facilit": [
+        "CrewAI agents + Z-API for intelligent WhatsApp conversation handling",
+        "Flask backend with React Native (Expo) mobile frontend",
+        "Built for a real home-appliance business client"
+      ]
+    }
+  },
+  "experience": {
+    "title": "Experience",
+    "education_title": "Education & Certifications",
+    "freelance": {
+      "title": "Fullstack Engineer",
+      "subtitle": "Solo / Freelance",
+      "period": "2024 \u2013 Present"
+    },
+    "it_intern": {
+      "title": "IT Support Intern",
+      "subtitle": "Col\u00E9gio G\u00F3es Calmon",
+      "period": "2022 \u2013 2023 \u00B7 6 months"
+    },
+    "bsc": {
+      "title": "BSc Software Engineering",
+      "subtitle": "UNICESUMAR",
+      "period": "2024 \u2013 Present \u00B7 4th semester"
+    },
+    "technical": {
+      "title": "Technical Degree in IT",
+      "subtitle": "ICEIA",
+      "period": "2023"
+    },
+    "english": {
+      "title": "English B2",
+      "subtitle": "CCAA",
+      "period": "2024"
+    }
+  },
+  "certifications": {
+    "title": "Certifications",
+    "js_ts": {
+      "name": "JavaScript & TypeScript Beginner \u2192 Advanced",
+      "issuer": "Udemy",
+      "hours": "146h",
+      "year": "2024"
+    },
+    "python": {
+      "name": "Python 3 Beginner \u2192 Advanced",
+      "issuer": "Udemy",
+      "hours": "141h",
+      "year": "2025"
+    },
+    "git": {
+      "name": "Git & GitHub Beginner \u2192 Advanced",
+      "issuer": "Udemy",
+      "hours": "19h",
+      "year": "2025"
+    },
+    "excel": {
+      "name": "Excel Complete",
+      "issuer": "Udemy",
+      "hours": "28h",
+      "year": "2025"
+    }
+  },
+  "contact": {
+    "title": "Let's Build Something",
+    "subtitle": "Open to international remote opportunities",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "alissongonzaga986@gmail.com",
+    "location": "Salvador, Bahia \uD83C\uDDE7\uD83C\uDDF7",
+    "footer": "Built with Next.js \u00B7 Deployed on Vercel \u00B7 \u00A9 2025 Alisson Davi"
+  }
+}

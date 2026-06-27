@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "about": "关于",
+    "skills": "技能",
+    "projects": "项目",
+    "experience": "经历",
+    "contact": "联系",
+    "skipToContent": "跳转到主要内容",
+    "languageLabel": "切换语言，当前：英语"
+  },
+  "hero": {
+    "name": "Alisson Davi",
+    "subtitle": "中高级全栈软件工程师",
+    "location": "萨尔瓦多，巴伊亚 \uD83C\uDDE7\uD83C\uDDF7 \u00B7 全球远程",
+    "cta_projects": "查看项目",
+    "cta_resume": "下载简历",
+    "scroll_down": "向下滚动",
+    "typing_words": [
+      "Python \u00B7 FastAPI",
+      "Next.js \u00B7 TypeScript",
+      "AI Agents \u00B7 LangChain",
+      "Clean Architecture"
+    ]
+  },
+  "about": {
+    "title": "关于我",
+    "p1": "现居巴伊亚州萨尔瓦多市，自主驱动的全栈工程师，从零搭建生产级 SaaS 应用。精通全栈技术 \u2014 FastAPI 后端、Next.js 前端、PostgreSQL、Redis，以及基于 LangChain 和 CrewAI 的 AI 智能体流水线。",
+    "p2": "目前正在 UNICESUMAR 攻读软件工程学士学位，并积极寻找国际远程工作机会。",
+    "p3": "热衷于编写整洁代码、构建可观测系统，交付真正能在生产环境中稳定运行的产品。"
+  },
+  "skills": {
+    "title": "技术栈",
+    "categories": {
+      "languages": "编程语言",
+      "frontend": "前端",
+      "backend": "后端",
+      "ai": "AI / 智能体",
+      "databases": "数据库",
+      "devops": "DevOps / 云服务",
+      "monitoring": "监控",
+      "tools": "工具"
+    }
+  },
+  "projects": {
+    "title": "精选项目",
+    "live_demo": "在线演示",
+    "view_code": "GitHub",
+    "highlights": {
+      "psi": [
+        "多阶段 AI 流程：OCR \u2192 信息提取 \u2192 七阶段 LLM 分析 \u2192 五级风险评分 (0\u2013100)",
+        "FastAPI + 整洁架构后端，搭配 SQLAlchemy ORM 与 Alembic 数据迁移",
+        "通过 CrewAI 实现多智能体协作 \u2014 Gemini + DeepSeek 协同调度",
+        "完整 CI/CD：GitHub Actions \u2192 Railway (API) + Vercel (前端)"
+      ],
+      "pytomatiza": [
+        "基于 CrewAI/LangChain 的智能体流水线，实现跨领域工作流自动化",
+        "Next.js 前端 + FastAPI 后端，Docker 容器化部署",
+        "通过环境感知 CI/CD 在 Railway + Vercel 上实现生产级部署",
+        "可配置的智能体工具，让非技术用户也能自由组合自动化流程"
+      ],
+      "clark": [
+        "使用 react-window 虚拟化大型曲目列表，实现 60fps 流畅性能",
+        "通过 dnd-kit 实现拖拽式播放列表管理",
+        "Redis 会话管理 + Resend 邮件认证集成",
+        "MusicBrainz、iTunes 及 Spotify API 元数据丰富"
+      ],
+      "facilit": [
+        "CrewAI 智能体 + Z-API 实现 WhatsApp 智能对话处理",
+        "Flask 后端 + React Native (Expo) 移动端前端",
+        "为真实家电企业客户定制开发"
+      ]
+    }
+  },
+  "experience": {
+    "title": "工作经历",
+    "education_title": "教育背景与证书",
+    "freelance": {
+      "title": "全栈工程师",
+      "subtitle": "独立 / 自由职业",
+      "period": "2024 \u2013 至今"
+    },
+    "it_intern": {
+      "title": "IT 技术支持实习生",
+      "subtitle": "Col\u00E9gio G\u00F3es Calmon",
+      "period": "2022 \u2013 2023 \u00B7 6 个月"
+    },
+    "bsc": {
+      "title": "软件工程学士",
+      "subtitle": "UNICESUMAR",
+      "period": "2024 \u2013 至今 \u00B7 第 4 学期"
+    },
+    "technical": {
+      "title": "IT 技术文凭",
+      "subtitle": "ICEIA",
+      "period": "2023 年"
+    },
+    "english": {
+      "title": "英语 B2",
+      "subtitle": "CCAA",
+      "period": "2024 年"
+    }
+  },
+  "certifications": {
+    "title": "专业证书",
+    "js_ts": {
+      "name": "JavaScript 与 TypeScript 从入门到精通",
+      "issuer": "Udemy",
+      "hours": "146h",
+      "year": "2024"
+    },
+    "python": {
+      "name": "Python 3 从入门到精通",
+      "issuer": "Udemy",
+      "hours": "141h",
+      "year": "2025"
+    },
+    "git": {
+      "name": "Git 与 GitHub 从入门到精通",
+      "issuer": "Udemy",
+      "hours": "19h",
+      "year": "2025"
+    },
+    "excel": {
+      "name": "Excel 完全掌握",
+      "issuer": "Udemy",
+      "hours": "28h",
+      "year": "2025"
+    }
+  },
+  "contact": {
+    "title": "一起创造点什么",
+    "subtitle": "开放国际远程工作机会",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "alissongonzaga986@gmail.com",
+    "location": "萨尔瓦多，巴伊亚 \uD83C\uDDE7\uD83C\uDDF7",
+    "footer": "基于 Next.js 构建 \u00B7 部署于 Vercel \u00B7 \u00A9 2025 Alisson Davi"
+  }
+}

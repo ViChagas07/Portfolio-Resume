@@ -1,0 +1,139 @@
+{
+  "nav": {
+    "about": "自己紹介",
+    "skills": "スキル",
+    "projects": "プロジェクト",
+    "experience": "経歴",
+    "contact": "お問い合わせ",
+    "skipToContent": "本文へスキップ",
+    "languageLabel": "言語を変更、現在: 英語"
+  },
+  "hero": {
+    "name": "Alisson Davi",
+    "subtitle": "中堅フルスタックソフトウェアエンジニア",
+    "location": "サルバドール, BA \uD83C\uDDE7\uD83C\uDDF7 \u00B7 世界中リモート可",
+    "cta_projects": "プロジェクトを見る",
+    "cta_resume": "履歴書をダウンロード",
+    "scroll_down": "スクロール",
+    "typing_words": [
+      "Python \u00B7 FastAPI",
+      "Next.js \u00B7 TypeScript",
+      "AI Agents \u00B7 LangChain",
+      "Clean Architecture"
+    ]
+  },
+  "about": {
+    "title": "私について",
+    "p1": "ブラジル・バイーア州サルバドール在住の自走型フルスタックエンジニア。本番運用されるSaaSアプリケーションをゼロから構築。FastAPIバックエンド、Next.jsフロントエンド、PostgreSQL、Redis、LangChainとCrewAIによるAIエージェントパイプラインまで、フルスタックを自在に扱います。",
+    "p2": "現在UNICESUMAR大学にてソフトウェア工学学士号を取得中。海外リモート案件を積極的に募集中です。",
+    "p3": "クリーンコード、可観測性の高いシステム、そして本番環境で実際に動作するプロダクトを届けることに情熱を注いでいます。"
+  },
+  "skills": {
+    "title": "技術スタック",
+    "categories": {
+      "languages": "言語",
+      "frontend": "フロントエンド",
+      "backend": "バックエンド",
+      "ai": "AI / エージェント",
+      "databases": "データベース",
+      "devops": "DevOps / クラウド",
+      "monitoring": "監視",
+      "tools": "ツール"
+    }
+  },
+  "projects": {
+    "title": "主なプロジェクト",
+    "live_demo": "ライブデモ",
+    "view_code": "GitHub",
+    "highlights": {
+      "psi": [
+        "多段AIパイプライン: OCR \u2192 抽出 \u2192 7段階LLM分析 \u2192 5段階リスクスコア (0\u2013100)",
+        "FastAPI + クリーンアーキテクチャバックエンド (SQLAlchemy ORM + Alembic)",
+        "CrewAIによるマルチエージェント協調 \u2014 Gemini + DeepSeekオーケストレーション",
+        "フルCI/CD: GitHub Actions \u2192 Railway (API) + Vercel (フロントエンド)"
+      ],
+      "pytomatiza": [
+        "CrewAI/LangChainエージェントパイプラインによるマルチドメインワークフロー自動化",
+        "Next.jsフロントエンド + FastAPIバックエンド (Dockerコンテナ化)",
+        "Railway + Vercelへの本番デプロイ (環境別CI/CD対応)",
+        "非技術ユーザーでも自動化を組み立てられる設定可能なエージェントツール"
+      ],
+      "clark": [
+        "react-windowによる大規模トラックリストの仮想化で60fpsを実現",
+        "dnd-kitによるドラッグ＆ドロップのプレイリスト管理",
+        "Redisセッション管理 + Resendメール認証の統合",
+        "MusicBrainz、iTunes、Spotify APIによるメタデータ補完"
+      ],
+      "facilit": [
+        "CrewAIエージェント + Z-APIによるインテリジェントなWhatsApp会話処理",
+        "Flaskバックエンド + React Native (Expo) モバイルフロントエンド",
+        "実在の家電販売店向けに構築"
+      ]
+    }
+  },
+  "experience": {
+    "title": "経歴",
+    "education_title": "学歴・資格",
+    "freelance": {
+      "title": "フルスタックエンジニア",
+      "subtitle": "個人事業 / フリーランス",
+      "period": "2024 \u2013 現在"
+    },
+    "it_intern": {
+      "title": "ITサポートインターン",
+      "subtitle": "Col\u00E9gio G\u00F3es Calmon",
+      "period": "2022 \u2013 2023 \u00B7 6ヶ月"
+    },
+    "bsc": {
+      "title": "ソフトウェア工学 学士号",
+      "subtitle": "UNICESUMAR",
+      "period": "2024 \u2013 現在 \u00B7 4学期目"
+    },
+    "technical": {
+      "title": "IT技術課程",
+      "subtitle": "ICEIA",
+      "period": "2023"
+    },
+    "english": {
+      "title": "英語 B2",
+      "subtitle": "CCAA",
+      "period": "2024"
+    }
+  },
+  "certifications": {
+    "title": "資格",
+    "js_ts": {
+      "name": "JavaScript & TypeScript 入門 \u2192 上級",
+      "issuer": "Udemy",
+      "hours": "146h",
+      "year": "2024"
+    },
+    "python": {
+      "name": "Python 3 入門 \u2192 上級",
+      "issuer": "Udemy",
+      "hours": "141h",
+      "year": "2025"
+    },
+    "git": {
+      "name": "Git & GitHub 入門 \u2192 上級",
+      "issuer": "Udemy",
+      "hours": "19h",
+      "year": "2025"
+    },
+    "excel": {
+      "name": "Excel 完全マスター",
+      "issuer": "Udemy",
+      "hours": "28h",
+      "year": "2025"
+    }
+  },
+  "contact": {
+    "title": "一緒に作りませんか",
+    "subtitle": "海外リモート案件を募集中です",
+    "github": "GitHub",
+    "linkedin": "LinkedIn",
+    "email": "alissongonzaga986@gmail.com",
+    "location": "サルバドール, バイーア \uD83C\uDDE7\uD83C\uDDF7",
+    "footer": "Next.jsで構築 \u00B7 Vercelにデプロイ \u00B7 \u00A9 2025 Alisson Davi"
+  }
+}

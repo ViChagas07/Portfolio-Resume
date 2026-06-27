@@ -1,26 +1,152 @@
 @import "tailwindcss";
 
+/* ── EC Bahia Design Tokens ── */
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --color-blue: #0047AB;
+  --color-blue-light: #1a5cc8;
+  --color-blue-dark: #003380;
+  --color-red: #CC0000;
+  --color-red-light: #e60000;
+  --color-red-dark: #990000;
+  --color-white: #FFFFFF;
+  --color-navy: #050D1A;
+  --color-navy-light: #0D1B2A;
+  --color-navy-lighter: #112240;
+  --color-gray: #8892B0;
+  --color-gray-light: #A8B2D1;
+  --color-gray-dark: #495670;
+  --color-blue-glow: rgba(0, 71, 171, 0.3);
+  --color-red-glow: rgba(204, 0, 0, 0.3);
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --color-background: var(--color-navy);
+  --color-foreground: var(--color-white);
+  --color-blue: var(--color-blue);
+  --color-blue-light: var(--color-blue-light);
+  --color-blue-dark: var(--color-blue-dark);
+  --color-red: var(--color-red);
+  --color-red-light: var(--color-red-light);
+  --color-red-dark: var(--color-red-dark);
+  --color-navy: var(--color-navy);
+  --color-navy-light: var(--color-navy-light);
+  --color-navy-lighter: var(--color-navy-lighter);
+  --color-gray: var(--color-gray);
+  --color-gray-light: var(--color-gray-light);
+  --color-gray-dark: var(--color-gray-dark);
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-heading: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ── Smooth scroll & base ── */
+html {
+  scroll-behavior: smooth;
+  background-color: var(--color-navy);
+  color: var(--color-white);
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: var(--color-navy);
+  color: var(--color-white);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* ── Focus ring (WCAG) ── */
+*:focus-visible {
+  outline: 2px solid var(--color-blue);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+/* ── Reduced motion ── */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* ── Moonwalk scroll animations ── */
+.animate-on-scroll {
+  opacity: 0;
+  transition: opacity 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94),
+    transform 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+}
+
+/* Entry: fade in + slide up */
+.animate-on-scroll.visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* Exit: fade out + slide down */
+.animate-on-scroll.exit {
+  opacity: 0;
+  transform: translateY(40px);
+}
+
+/* Default hidden state (below viewport, not yet entered) */
+.animate-on-scroll.below {
+  opacity: 0;
+  transform: translateY(60px);
+}
+
+/* ── Selection ── */
+::selection {
+  background-color: var(--color-blue);
+  color: var(--color-white);
+}
+
+/* ── Scrollbar ── */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: var(--color-navy);
+}
+::-webkit-scrollbar-thumb {
+  background: var(--color-navy-lighter);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: var(--color-blue);
+}
+
+/* ── RTL support ── */
+[dir="rtl"] .rtl-flip {
+  transform: scaleX(-1);
+}
+
+/* ── Gradient stripes (EC Bahia accent) ── */
+.bg-stripe-bahia {
+  background: linear-gradient(90deg, var(--color-blue) 0%, var(--color-red) 100%);
+  height: 2px;
+}
+
+/* ── Glow utilities ── */
+.glow-blue {
+  box-shadow: 0 0 20px var(--color-blue-glow);
+}
+.glow-red {
+  box-shadow: 0 0 20px var(--color-red-glow);
+}
+.hover\:glow-blue:hover {
+  box-shadow: 0 0 30px var(--color-blue-glow);
+}
+.hover\:glow-red:hover {
+  box-shadow: 0 0 30px var(--color-red-glow);
+}
+
+/* ── Glass navbar ── */
+.nav-glass {
+  background: rgba(5, 13, 26, 0.85);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
 }
