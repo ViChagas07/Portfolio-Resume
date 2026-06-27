@@ -36,44 +36,56 @@ function Orb({
   isShaking: boolean;
 }) {
   const wrapperRef = useRef<HTMLDivElement>(null);
-  const [shakeClass, setShakeClass] = useState(false);
+  const [isBursting, setIsBursting] = useState(false);
 
-  const floatClass = `orb-float-${def.floatAnim}${def.reverse ? " orb-float-reverse" : ""}`;
-  const colorClass = `orb-${def.color}`;
   const posClass = `orb-pos-${def.id}`;
+  const colorClass = `orb-${def.color}`;
 
-  // Mouse parallax transform
+  // Mouse parallax
   const tx = mouseX * def.parallaxFactor;
   const ty = mouseY * def.parallaxFactor;
 
-  /* ── Shake trigger ── */
+  // Idle float animation (inline — guaranteed to run)
+  const dirSuffix = def.reverse ? " reverse" : "";
+  const floatAnim = `orb-float-${def.floatAnim} ${def.duration}s ease-in-out infinite${dirSuffix}`;
+
+  // Shake burst trigger
   useEffect(() => {
     if (!isShaking) return;
     const el = wrapperRef.current;
     if (!el) return;
 
-    // Set random burst direction
     const sx = (Math.random() - 0.5) * 80;
     const sy = (Math.random() - 0.5) * 80;
     el.style.setProperty("--sx", `${sx}px`);
     el.style.setProperty("--sy", `${sy}px`);
-    setShakeClass(true);
+    setIsBursting(true);
 
-    const timer = setTimeout(() => setShakeClass(false), 800);
+    const timer = setTimeout(() => setIsBursting(false), 800);
     return () => clearTimeout(timer);
   }, [isShaking]);
 
   return (
     <div
       ref={wrapperRef}
-      className={`absolute ${posClass} ${floatClass}${shakeClass ? " orb-shake" : ""}`}
-      style={{ "--orb-duration": `${def.duration}s` } as React.CSSProperties}
+      data-orb=""
+      className={`absolute ${posClass}`}
+      style={{
+        animation: isBursting
+          ? "orb-burst 0.8s cubic-bezier(0.36, 0.07, 0.19, 0.97) forwards"
+          : floatAnim,
+        willChange: "transform",
+        transition: "transform 0.6s cubic-bezier(0.23, 1, 0.32, 1)",
+      }}
       aria-hidden="true"
     >
       <div
+        data-orb=""
         className={`orb h-full w-full ${colorClass}`}
         style={{
           transform: `translate(${tx}px, ${ty}px)`,
+          willChange: "transform",
+          transition: "transform 0.6s cubic-bezier(0.23, 1, 0.32, 1)",
         }}
       />
     </div>

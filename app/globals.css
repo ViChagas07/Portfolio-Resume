@@ -415,13 +415,10 @@ section, .section {
 
 /* ── Reduced motion: freeze orbs completely ── */
 @media (prefers-reduced-motion: reduce) {
-  .orb,
-  .orb-float-1,
-  .orb-float-2,
-  .orb-float-3,
-  .orb-shake {
+  [data-orb] {
     animation: none !important;
     transition: none !important;
+    transform: none !important;
   }
 }
 
