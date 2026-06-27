@@ -100,7 +100,7 @@ export function LanguageSwitcher() {
         aria-haspopup="listbox"
         aria-expanded={open}
         aria-label={t("languageLabel")}
-        className="flex items-center gap-2 rounded-lg px-3 py-2 text-sm text-[var(--color-gray)] transition-colors hover:text-white hover:bg-[var(--color-navy-lighter)] focus-visible:outline-2 focus-visible:outline-[var(--color-blue)]"
+        className="flex items-center gap-2 rounded-full border border-white/[0.15] bg-white/[0.05] px-3.5 py-1.5 text-[13px] text-white transition-all duration-200 hover:border-[var(--color-blue)]/60 hover:bg-[var(--color-blue)]/10 focus-visible:outline-2 focus-visible:outline-[var(--color-blue)]"
       >
         {/* Globe icon */}
         <svg

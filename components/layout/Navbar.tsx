@@ -1,6 +1,6 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import { useTranslations } from "next-intl";
 import { Link } from "@/lib/navigation";
 import { LanguageSwitcher } from "./LanguageSwitcher";
@@ -15,13 +15,55 @@ const NAV_ITEMS = [
 
 export function Navbar() {
   const t = useTranslations("nav");
-  const [scrolled, setScrolled] = useState(false);
   const [mobileOpen, setMobileOpen] = useState(false);
+  const [activeSection, setActiveSection] = useState("");
 
+  // ── Active section detection via IntersectionObserver ──
   useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 20);
-    window.addEventListener("scroll", onScroll, { passive: true });
-    return () => window.removeEventListener("scroll", onScroll);
+    const sectionIds = NAV_ITEMS.map((item) => item.href.slice(1));
+    const observers: IntersectionObserver[] = [];
+
+    // Track the most recently entered section
+    const visibleSections = new Map<string, IntersectionObserverEntry>();
+
+    sectionIds.forEach((id) => {
+      const el = document.getElementById(id);
+      if (!el) return;
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              visibleSections.set(id, entry);
+            } else {
+              visibleSections.delete(id);
+            }
+          });
+
+          // Pick the section with the highest intersection ratio
+          if (visibleSections.size > 0) {
+            let best = "";
+            let bestRatio = 0;
+            visibleSections.forEach((entry, sectionId) => {
+              if (entry.intersectionRatio > bestRatio) {
+                bestRatio = entry.intersectionRatio;
+                best = sectionId;
+              }
+            });
+            setActiveSection(best);
+          }
+        },
+        {
+          rootMargin: "-80px 0px -60% 0px",
+          threshold: [0, 0.25, 0.5, 0.75, 1],
+        }
+      );
+
+      observer.observe(el);
+      observers.push(observer);
+    });
+
+    return () => observers.forEach((o) => o.disconnect());
   }, []);
 
   // Close mobile menu on Escape
@@ -34,34 +76,78 @@ export function Navbar() {
     return () => document.removeEventListener("keydown", onKey);
   }, [mobileOpen]);
 
+  // Close mobile menu on route change (hash links)
+  const closeMobile = useCallback(() => setMobileOpen(false), []);
+
+  const linkClass = (section: string) => {
+    const isActive = activeSection === section;
+    return [
+      "nav-link",
+      "relative text-[14px] font-medium transition-colors duration-200",
+      isActive
+        ? "text-white"
+        : "text-white/[0.75] hover:text-white",
+      // Underline pseudo-element
+      isActive
+        ? "after:absolute after:bottom-[-4px] after:left-0 after:h-[2px] after:w-full after:rounded-full after:bg-[var(--color-blue)] after:content-['']"
+        : "after:absolute after:bottom-[-4px] after:left-0 after:h-[2px] after:w-0 after:rounded-full after:bg-[var(--color-blue)] after:transition-[width] after:duration-200 after:content-[''] hover:after:w-full",
+    ].join(" ");
+  };
+
   return (
     <header
-      className={`fixed top-0 z-40 w-full transition-all duration-300 ${
-        scrolled
-          ? "nav-glass border-b border-[var(--color-navy-lighter)]"
-          : "bg-transparent"
-      }`}
+      className="sticky top-0 z-50 w-full border-b border-white/[0.06] bg-[rgba(5,13,26,0.85)] backdrop-blur-[12px]"
     >
       <nav
-        className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4"
+        className="relative mx-auto flex h-16 max-w-7xl items-center justify-between px-5 md:px-12"
         aria-label="Main navigation"
       >
-        {/* Logo / Monogram */}
+        {/* ── LEFT: Logo + Brand ── */}
         <Link
           href="/"
-          className="font-heading text-xl font-bold text-white hover:text-[var(--color-blue)] transition-colors"
+          className="flex items-center gap-2.5 transition-opacity hover:opacity-85"
           aria-label="Alisson Davi — Home"
         >
-          AD
+          {/* AD Monogram Circle (mirrors hero crest style) */}
+          <div
+            className="relative flex h-10 w-10 shrink-0 items-center justify-center"
+            aria-hidden="true"
+          >
+            {/* Outer blue ring */}
+            <div
+              className="absolute inset-[-2px] rounded-full border border-[var(--color-blue)]/70"
+              aria-hidden="true"
+            />
+            {/* Inner red ring */}
+            <div
+              className="absolute inset-[3px] rounded-full border border-[var(--color-red)]/50"
+              aria-hidden="true"
+            />
+            <span className="font-heading text-lg font-bold text-white">
+              AD
+            </span>
+          </div>
+          <span className="text-[15px] font-semibold text-white">
+            Alisson Davi
+          </span>
         </Link>
 
-        {/* Desktop links */}
-        <ul className="hidden items-center gap-1 md:flex">
-          {NAV_ITEMS.map((item) => (
-            <li key={item.key}>
+        {/* ── CENTER: Nav links (absolutely centered) ── */}
+        <ul className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-0 md:flex">
+          {NAV_ITEMS.map((item, idx) => (
+            <li key={item.key} className="flex items-center">
+              {/* Interpunct separator before every item except the first */}
+              {idx > 0 && (
+                <span
+                  className="mx-4 text-[14px] text-white/[0.2] select-none"
+                  aria-hidden="true"
+                >
+                  ·
+                </span>
+              )}
               <a
                 href={item.href}
-                className="rounded-lg px-3 py-2 text-sm text-[var(--color-gray)] transition-colors hover:text-white hover:bg-[var(--color-navy-lighter)]"
+                className={linkClass(item.key)}
               >
                 {t(item.key)}
               </a>
@@ -69,14 +155,16 @@ export function Navbar() {
           ))}
         </ul>
 
-        {/* Right side: Language switcher + mobile toggle */}
+        {/* ── RIGHT: Language switcher (desktop) + mobile hamburger ── */}
         <div className="flex items-center gap-2">
-          <LanguageSwitcher />
+          <div className="hidden md:block">
+            <LanguageSwitcher />
+          </div>
 
           {/* Mobile hamburger */}
           <button
             onClick={() => setMobileOpen((o) => !o)}
-            className="rounded-lg p-2 text-[var(--color-gray)] hover:text-white hover:bg-[var(--color-navy-lighter)] md:hidden"
+            className="rounded-lg p-2 text-[var(--color-gray)] transition-colors hover:text-white hover:bg-[var(--color-navy-lighter)] md:hidden"
             aria-label={mobileOpen ? "Close menu" : "Open menu"}
             aria-expanded={mobileOpen}
           >
@@ -86,16 +174,21 @@ export function Navbar() {
               fill="none"
               stroke="currentColor"
               strokeWidth="2"
+              strokeLinecap="round"
+              strokeLinejoin="round"
               className="h-6 w-6"
               aria-hidden="true"
             >
               {mobileOpen ? (
-                <path d="M18 6 6 18M6 6l12 12" />
+                <>
+                  <line x1="18" y1="6" x2="6" y2="18" />
+                  <line x1="6" y1="6" x2="18" y2="18" />
+                </>
               ) : (
                 <>
-                  <path d="M4 6h16" />
-                  <path d="M4 12h16" />
-                  <path d="M4 18h16" />
+                  <line x1="4" y1="6" x2="20" y2="6" />
+                  <line x1="4" y1="12" x2="20" y2="12" />
+                  <line x1="4" y1="18" x2="20" y2="18" />
                 </>
               )}
             </svg>
@@ -103,22 +196,36 @@ export function Navbar() {
         </div>
       </nav>
 
-      {/* Mobile menu */}
+      {/* ── Mobile menu ── */}
       {mobileOpen && (
-        <div className="nav-glass border-t border-[var(--color-navy-lighter)] md:hidden">
-          <ul className="flex flex-col gap-1 px-6 py-4">
-            {NAV_ITEMS.map((item) => (
-              <li key={item.key}>
-                <a
-                  href={item.href}
-                  onClick={() => setMobileOpen(false)}
-                  className="block rounded-lg px-3 py-2.5 text-base text-[var(--color-gray)] transition-colors hover:text-white hover:bg-[var(--color-navy-lighter)]"
-                >
-                  {t(item.key)}
-                </a>
-              </li>
-            ))}
-          </ul>
+        <div className="border-t border-white/[0.06] bg-[rgba(5,13,26,0.95)] backdrop-blur-[12px] md:hidden">
+          <div className="flex flex-col gap-1 px-5 py-4">
+            <ul className="flex flex-col gap-1">
+              {NAV_ITEMS.map((item) => {
+                const isActive = activeSection === item.key;
+                return (
+                  <li key={item.key}>
+                    <a
+                      href={item.href}
+                      onClick={closeMobile}
+                      className={`block rounded-lg px-3 py-2.5 text-[15px] font-medium transition-colors ${
+                        isActive
+                          ? "bg-[var(--color-blue)]/15 text-white"
+                          : "text-white/[0.75] hover:text-white hover:bg-[var(--color-navy-lighter)]"
+                      }`}
+                    >
+                      {t(item.key)}
+                    </a>
+                  </li>
+                );
+              })}
+            </ul>
+
+            {/* Language switcher inside mobile menu */}
+            <div className="mt-3 border-t border-white/[0.06] pt-3">
+              <LanguageSwitcher />
+            </div>
+          </div>
         </div>
       )}
     </header>
