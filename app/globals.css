@@ -205,6 +205,24 @@ body {
   will-change: transform, opacity;
 }
 
+@keyframes aurora-white {
+  0%   { transform: translate(0px, 0px); opacity: 0.08; }
+  11%  { transform: translate(-35px, -45px); opacity: 0.14; }
+  22%  { transform: translate(-60px, 10px); opacity: 0.07; }
+  33%  { transform: translate(-20px, 55px); opacity: 0.13; }
+  44%  { transform: translate(30px, 35px); opacity: 0.09; }
+  55%  { transform: translate(55px, -15px); opacity: 0.15; }
+  66%  { transform: translate(35px, -50px); opacity: 0.08; }
+  77%  { transform: translate(-10px, -30px); opacity: 0.12; }
+  88%  { transform: translate(-50px, -10px); opacity: 0.10; }
+  100% { transform: translate(0px, 0px); opacity: 0.08; }
+}
+
+.animate-aurora-white {
+  animation: aurora-white 19s ease-in-out infinite;
+  will-change: transform, opacity;
+}
+
 /* ── Glass navbar ── */
 .nav-glass {
   background: rgba(5, 13, 26, 0.85);

@@ -38,6 +38,10 @@ export function Hero() {
         <div className="absolute bottom-0 right-1/4 h-[300px] w-[300px]">
           <div className="animate-aurora-red h-full w-full rounded-full bg-[var(--color-red)] blur-[100px]" />
         </div>
+        {/* White aura — positioned container, inner div drifts */}
+        <div className="absolute top-1/3 -left-10 h-[350px] w-[350px]">
+          <div className="animate-aurora-white h-full w-full rounded-full bg-[var(--color-white)] blur-[110px]" />
+        </div>
       </div>
 
       {/* AD Monogram Crest */}
