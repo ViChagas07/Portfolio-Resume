@@ -121,7 +121,7 @@ export function Experience() {
               {/* Dot on center line (extends past right edge of card) */}
               <Dot
                 color={idx % 2 === 0 ? "blue" : "red"}
-                className="-right-[calc(3rem+6px)] top-6"
+                className="-right-[49px] top-6"
               />
               <div className="w-[calc(100%-2rem)]">
                 <Card
@@ -141,7 +141,7 @@ export function Experience() {
               {/* Dot on center line (extends past left edge of card) */}
               <Dot
                 color={(leftItems.length + idx) % 2 === 0 ? "blue" : "red"}
-                className="-left-[calc(3rem+6px)] top-6"
+                className="-left-[49px] top-6"
               />
               <div className="w-[calc(100%-2rem)]">
                 <Card
