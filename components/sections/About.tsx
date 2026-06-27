@@ -32,6 +32,8 @@ export function About() {
             <div className="absolute inset-0 rounded-full bg-[var(--color-blue)]/10 shadow-[0_0_60px_var(--color-blue-glow)]" />
             {/* Outer ring */}
             <div className="absolute inset-2 rounded-full border border-[var(--color-blue)]/30" />
+            {/* Solid red ring */}
+            <div className="absolute inset-[1px] rounded-full border border-[var(--color-red)]/50" />
             {/* Inner red accent */}
             <div className="absolute inset-4 rounded-full border border-dashed border-[var(--color-red)]/20" />
             {/* Monogram */}
