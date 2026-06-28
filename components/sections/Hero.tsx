@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { useTypingEffect } from "@/hooks/useTypingEffect";
 import { useInView } from "@/hooks/useInView";
@@ -45,8 +46,15 @@ export function Hero() {
           className="absolute inset-[5px] rounded-full border border-[var(--color-red)]/40"
           aria-hidden="true"
         />
-        <span className="font-heading text-4xl font-bold text-white">
-          AD
+        <span className="relative flex h-24 w-24 items-center justify-center overflow-hidden rounded-full">
+          <Image
+            src="/profile.jpg"
+            alt="Alisson Davi"
+            fill
+            sizes="96px"
+            className="object-cover"
+            priority
+          />
         </span>
       </div>
 
