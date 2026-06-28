@@ -122,10 +122,16 @@
       "year": "2025"
     },
     "excel": {
-      "name": "Excel شامل",
+      "name": "Excel دورة كاملة",
       "issuer": "Udemy",
       "hours": "28h",
       "year": "2025"
+    },
+    "technical_diploma": {
+      "name": "دبلوم تقني في المعلوماتية",
+      "issuer": "ICEIA",
+      "hours": "",
+      "year": "2023"
     }
   },
   "contact": {

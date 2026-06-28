@@ -326,4 +326,11 @@ export const CERTIFICATIONS: Certification[] = [
     hoursKey: "certifications.excel.hours",
     yearKey: "certifications.excel.year",
   },
+  {
+    key: "technical_diploma",
+    nameKey: "certifications.technical_diploma.name",
+    issuerKey: "certifications.technical_diploma.issuer",
+    hoursKey: "certifications.technical_diploma.hours",
+    yearKey: "certifications.technical_diploma.year",
+  },
 ];

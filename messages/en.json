@@ -126,6 +126,12 @@
       "issuer": "Udemy",
       "hours": "28h",
       "year": "2025"
+    },
+    "technical_diploma": {
+      "name": "Technical Diploma in Computer Science",
+      "issuer": "ICEIA",
+      "hours": "",
+      "year": "2023"
     }
   },
   "contact": {

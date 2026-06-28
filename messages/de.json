@@ -122,10 +122,16 @@
       "year": "2025"
     },
     "excel": {
-      "name": "Excel Complete",
+      "name": "Excel Komplett",
       "issuer": "Udemy",
       "hours": "28h",
       "year": "2025"
+    },
+    "technical_diploma": {
+      "name": "Technisches Diplom in Informatik",
+      "issuer": "ICEIA",
+      "hours": "",
+      "year": "2023"
     }
   },
   "contact": {

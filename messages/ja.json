@@ -122,10 +122,16 @@
       "year": "2025"
     },
     "excel": {
-      "name": "Excel 完全マスター",
+      "name": "Excel完全講座",
       "issuer": "Udemy",
       "hours": "28h",
       "year": "2025"
+    },
+    "technical_diploma": {
+      "name": "情報技術専門課程修了証",
+      "issuer": "ICEIA",
+      "hours": "",
+      "year": "2023"
     }
   },
   "contact": {

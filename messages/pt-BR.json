@@ -126,6 +126,12 @@
       "issuer": "Udemy",
       "hours": "28h",
       "year": "2025"
+    },
+    "technical_diploma": {
+      "name": "Diploma de Curso T\u00E9cnico em Inform\u00E1tica",
+      "issuer": "ICEIA",
+      "hours": "",
+      "year": "2023"
     }
   },
   "contact": {

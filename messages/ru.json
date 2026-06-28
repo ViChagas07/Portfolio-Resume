@@ -122,10 +122,16 @@
       "year": "2025"
     },
     "excel": {
-      "name": "Excel полностью",
+      "name": "Excel Полный курс",
       "issuer": "Udemy",
-      "hours": "28 ч",
+      "hours": "28h",
       "year": "2025"
+    },
+    "technical_diploma": {
+      "name": "Диплом о техническом образовании в области ИТ",
+      "issuer": "ICEIA",
+      "hours": "",
+      "year": "2023"
     }
   },
   "contact": {
