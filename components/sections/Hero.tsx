@@ -95,6 +95,7 @@ export function Hero() {
         </a>
         <a
           href="/resume.pdf"
+          download
           target="_blank"
           rel="noopener noreferrer"
           className="inline-flex w-full items-center justify-center gap-2 rounded-lg border border-[var(--color-blue)] px-6 py-3 font-heading text-sm font-semibold text-[var(--color-blue)] transition-all duration-300 hover:bg-[var(--color-blue)] hover:text-white hover:shadow-[0_0_30px_var(--color-blue-glow)] sm:w-auto sm:min-w-[44px]"
