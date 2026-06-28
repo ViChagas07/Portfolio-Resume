@@ -54,7 +54,7 @@ export function About() {
         <div className="flex flex-col gap-4 text-base leading-relaxed text-[var(--color-gray-light)] md:text-lg">
           <p>{t("p1")}</p>
           <p>{t("p2")}</p>
-          <p>{t("p3")}</p>
+          {t("p3") && <p>{t("p3")}</p>}
         </div>
       </div>
     </section>

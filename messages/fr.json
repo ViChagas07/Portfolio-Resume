@@ -24,9 +24,9 @@
   },
   "about": {
     "title": "À propos de moi",
-    "p1": "Ingénieur Fullstack autonome basé à Salvador, Bahia, je construis des applications SaaS prêtes pour la production de A à Z. À l'aise sur toute la stack \u2014 backends FastAPI, frontends Next.js, PostgreSQL, Redis, pipelines d'agents IA avec LangChain et CrewAI.",
-    "p2": "Actuellement en licence de Génie Logiciel à UNIJORGE, je suis activement à la recherche d'opportunités en télétravail international.",
-    "p3": "Passionné par le code propre, les systèmes observables et la livraison de produits qui fonctionnent réellement en production."
+    "p1": "Ingénieur Logiciel Full-Stack de niveau Intermédiaire avec une expérience pratique dans la conception, la construction et le déploiement d'applications SaaS en production de bout en bout. Expérimenté en backend, frontend, infrastructure cloud, systèmes d'IA, authentification, observabilité, traitement asynchrone et CI/CD. Passionné par la résolution de problèmes d'ingénierie complexes, la livraison de logiciels fiables et l'amélioration continue de l'architecture grâce à l'expérience concrète.",
+    "p2": "Ingénieur Fullstack autodidacte avec une expérience pratique dans la conception et la livraison d'applications SaaS en production à partir de zéro. À l'aise sur l'ensemble du stack \u2014 construction de backends asynchrones Python/FastAPI avec Clean Architecture, frontends React/Next.js, modèles de données PostgreSQL, couches de cache Redis et déploiements cloud sur AWS/Vercel/Railway. Récemment concentré sur l'intégration d'agents LLM (LangChain, CrewAI) dans des produits réels, y compris un pipeline de détection de fraude et une plateforme d'automatisation intelligente. À la recherche d'un poste à distance international où je peux contribuer à une équipe dynamique et continuer à progresser.",
+    "p3": ""
   },
   "skills": {
     "title": "Arsenal Technique",

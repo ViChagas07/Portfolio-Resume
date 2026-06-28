@@ -24,9 +24,9 @@
   },
   "about": {
     "title": "Sobre Mim",
-    "p1": "Engenheiro Fullstack autodidata baseado em Salvador, Bahia, construindo aplicações SaaS em nível de produção do zero. Confortável em toda a stack \u2014 backends com FastAPI, frontends com Next.js, PostgreSQL, Redis, pipelines de agentes de IA com LangChain e CrewAI.",
-    "p2": "Atualmente cursando Bacharelado em Engenharia de Software na UNIJORGE e buscando ativamente oportunidades internacionais remotas.",
-    "p3": "Apaixonado por código limpo, sistemas observáveis e entregar produtos que realmente funcionam em produção."
+    "p1": "Engenheiro de Software Full-Stack de nível Pleno com experiência prática arquitetando, construindo e implantando aplicações SaaS em nível de produção de ponta a ponta. Experiente em backend, frontend, infraestrutura em nuvem, sistemas com IA, autenticação, observabilidade, processamento assíncrono e CI/CD. Apaixonado por resolver problemas complexos de engenharia, entregar software confiável e melhorar continuamente a arquitetura através da experiência real.",
+    "p2": "Engenheiro Fullstack autodidata com experiência prática projetando e entregando aplicações SaaS em produção do zero. Confortável em toda a stack \u2014 construindo backends assíncronos em Python/FastAPI com Clean Architecture, frontends React/Next.js, modelagem de dados com PostgreSQL, camadas de cache com Redis e deploys em nuvem na AWS/Vercel/Railway. Recentemente focado em integrar agentes baseados em LLMs (LangChain, CrewAI) em produtos reais, incluindo um pipeline de detecção de fraudes e uma plataforma de automação inteligente. Em busca de uma vaga remota internacional onde eu possa contribuir com uma equipe ágil e continuar evoluindo.",
+    "p3": ""
   },
   "skills": {
     "title": "Arsenal Técnico",

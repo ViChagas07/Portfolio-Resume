@@ -24,9 +24,9 @@
   },
   "about": {
     "title": "Über mich",
-    "p1": "Eigenständiger Fullstack-Entwickler mit Sitz in Salvador, Bahia. Ich baue produktionsreife SaaS-Anwendungen von Grund auf und bin auf dem gesamten Stack zuhause \u2014 FastAPI-Backends, Next.js-Frontends, PostgreSQL, Redis, KI-Agenten-Pipelines mit LangChain und CrewAI.",
-    "p2": "Derzeit im Bachelor-Studium Software Engineering an der UNIJORGE und aktiv auf der Suche nach internationalen Remote-Möglichkeiten.",
-    "p3": "Begeistert von sauberem Code, observierbaren Systemen und Produkten, die in der Praxis tatsächlich funktionieren."
+    "p1": "Mid-Level Full-Stack Software Engineer mit praktischer Erfahrung in der Architektur, Entwicklung und Bereitstellung von produktionsreifen SaaS-Anwendungen von Anfang bis Ende. Erfahren in Backend, Frontend, Cloud-Infrastruktur, KI-gestützten Systemen, Authentifizierung, Observability, asynchroner Verarbeitung und CI/CD. Leidenschaftlich daran interessiert, komplexe technische Probleme zu lösen, zuverlässige Software zu liefern und die Architektur durch praktische Erfahrung kontinuierlich zu verbessern.",
+    "p2": "Selbstmotivierter Fullstack Engineer mit praktischer Erfahrung im Entwurf und der Bereitstellung von produktionsreifen SaaS-Anwendungen von Grund auf. Sicher im gesamten Stack \u2014 Aufbau asynchroner Python/FastAPI-Backends mit Clean Architecture, React/Next.js-Frontends, PostgreSQL-Datenmodellen, Redis-Caching-Schichten und Cloud-Deployments auf AWS/Vercel/Railway. Kürzlich fokussiert auf die Integration von LLM-gestützten Agenten (LangChain, CrewAI) in reale Produkte, einschließlich einer Betrugserkennungs-Pipeline und einer intelligenten Automatisierungsplattform. Auf der Suche nach einer internationalen Remote-Position, in der ich zu einem schnellen Team beitragen und weiter wachsen kann.",
+    "p3": ""
   },
   "skills": {
     "title": "Technisches Arsenal",
