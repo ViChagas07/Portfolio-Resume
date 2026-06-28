@@ -87,24 +87,9 @@
       "period": "2024 \u2013 現在"
     },
     "it_intern": {
-      "title": "ITサポートインターン",
+      "title": "IT\u30B5\u30DD\u30FC\u30C8\u30A4\u30F3\u30BF\u30FC\u30F3",
       "subtitle": "Col\u00E9gio G\u00F3es Calmon",
       "period": "2023 \u2013 2024"
-    },
-    "bsc": {
-      "title": "ソフトウェア工学 学士号",
-      "subtitle": "UNIJORGE",
-      "period": "2024 \u2013 現在 \u00B7 5学期目"
-    },
-    "technical": {
-      "title": "IT技術課程",
-      "subtitle": "ICEIA",
-      "period": "2023"
-    },
-    "english": {
-      "title": "英語 B2",
-      "subtitle": "CCAA",
-      "period": "2024"
     }
   },
   "certifications": {
@@ -134,10 +119,22 @@
       "year": "2025"
     },
     "technical_diploma": {
-      "name": "情報技術専門課程修了証",
+      "name": "\u60C5\u5831\u6280\u8853\u5C02\u9580\u8AB2\u7A0B\u4FEE\u4E86\u8A3C",
       "issuer": "ICEIA",
       "hours": "",
       "year": "2023"
+    },
+    "bsc": {
+      "name": "\u30BD\u30D5\u30C8\u30A6\u30A7\u30A2\u5DE5\u5B66\u5B66\u58EB",
+      "issuer": "UNIJORGE",
+      "hours": "",
+      "year": "2024 \u2013 \u73FE\u5728"
+    },
+    "english": {
+      "name": "\u82F1\u8A9E B2",
+      "issuer": "CCAA",
+      "hours": "",
+      "year": "2024"
     }
   },
   "contact": {

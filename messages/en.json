@@ -90,21 +90,6 @@
       "title": "IT Support Intern",
       "subtitle": "Col\u00E9gio G\u00F3es Calmon",
       "period": "2023 \u2013 2024"
-    },
-    "bsc": {
-      "title": "BSc Software Engineering",
-      "subtitle": "UNIJORGE",
-      "period": "2024 \u2013 Present \u00B7 5th semester"
-    },
-    "technical": {
-      "title": "Technical Degree in IT",
-      "subtitle": "ICEIA",
-      "period": "2023"
-    },
-    "english": {
-      "title": "English B2",
-      "subtitle": "CCAA",
-      "period": "2024"
     }
   },
   "certifications": {
@@ -138,6 +123,18 @@
       "issuer": "ICEIA",
       "hours": "",
       "year": "2023"
+    },
+    "bsc": {
+      "name": "BSc Software Engineering",
+      "issuer": "UNIJORGE",
+      "hours": "",
+      "year": "2024 \u2013 Present"
+    },
+    "english": {
+      "name": "English B2",
+      "issuer": "CCAA",
+      "hours": "",
+      "year": "2024"
     }
   },
   "contact": {

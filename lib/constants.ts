@@ -264,27 +264,6 @@ export const TIMELINE_ITEMS: TimelineItem[] = [
     titleKey: "experience.it_intern.title",
     subtitleKey: "experience.it_intern.subtitle",
     periodKey: "experience.it_intern.period",
-    side: "left",
-  },
-  {
-    key: "bsc",
-    titleKey: "experience.bsc.title",
-    subtitleKey: "experience.bsc.subtitle",
-    periodKey: "experience.bsc.period",
-    side: "right",
-  },
-  {
-    key: "technical",
-    titleKey: "experience.technical.title",
-    subtitleKey: "experience.technical.subtitle",
-    periodKey: "experience.technical.period",
-    side: "right",
-  },
-  {
-    key: "english",
-    titleKey: "experience.english.title",
-    subtitleKey: "experience.english.subtitle",
-    periodKey: "experience.english.period",
     side: "right",
   },
 ];
@@ -332,5 +311,19 @@ export const CERTIFICATIONS: Certification[] = [
     issuerKey: "certifications.technical_diploma.issuer",
     hoursKey: "certifications.technical_diploma.hours",
     yearKey: "certifications.technical_diploma.year",
+  },
+  {
+    key: "bsc",
+    nameKey: "certifications.bsc.name",
+    issuerKey: "certifications.bsc.issuer",
+    hoursKey: "certifications.bsc.hours",
+    yearKey: "certifications.bsc.year",
+  },
+  {
+    key: "english",
+    nameKey: "certifications.english.name",
+    issuerKey: "certifications.english.issuer",
+    hoursKey: "certifications.english.hours",
+    yearKey: "certifications.english.year",
   },
 ];
