@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useState } from "react";
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/lib/navigation";
 import { LanguageSwitcher } from "./LanguageSwitcher";
@@ -123,8 +124,14 @@ export function Navbar() {
               className="absolute inset-[3px] rounded-full border border-[var(--color-red)]/50"
               aria-hidden="true"
             />
-            <span className="font-heading text-lg font-bold text-white">
-              AD
+            <span className="relative flex h-[34px] w-[34px] items-center justify-center overflow-hidden rounded-full">
+              <Image
+                src="/nav-logo.jpg"
+                alt="Alisson Davi"
+                fill
+                sizes="34px"
+                className="object-cover"
+              />
             </span>
           </div>
           <span className="text-[15px] font-semibold text-white">
