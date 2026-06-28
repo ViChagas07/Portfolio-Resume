@@ -28,12 +28,12 @@ export function Hero() {
     >
       {/* AD Monogram Crest */}
       <div
-        className="relative mb-10 flex h-28 w-28 items-center justify-center"
+        className="relative mb-10 flex h-40 w-40 items-center justify-center"
         aria-label="Alisson Davi logo"
       >
         {/* Radar ring — outer blue pulsing */}
         <div
-          className="absolute inset-[-6px] animate-radar rounded-full border-2 border-[var(--color-blue)]/70 shadow-[0_0_30px_var(--color-blue-glow)]"
+          className="absolute inset-[-8px] animate-radar rounded-full border-2 border-[var(--color-blue)]/70 shadow-[0_0_30px_var(--color-blue-glow)]"
           aria-hidden="true"
         />
         {/* Middle red ring */}
@@ -46,12 +46,12 @@ export function Hero() {
           className="absolute inset-[5px] rounded-full border border-[var(--color-red)]/40"
           aria-hidden="true"
         />
-        <span className="relative flex h-24 w-24 items-center justify-center overflow-hidden rounded-full">
+        <span className="relative flex h-36 w-36 items-center justify-center overflow-hidden rounded-full">
           <Image
             src="/profile.jpg"
             alt="Alisson Davi"
             fill
-            sizes="96px"
+            sizes="144px"
             className="object-cover"
             priority
           />
