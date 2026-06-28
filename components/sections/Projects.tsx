@@ -1,7 +1,7 @@
 "use client";
 
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { useInView } from "@/hooks/useInView";
 import { SectionTitle } from "@/components/ui/SectionTitle";
 import { Badge } from "@/components/ui/Badge";
@@ -9,6 +9,7 @@ import { PROJECTS } from "@/lib/constants";
 
 export function Projects() {
   const t = useTranslations("projects");
+  const locale = useLocale();
   const { ref, state } = useInView({ threshold: 0.05 });
 
   const animationClass =
@@ -51,7 +52,9 @@ export function Projects() {
               <div className="flex flex-1 flex-col justify-between p-6 lg:p-8">
                 <div>
                   <h3 className="font-heading text-2xl font-bold text-white sm:text-3xl">
-                    {project.name}
+                    {project.key === "psi" && locale === "pt-BR"
+                      ? "SentinelaPay"
+                      : project.name}
                   </h3>
                   <p className="mt-2 text-base font-medium text-[var(--color-blue)]">
                     {project.tagline}
