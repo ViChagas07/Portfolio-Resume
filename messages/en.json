@@ -70,6 +70,12 @@
         "Flask backend with React Native (Expo) mobile frontend",
         "Built for a real home-appliance business client"
       ]
+    },
+    "taglines": {
+      "psi": "AI-Powered Payment Fraud Detection SaaS",
+      "pytomatiza": "Intelligent Automation Platform with AI Agents",
+      "clark": "Superman-Themed Full-Featured Music Player",
+      "facilit": "WhatsApp AI Customer Service Automation"
     }
   },
   "experience": {

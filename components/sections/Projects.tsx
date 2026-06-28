@@ -30,6 +30,17 @@ export function Projects() {
     return PROJECTS.find((p) => p.key === projectKey)?.highlights ?? [];
   };
 
+  // Use translation tagline if available; fallback to constants
+  const getTagline = (projectKey: string): string => {
+    try {
+      const translated = t(`taglines.${projectKey}`);
+      if (translated && translated !== `taglines.${projectKey}`) return translated;
+    } catch {
+      // fallback
+    }
+    return PROJECTS.find((p) => p.key === projectKey)?.tagline ?? "";
+  };
+
   return (
     <section
       id="projects"
@@ -57,7 +68,7 @@ export function Projects() {
                       : project.name}
                   </h3>
                   <p className="mt-2 text-base font-medium text-[var(--color-blue)]">
-                    {project.tagline}
+                    {getTagline(project.key)}
                   </p>
 
                   <ul className="mt-5 space-y-2">

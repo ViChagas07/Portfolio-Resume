@@ -70,6 +70,12 @@
         "Flask-Backend mit React Native (Expo) Mobile-Frontend",
         "Entwickelt für einen echten Kunden aus der Haushaltsgeräte-Branche"
       ]
+    },
+    "taglines": {
+      "psi": "KI-gestützte SaaS zur Zahlungsbetrugserkennung",
+      "pytomatiza": "Intelligente Automatisierungsplattform mit KI-Agenten",
+      "clark": "Superman-Themen-Vollfunktions-Musikplayer",
+      "facilit": "WhatsApp KI-Kundenservice-Automatisierung"
     }
   },
   "experience": {

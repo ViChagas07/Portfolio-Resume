@@ -70,6 +70,12 @@
         "Flask 后端 + React Native (Expo) 移动端前端",
         "为真实家电企业客户定制开发"
       ]
+    },
+    "taglines": {
+      "psi": "AI驱动的支付欺诈检测SaaS",
+      "pytomatiza": "AI智能体智能自动化平台",
+      "clark": "超人主题全功能音乐播放器",
+      "facilit": "WhatsApp AI客服自动化"
     }
   },
   "experience": {

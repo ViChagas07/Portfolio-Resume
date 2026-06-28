@@ -70,6 +70,12 @@
         "Backend Flask avec frontend mobile React Native (Expo)",
         "Développé pour un vrai client du secteur de l'électroménager"
       ]
+    },
+    "taglines": {
+      "psi": "SaaS de Détection de Fraude de Paiement par IA",
+      "pytomatiza": "Plateforme d'Automatisation Intelligente avec Agents IA",
+      "clark": "Lecteur de Musique Complet Thème Superman",
+      "facilit": "Automatisation du Service Client WhatsApp par IA"
     }
   },
   "experience": {

@@ -70,6 +70,12 @@
         "Flaskバックエンド + React Native (Expo) モバイルフロントエンド",
         "実在の家電販売店向けに構築"
       ]
+    },
+    "taglines": {
+      "psi": "AI搭載決済不正検出SaaS",
+      "pytomatiza": "AIエージェントによるインテリジェント自動化プラットフォーム",
+      "clark": "スーパーマンテーマの高機能ミュージックプレイヤー",
+      "facilit": "WhatsApp AIカスタマーサービス自動化"
     }
   },
   "experience": {
