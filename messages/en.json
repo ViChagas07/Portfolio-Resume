@@ -25,7 +25,7 @@
   "about": {
     "title": "About Me",
     "p1": "Self-driven Fullstack Engineer based in Salvador, Bahia, building production-grade SaaS applications from scratch. Comfortable across the full stack \u2014 FastAPI backends, Next.js frontends, PostgreSQL, Redis, AI agent pipelines with LangChain and CrewAI.",
-    "p2": "Currently pursuing a Bachelor's in Software Engineering at UNICESUMAR and actively seeking international remote opportunities.",
+    "p2": "Currently pursuing a Bachelor's in Software Engineering at UNIJORGE and actively seeking international remote opportunities.",
     "p3": "Passionate about clean code, observable systems, and shipping products that actually work in production."
   },
   "skills": {
@@ -86,7 +86,7 @@
     },
     "bsc": {
       "title": "BSc Software Engineering",
-      "subtitle": "UNICESUMAR",
+      "subtitle": "UNIJORGE",
       "period": "2024 \u2013 Present \u00B7 4th semester"
     },
     "technical": {

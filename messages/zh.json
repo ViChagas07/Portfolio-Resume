@@ -25,7 +25,7 @@
   "about": {
     "title": "关于我",
     "p1": "现居巴伊亚州萨尔瓦多市，自主驱动的全栈工程师，从零搭建生产级 SaaS 应用。精通全栈技术 \u2014 FastAPI 后端、Next.js 前端、PostgreSQL、Redis，以及基于 LangChain 和 CrewAI 的 AI 智能体流水线。",
-    "p2": "目前正在 UNICESUMAR 攻读软件工程学士学位，并积极寻找国际远程工作机会。",
+    "p2": "目前正在 UNIJORGE 攻读软件工程学士学位，并积极寻找国际远程工作机会。",
     "p3": "热衷于编写整洁代码、构建可观测系统，交付真正能在生产环境中稳定运行的产品。"
   },
   "skills": {
@@ -86,7 +86,7 @@
     },
     "bsc": {
       "title": "软件工程学士",
-      "subtitle": "UNICESUMAR",
+      "subtitle": "UNIJORGE",
       "period": "2024 \u2013 至今 \u00B7 第 4 学期"
     },
     "technical": {

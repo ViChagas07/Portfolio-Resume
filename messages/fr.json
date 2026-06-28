@@ -25,7 +25,7 @@
   "about": {
     "title": "À propos de moi",
     "p1": "Ingénieur Fullstack autonome basé à Salvador, Bahia, je construis des applications SaaS prêtes pour la production de A à Z. À l'aise sur toute la stack \u2014 backends FastAPI, frontends Next.js, PostgreSQL, Redis, pipelines d'agents IA avec LangChain et CrewAI.",
-    "p2": "Actuellement en licence de Génie Logiciel à UNICESUMAR, je suis activement à la recherche d'opportunités en télétravail international.",
+    "p2": "Actuellement en licence de Génie Logiciel à UNIJORGE, je suis activement à la recherche d'opportunités en télétravail international.",
     "p3": "Passionné par le code propre, les systèmes observables et la livraison de produits qui fonctionnent réellement en production."
   },
   "skills": {
@@ -86,7 +86,7 @@
     },
     "bsc": {
       "title": "Licence Génie Logiciel",
-      "subtitle": "UNICESUMAR",
+      "subtitle": "UNIJORGE",
       "period": "2024 \u2013 Présent \u00B7 4ème semestre"
     },
     "technical": {

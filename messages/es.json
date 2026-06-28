@@ -25,7 +25,7 @@
   "about": {
     "title": "Sobre mí",
     "p1": "Ingeniero Fullstack autodidacta con base en Salvador, Bahía, construyendo aplicaciones SaaS listas para producción desde cero. Cómodo en todo el stack \u2014 backends con FastAPI, frontends con Next.js, PostgreSQL, Redis, pipelines de agentes de IA con LangChain y CrewAI.",
-    "p2": "Actualmente cursando la Licenciatura en Ingeniería de Software en UNICESUMAR y en búsqueda activa de oportunidades remotas internacionales.",
+    "p2": "Actualmente cursando la Licenciatura en Ingeniería de Software en UNIJORGE y en búsqueda activa de oportunidades remotas internacionales.",
     "p3": "Apasionado por el código limpio, los sistemas observables y entregar productos que realmente funcionan en producción."
   },
   "skills": {
@@ -86,7 +86,7 @@
     },
     "bsc": {
       "title": "Licenciatura en Ingeniería de Software",
-      "subtitle": "UNICESUMAR",
+      "subtitle": "UNIJORGE",
       "period": "2024 \u2013 Presente \u00B7 4\u00BA semestre"
     },
     "technical": {
