@@ -64,6 +64,15 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
       "Pydantic",
       "JWT/OAuth/OIDC",
       "REST",
+      "WebSocket",
+    ],
+  },
+  {
+    key: "architecture",
+    skills: [
+      "Agentic Systems Architecture",
+      "Distributed Task Processing",
+      "Event-Driven Patterns",
     ],
   },
   {
@@ -135,6 +144,7 @@ export const SKILL_CATEGORY_ICONS: Record<string, string> = {
   languages: "code",
   frontend: "window",
   backend: "server",
+  architecture: "blueprint",
   ai: "brain",
   databases: "database",
   devops: "cloud",
