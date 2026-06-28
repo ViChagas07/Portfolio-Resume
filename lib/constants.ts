@@ -73,6 +73,11 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
       "Agentic Systems Architecture",
       "Distributed Task Processing",
       "Event-Driven Patterns",
+      "Clean Architecture",
+      "Clean Code",
+      "SOLID",
+      "Dependency Injection",
+      "Domain-Driven Patterns",
     ],
   },
   {
