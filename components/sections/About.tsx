@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { useInView } from "@/hooks/useInView";
 import { SectionTitle } from "@/components/ui/SectionTitle";
@@ -36,9 +37,15 @@ export function About() {
             <div className="absolute inset-3 rounded-full border border-[var(--color-red)]/50" />
             {/* Inner red accent */}
             <div className="absolute inset-4 rounded-full border border-dashed border-[var(--color-red)]/20" />
-            {/* Monogram */}
-            <span className="font-heading text-5xl font-bold text-white md:text-6xl">
-              AD
+            {/* Profile photo */}
+            <span className="relative flex h-40 w-40 items-center justify-center overflow-hidden rounded-full md:h-48 md:w-48">
+              <Image
+                src="/about-profile.jpg"
+                alt="Alisson Davi"
+                fill
+                sizes="(max-width: 768px) 160px, 192px"
+                className="object-cover"
+              />
             </span>
           </div>
         </div>
