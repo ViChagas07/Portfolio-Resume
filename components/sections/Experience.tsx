@@ -29,7 +29,7 @@ function Card({
   return (
     <div className="card-mobile-pulse w-full rounded-xl border border-[var(--color-navy-lighter)] bg-[var(--color-navy-light)] p-5 transition-all duration-300 hover:border-[var(--color-blue)]/30">
       <h3 className="font-heading text-lg font-bold text-white">{title}</h3>
-      <p className="mt-1 text-sm font-medium text-white lg:text-black">{subtitle}</p>
+      <p className="mt-1 text-sm font-medium text-black lg:text-white">{subtitle}</p>
       <p className="mt-2 text-xs text-white lg:text-[var(--color-gray-dark)]">{period}</p>
     </div>
   );
@@ -50,7 +50,7 @@ function CertCard({
   return (
     <article className="card-mobile-pulse rounded-xl border border-[var(--color-navy-lighter)] bg-[var(--color-navy-light)] p-5 transition-all duration-300 hover:border-[var(--color-blue)]/30">
       <h4 className="font-heading text-base font-semibold text-white">{name}</h4>
-      <p className="mt-1 text-sm font-medium text-white lg:text-black">{issuer}</p>
+      <p className="mt-1 text-sm font-medium text-black lg:text-white">{issuer}</p>
       <div className="mt-2 flex gap-3 text-xs text-white lg:text-[var(--color-gray-dark)]">
         <span>{hours}</span>
         <span aria-hidden="true">·</span>
