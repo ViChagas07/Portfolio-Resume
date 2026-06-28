@@ -38,6 +38,7 @@
       "databases": "数据库",
       "devops": "DevOps / 云服务",
       "monitoring": "监控与可观测性",
+      "testing": "用于测试",
       "tools": "工具"
     }
   },

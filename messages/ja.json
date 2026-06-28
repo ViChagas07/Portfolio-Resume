@@ -38,6 +38,7 @@
       "databases": "データベース",
       "devops": "DevOps / クラウド",
       "monitoring": "監視と可観測性",
+      "testing": "テスト用",
       "tools": "ツール"
     }
   },

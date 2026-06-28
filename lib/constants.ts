@@ -106,6 +106,15 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
     ],
   },
   {
+    key: "testing",
+    skills: [
+      "Pytest",
+      "Unittest",
+      "Jest",
+      "React Testing Library",
+    ],
+  },
+  {
     key: "tools",
     skills: [
       "Git",
@@ -130,6 +139,7 @@ export const SKILL_CATEGORY_ICONS: Record<string, string> = {
   databases: "database",
   devops: "cloud",
   monitoring: "chart",
+  testing: "flask",
   tools: "wrench",
 };
 
