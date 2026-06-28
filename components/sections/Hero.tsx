@@ -1,5 +1,6 @@
 "use client";
 
+import { useState, useRef, useEffect } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { useTypingEffect } from "@/hooks/useTypingEffect";
@@ -8,6 +9,20 @@ import { useInView } from "@/hooks/useInView";
 export function Hero() {
   const t = useTranslations("hero");
   const { ref, state } = useInView({ threshold: 0.1 });
+  const [resumeOpen, setResumeOpen] = useState(false);
+  const resumeRef = useRef<HTMLDivElement>(null);
+
+  // Close dropdown on outside click
+  useEffect(() => {
+    if (!resumeOpen) return;
+    const handleClick = (e: MouseEvent) => {
+      if (resumeRef.current && !resumeRef.current.contains(e.target as Node)) {
+        setResumeOpen(false);
+      }
+    };
+    document.addEventListener("mousedown", handleClick);
+    return () => document.removeEventListener("mousedown", handleClick);
+  }, [resumeOpen]);
 
   const typingWords: string[] = t.raw("typing_words");
   const typedText = useTypingEffect(typingWords);
@@ -93,15 +108,37 @@ export function Hero() {
         >
           {t("cta_projects")}
         </a>
-        <a
-          href="/resume.pdf"
-          download
-          target="_blank"
-          rel="noopener noreferrer"
-          className="inline-flex w-full items-center justify-center gap-2 rounded-lg border border-[var(--color-blue)] px-6 py-3 font-heading text-sm font-semibold text-[var(--color-blue)] transition-all duration-300 hover:bg-[var(--color-blue)] hover:text-white hover:shadow-[0_0_30px_var(--color-blue-glow)] sm:w-auto sm:min-w-[44px]"
-        >
-          {t("cta_resume")}
-        </a>
+        <div className="relative" ref={resumeRef}>
+          <button
+            onClick={() => setResumeOpen((o) => !o)}
+            className="inline-flex w-full items-center justify-center gap-2 rounded-lg border border-[var(--color-blue)] px-6 py-3 font-heading text-sm font-semibold text-[var(--color-blue)] transition-all duration-300 hover:bg-[var(--color-blue)] hover:text-white hover:shadow-[0_0_30px_var(--color-blue-glow)] sm:w-auto sm:min-w-[44px]"
+          >
+            {t("cta_resume")}
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor" className="h-4 w-4 transition-transform duration-200" style={{ transform: resumeOpen ? "rotate(180deg)" : "rotate(0deg)" }} aria-hidden="true">
+              <path fillRule="evenodd" d="M5.22 8.22a.75.75 0 0 1 1.06 0L10 11.94l3.72-3.72a.75.75 0 1 1 1.06 1.06l-4.25 4.25a.75.75 0 0 1-1.06 0L5.22 9.28a.75.75 0 0 1 0-1.06Z" clipRule="evenodd" />
+            </svg>
+          </button>
+          {resumeOpen && (
+            <div className="absolute left-0 right-0 top-full mt-2 overflow-hidden rounded-lg border border-[var(--color-navy-lighter)] bg-[var(--color-navy-light)] shadow-lg sm:left-auto sm:right-0 sm:min-w-[200px]">
+              <a
+                href="/resume-en.pdf"
+                download
+                className="flex items-center gap-3 px-4 py-3 text-sm text-[var(--color-gray-light)] transition-colors hover:bg-[var(--color-blue)]/10 hover:text-white"
+              >
+                <span className="text-lg">🇺🇸</span>
+                <span>EN — English</span>
+              </a>
+              <a
+                href="/resume-pt.pdf"
+                download
+                className="flex items-center gap-3 px-4 py-3 text-sm text-[var(--color-gray-light)] transition-colors hover:bg-[var(--color-blue)]/10 hover:text-white"
+              >
+                <span className="text-lg">🇧🇷</span>
+                <span>PT-BR — Português</span>
+              </a>
+            </div>
+          )}
+        </div>
       </div>
 
       {/* Scroll indicator */}
