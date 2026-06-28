@@ -62,7 +62,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
       "SQLAlchemy",
       "Alembic",
       "Pydantic",
-      "JWT/OAuth2",
+      "JWT/OAuth/OIDC",
       "REST",
     ],
   },
@@ -73,6 +73,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
       "CrewAI",
       "LLM Orchestration",
       "OpenAI API",
+      "Opencode",
     ],
   },
   {
@@ -87,7 +88,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
   {
     key: "devops",
     skills: [
-      "Docker",
+      "Docker/Docker Compose",
       "AWS",
       "Railway",
       "Vercel",
@@ -115,6 +116,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
       "Celery",
       "RabbitMQ",
       "Resend",
+      "UpTimeRobot",
     ],
   },
 ];
