@@ -122,7 +122,7 @@
     "technical_diploma": {
       "name": "\u60C5\u5831\u6280\u8853\u5C02\u9580\u8AB2\u7A0B\u4FEE\u4E86\u8A3C",
       "issuer": "ICEIA",
-      "hours": "",
+      "hours": "6学期",
       "year": "2023"
     },
     "bsc": {
@@ -134,7 +134,7 @@
     "english": {
       "name": "\u82F1\u8A9E B2",
       "issuer": "CCAA",
-      "hours": "",
+      "hours": "11学期",
       "year": "2024"
     }
   },

@@ -122,7 +122,7 @@
     "technical_diploma": {
       "name": "Diploma T\u00E9cnico en Inform\u00E1tica",
       "issuer": "ICEIA",
-      "hours": "",
+      "hours": "6 semestres",
       "year": "2023"
     },
     "bsc": {
@@ -134,7 +134,7 @@
     "english": {
       "name": "Ingl\u00E9s B2",
       "issuer": "CCAA",
-      "hours": "",
+      "hours": "11 semestres",
       "year": "2024"
     }
   },

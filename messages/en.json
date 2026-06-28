@@ -122,7 +122,7 @@
     "technical_diploma": {
       "name": "Technical Diploma in Computer Science",
       "issuer": "ICEIA",
-      "hours": "",
+      "hours": "6 semesters",
       "year": "2023"
     },
     "bsc": {
@@ -134,7 +134,7 @@
     "english": {
       "name": "English B2",
       "issuer": "CCAA",
-      "hours": "",
+      "hours": "11 semesters",
       "year": "2024"
     }
   },
