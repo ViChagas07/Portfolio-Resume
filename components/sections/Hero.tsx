@@ -38,7 +38,7 @@ export function Hero() {
     <section
       id="hero"
       ref={ref}
-      className={`relative flex min-h-[100dvh] flex-col items-center justify-center overflow-hidden px-4 md:px-6 lg:px-12 py-20 md:py-24 ${animationClass}`}
+      className={`relative flex min-h-[100dvh] flex-col items-center justify-center overflow-x-clip px-4 md:px-6 lg:px-12 pt-20 md:pt-24 pb-32 md:pb-36 ${animationClass}`}
       aria-labelledby="hero-heading"
     >
       {/* AD Monogram Crest */}
@@ -119,11 +119,11 @@ export function Hero() {
             </svg>
           </button>
           {resumeOpen && (
-            <div className="absolute left-0 right-0 top-full mt-2 overflow-hidden rounded-lg border border-[var(--color-navy-lighter)] bg-[var(--color-navy-light)] shadow-lg sm:left-auto sm:right-0 sm:min-w-[200px]">
+            <div className="absolute right-0 z-50 mt-2 w-56 rounded-xl border border-[var(--color-blue)]/40 bg-[var(--color-navy-light)] py-2 shadow-[0_0_30px_var(--color-blue-glow)] sm:left-auto">
               <a
                 href="/resume-en.pdf"
                 download
-                className="flex items-center gap-3 px-4 py-3 text-sm text-[var(--color-gray-light)] transition-colors hover:bg-[var(--color-blue)]/10 hover:text-white"
+                className="flex items-center gap-3 px-4 py-2.5 text-sm text-[var(--color-gray)] transition-colors hover:bg-[var(--color-blue)]/10 hover:text-white"
               >
                 <span className="text-lg">🇺🇸</span>
                 <span>EN — English</span>
@@ -131,7 +131,7 @@ export function Hero() {
               <a
                 href="/resume-pt.pdf"
                 download
-                className="flex items-center gap-3 px-4 py-3 text-sm text-[var(--color-gray-light)] transition-colors hover:bg-[var(--color-blue)]/10 hover:text-white"
+                className="flex items-center gap-3 px-4 py-2.5 text-sm text-[var(--color-gray)] transition-colors hover:bg-[var(--color-blue)]/10 hover:text-white"
               >
                 <span className="text-lg">🇧🇷</span>
                 <span>PT-BR — Português</span>
@@ -142,7 +142,7 @@ export function Hero() {
       </div>
 
       {/* Scroll indicator */}
-      <div className="absolute bottom-8 flex flex-col items-center gap-2" aria-hidden="true">
+      <div className="absolute bottom-6 flex flex-col items-center gap-2" aria-hidden="true">
         <span className="text-xs text-[var(--color-gray-dark)]">
           {t("scroll_down")}
         </span>
