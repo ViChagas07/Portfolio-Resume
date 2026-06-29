@@ -67,16 +67,23 @@
         "MusicBrainz、iTunes 及 Spotify API 元数据丰富"
       ],
       "facilit": [
-        "CrewAI 智能体 + Z-API 实现 WhatsApp 智能对话处理",
-        "Flask 后端 + React Native (Expo) 移动端前端",
-        "为真实家电企业客户定制开发"
+        "CrewAI智能体 + Z-API 实现WhatsApp对话智能处理",
+        "Flask后端 + React Native (Expo) 移动前端",
+        "为真实的家电企业客户开发"
+      ],
+      "eude_ramos": [
+        "具有现代UI/UX设计的响应式单页作品集",
+        "使用Next.js和TypeScript构建，性能优化",
+        "通过服务端渲染和元数据实现SEO优化",
+        "通过GitHub集成的CI/CD部署在Vercel上"
       ]
     },
     "taglines": {
       "psi": "AI驱动的支付欺诈检测SaaS",
       "pytomatiza": "AI智能体智能自动化平台",
       "clark": "超人主题全功能音乐播放器",
-      "facilit": "WhatsApp AI客服自动化"
+      "facilit": "WhatsApp AI客服自动化",
+      "eude_ramos": "社会工作者专业作品集网站"
     }
   },
   "experience": {

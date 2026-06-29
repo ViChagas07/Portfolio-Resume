@@ -67,16 +67,23 @@
         "MusicBrainz-, iTunes- & Spotify-API-Metadatenanreicherung"
       ],
       "facilit": [
-        "CrewAI-Agenten + Z-API für intelligente WhatsApp-Konversationsverwaltung",
+        "CrewAI-Agenten + Z-API für intelligente WhatsApp-Konversationsbearbeitung",
         "Flask-Backend mit React Native (Expo) Mobile-Frontend",
-        "Entwickelt für einen echten Kunden aus der Haushaltsgeräte-Branche"
+        "Entwickelt für einen echten Kunden aus der Haushaltsgerätebranche"
+      ],
+      "eude_ramos": [
+        "Responsives einseitiges Portfolio mit modernem UI/UX-Design",
+        "Erstellt mit Next.js und TypeScript für optimale Leistung",
+        "SEO-optimiert mit Server-Side Rendering und Metadaten",
+        "Bereitgestellt auf Vercel mit CI/CD über GitHub-Integration"
       ]
     },
     "taglines": {
       "psi": "KI-gestützte SaaS zur Zahlungsbetrugserkennung",
       "pytomatiza": "Intelligente Automatisierungsplattform mit KI-Agenten",
       "clark": "Superman-Themen-Vollfunktions-Musikplayer",
-      "facilit": "WhatsApp KI-Kundenservice-Automatisierung"
+      "facilit": "WhatsApp KI-Kundenservice-Automatisierung",
+      "eude_ramos": "Professionelle Portfolio-Website für Sozialarbeiter"
     }
   },
   "experience": {

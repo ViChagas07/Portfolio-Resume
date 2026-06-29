@@ -67,16 +67,23 @@
         "Enriquecimiento de metadatos con APIs de MusicBrainz, iTunes y Spotify"
       ],
       "facilit": [
-        "Agentes CrewAI + Z-API para manejo inteligente de conversaciones en WhatsApp",
-        "Backend Flask con frontend móvil React Native (Expo)",
-        "Construido para un cliente real del sector de electrodomésticos"
+        "Agentes CrewAI + Z-API para atención inteligente de conversaciones de WhatsApp",
+        "Backend Flask con frontend mobile React Native (Expo)",
+        "Desarrollado para un cliente real del sector de electrodomésticos"
+      ],
+      "eude_ramos": [
+        "Portafolio responsivo de una sola página con diseño UI/UX moderno",
+        "Construido con Next.js y TypeScript para rendimiento optimizado",
+        "Optimizado para SEO con renderizado del lado del servidor y metadatos",
+        "Desplegado en Vercel con CI/CD mediante integración con GitHub"
       ]
     },
     "taglines": {
       "psi": "SaaS de Detección de Fraudes en Pagos con IA",
       "pytomatiza": "Plataforma de Automatización Inteligente con Agentes de IA",
       "clark": "Reproductor de Música Completo Temático de Superman",
-      "facilit": "Automatización de Atención al Cliente por WhatsApp con IA"
+      "facilit": "Automatización de Atención al Cliente por WhatsApp con IA",
+      "eude_ramos": "Sitio Web Portafolio Profesional para Trabajador Social"
     }
   },
   "experience": {

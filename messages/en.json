@@ -70,13 +70,20 @@
         "CrewAI agents + Z-API for intelligent WhatsApp conversation handling",
         "Flask backend with React Native (Expo) mobile frontend",
         "Built for a real home-appliance business client"
+      ],
+      "eude_ramos": [
+        "Responsive single-page portfolio with modern UI/UX design",
+        "Built with Next.js and TypeScript for optimal performance",
+        "SEO-optimized with server-side rendering and metadata",
+        "Deployed on Vercel with CI/CD via GitHub integration"
       ]
     },
     "taglines": {
       "psi": "AI-Powered Payment Fraud Detection SaaS",
       "pytomatiza": "Intelligent Automation Platform with AI Agents",
       "clark": "Superman-Themed Full-Featured Music Player",
-      "facilit": "WhatsApp AI Customer Service Automation"
+      "facilit": "WhatsApp AI Customer Service Automation",
+      "eude_ramos": "Professional Portfolio Website for Social Worker"
     }
   },
   "experience": {

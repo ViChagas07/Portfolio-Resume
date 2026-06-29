@@ -70,13 +70,20 @@
         "Agentes CrewAI + Z-API para atendimento inteligente de conversas no WhatsApp",
         "Backend Flask com frontend mobile React Native (Expo)",
         "Desenvolvido para um cliente real do setor de eletrodomésticos"
+      ],
+      "eude_ramos": [
+        "Portfólio responsivo de página única com design UI/UX moderno",
+        "Construído com Next.js e TypeScript para desempenho otimizado",
+        "Otimizado para SEO com server-side rendering e metadados",
+        "Publicado na Vercel com CI/CD via integração com GitHub"
       ]
     },
     "taglines": {
       "psi": "SaaS de Detecção de Fraudes em Pagamentos com IA",
       "pytomatiza": "Plataforma de Automação Inteligente com Agentes de IA",
       "clark": "Player de Música Completo Temático do Superman",
-      "facilit": "Automação de Atendimento ao Cliente via WhatsApp com IA"
+      "facilit": "Automação de Atendimento ao Cliente via WhatsApp com IA",
+      "eude_ramos": "Site Portfólio Profissional para Assistente Social"
     }
   },
   "experience": {
