@@ -88,6 +88,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
       "LLM Orchestration",
       "OpenAI API",
       "Opencode",
+      "BAAI/bge-m3",
     ],
   },
   {
@@ -97,6 +98,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
       "Supabase",
       "Redis",
       "Alembic Migrations",
+      "PgVector",
     ],
   },
   {
