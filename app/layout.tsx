@@ -6,7 +6,6 @@ export const metadata: Metadata = {
   description: "Fullstack Software Engineer from Salvador, Brazil. Next.js, FastAPI, Python, TypeScript & AI agents.",
   icons: {
     icon: "/favicon.png",
-    shortcut: "/favicon.png",
     apple: "/favicon.png",
   },
 };
