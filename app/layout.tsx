@@ -4,6 +4,11 @@ import "./globals.css";
 export const metadata: Metadata = {
   title: "Alisson Davi — Portfolio",
   description: "Fullstack Software Engineer from Salvador, Brazil. Next.js, FastAPI, Python, TypeScript & AI agents.",
+  icons: {
+    icon: "/favicon.png",
+    shortcut: "/favicon.png",
+    apple: "/favicon.png",
+  },
 };
 
 export default function RootLayout({
