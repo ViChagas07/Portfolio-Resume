@@ -8,6 +8,7 @@ import { SUPPORTED_LOCALES } from "@/lib/constants";
 import { Navbar } from "@/components/layout/Navbar";
 import { Footer } from "@/components/layout/Footer";
 import { GlobalOrbBackground } from "@/components/layout/GlobalOrbBackground";
+import { BackToTop } from "@/components/layout/BackToTop";
 import "../globals.css";
 
 /* ── Fonts ── */
@@ -118,6 +119,7 @@ export default async function LocaleLayout({
             {children}
           </main>
           <Footer />
+          <BackToTop />
         </NextIntlClientProvider>
       </body>
     </html>
