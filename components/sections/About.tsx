@@ -40,7 +40,7 @@ export function About() {
             {/* Profile photo */}
             <span className="relative flex h-40 w-40 items-center justify-center overflow-hidden rounded-full md:h-48 md:w-48">
               <Image
-                src="/about-profile.jpg"
+                src="/about-profile.png"
                 alt="Alisson Davi"
                 fill
                 sizes="(max-width: 768px) 160px, 192px"
