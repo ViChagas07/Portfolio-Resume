@@ -28,7 +28,7 @@ export function About() {
       <div className="flex flex-col gap-10 md:flex-row md:gap-16">
         {/* Left: decorative monogram */}
         <div className="flex-shrink-0" aria-hidden="true">
-          <div className="relative mx-auto flex h-56 w-56 items-center justify-center md:h-64 md:w-64">
+          <div className="relative mx-auto flex h-64 w-64 items-center justify-center md:h-72 md:w-72">
             {/* Glowing blue circle */}
             <div className="absolute inset-0 rounded-full bg-[var(--color-blue)]/10 shadow-[0_0_60px_var(--color-blue-glow)]" />
             {/* Outer ring */}
@@ -38,12 +38,12 @@ export function About() {
             {/* Inner red accent */}
             <div className="absolute inset-4 rounded-full border border-dashed border-[var(--color-red)]/20" />
             {/* Profile photo */}
-            <span className="relative flex h-48 w-48 items-center justify-center overflow-hidden rounded-full md:h-56 md:w-56">
+            <span className="relative flex h-56 w-56 items-center justify-center overflow-hidden rounded-full md:h-64 md:w-64">
               <Image
                 src="/about-profile.png"
                 alt="Alisson Davi"
                 fill
-                sizes="(max-width: 768px) 192px, 224px"
+                sizes="(max-width: 768px) 224px, 256px"
                 className="object-cover"
               />
             </span>
