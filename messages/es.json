@@ -49,33 +49,45 @@
     "view_code": "GitHub",
     "highlights": {
       "psi": [
-        "Pipeline de IA en múltiples etapas: OCR \u2192 extracción \u2192 análisis LLM en 7 fases \u2192 puntuación de riesgo de 5 niveles (0\u2013100)",
-        "Backend con FastAPI + Clean Architecture usando SQLAlchemy ORM y Alembic",
-        "Colaboración multi-agente con CrewAI \u2014 orquestación de Gemini + DeepSeek",
-        "CI/CD completo: GitHub Actions \u2192 Railway (API) + Vercel (frontend)"
+        "Pipeline de IA multi-etapas: OCR \u2192 extracci\u00F3n \u2192 an\u00E1lisis LLM en 7 fases \u2192 puntuaci\u00F3n de riesgo (0\u2013100)",
+        "Arquitectura basada en FastAPI + Clean Architecture + SQLAlchemy + Alembic",
+        "Sistema multiagente con CrewAI orquestando Gemini, DeepSeek y OpenAI",
+        "Sistema RAG para contextualizar an\u00E1lisis de los agentes",
+        "Frontend internacionalizado con Next.js + next-intl",
+        "CI/CD completo: GitHub Actions \u2192 Railway (API) + Vercel (Frontend)",
+        "Conformidad LGPD con documentaci\u00F3n DPIA y pol\u00EDticas de privacidad",
+        "Desaf\u00EDos superados: pipeline multiagente modular, autenticaci\u00F3n NextAuth, OCR robusto, observabilidad con Sentry/Prometheus/Grafana/PostHog"
       ],
       "pytomatiza": [
-        "Pipelines de agentes CrewAI/LangChain para automatización de flujos multi-dominio",
-        "Frontend Next.js + backend FastAPI con contenedores Docker",
-        "Despliegues en producción en Railway + Vercel con CI/CD sensible al entorno",
-        "Herramientas de agente configurables que permiten a usuarios no técnicos componer automatizaciones"
+        "Arquitectura Full Stack con Next.js, FastAPI, PostgreSQL y Docker",
+        "Pipelines inteligentes con CrewAI y LangChain",
+        "Herramientas configurables para crear agentes personalizados",
+        "Sistema preparado para m\u00FAltiples dominios de automatizaci\u00F3n",
+        "Despliegue automatizado con Railway, Vercel y GitHub Actions",
+        "Desaf\u00EDos superados: correcci\u00F3n de deploys Railway/Pyright, integraci\u00F3n frontend-backend, estandarizaci\u00F3n Docker, health checks"
       ],
       "clark": [
-        "Listas de pistas virtualizadas con react-window para rendimiento a 60fps",
-        "Gestión de playlists con arrastrar y soltar mediante dnd-kit",
-        "Gestión de sesiones con Redis + integración de autenticación por email con Resend",
-        "Enriquecimiento de metadatos con APIs de MusicBrainz, iTunes y Spotify"
+        "Reproductor completo para archivos de audio locales",
+        "Listas virtualizadas con react-window para grandes bibliotecas musicales",
+        "Gesti\u00F3n de playlists mediante drag-and-drop con dnd-kit",
+        "Sincronizaci\u00F3n de letras en modo karaoke",
+        "Enriquecimiento autom\u00E1tico de metadatos con MusicBrainz, Spotify, iTunes y Genius",
+        "Gesti\u00F3n de sesiones con Redis y autenticaci\u00F3n por email v\u00EDa Resend",
+        "Desaf\u00EDos superados: layout complejo con Zustand, virtualizaci\u00F3n de listas, integraci\u00F3n multi-API de metadatos"
       ],
       "facilit": [
-        "Agentes CrewAI + Z-API para atención inteligente de conversaciones de WhatsApp",
-        "Backend Flask con frontend mobile React Native (Expo)",
-        "Desarrollado para un cliente real del sector de electrodomésticos"
+        "Agentes inteligentes con CrewAI",
+        "Integraci\u00F3n completa con Z-API para comunicaci\u00F3n por WhatsApp",
+        "Backend desarrollado con Flask",
+        "App m\u00F3vil desarrollada con React Native (Expo)",
+        "Desaf\u00EDos superados: migraci\u00F3n Kivy \u2192 React Native, conflictos npm, reestructuraci\u00F3n de comunicaci\u00F3n frontend-backend-WhatsApp"
       ],
       "eude_ramos": [
-        "Portafolio responsivo de una sola página con diseño UI/UX moderno",
-        "Construido con Next.js y TypeScript para rendimiento optimizado",
-        "Optimizado para SEO con renderizado del lado del servidor y metadatos",
-        "Desplegado en Vercel con CI/CD mediante integración con GitHub"
+        "Interfaz moderna y totalmente responsive",
+        "Desarrollado con Next.js y TypeScript",
+        "Renderizado optimizado para rendimiento y SEO",
+        "Metadatos configurados para mejor indexaci\u00F3n en buscadores",
+        "Despliegue automatizado en Vercel con CI/CD de GitHub"
       ]
     },
     "taglines": {

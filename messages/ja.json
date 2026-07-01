@@ -49,31 +49,46 @@
     "view_code": "GitHub",
     "highlights": {
       "psi": [
-        "多段AIパイプライン: OCR \u2192 抽出 \u2192 7段階LLM分析 \u2192 5段階リスクスコア (0\u2013100)",
-        "FastAPI + クリーンアーキテクチャバックエンド (SQLAlchemy ORM + Alembic)",
-        "CrewAIによるマルチエージェント協調 \u2014 Gemini + DeepSeekオーケストレーション",
-        "フルCI/CD: GitHub Actions \u2192 Railway (API) + Vercel (フロントエンド)"
+        "多段階AIパイプライン: OCR → 抽出 → 7フェーズLLM分析 → リスクスコア (0–100)",
+        "FastAPI + Clean Architecture + SQLAlchemy + Alembicバックエンド",
+        "Gemini、DeepSeek、OpenAIをオーケストレーションするCrewAIマルチエージェントシステム",
+        "エージェント分析を文脈化するRAGシステム",
+        "Next.js + next-intlによる国際化フロントエンド",
+        "完全なCI/CD: GitHub Actions → Railway (API) + Vercel (フロントエンド)",
+        "DPIA文書とプライバシーポリシーによるLGPDコンプライアンス",
+        "解決した課題: モジュール化マルチエージェントパイプライン、NextAuth認証、堅牢なOCR、Sentry/Prometheus/Grafana/PostHogによる可観測性"
       ],
       "pytomatiza": [
-        "CrewAI/LangChainエージェントパイプラインによるマルチドメインワークフロー自動化",
-        "Next.jsフロントエンド + FastAPIバックエンド (Dockerコンテナ化)",
-        "Railway + Vercelへの本番デプロイ (環境別CI/CD対応)",
-        "非技術ユーザーでも自動化を組み立てられる設定可能なエージェントツール"
+        "Next.js、FastAPI、PostgreSQL、Dockerを使用したフルスタックアーキテクチャ",
+        "CrewAIとLangChainによるインテリジェントパイプライン",
+        "カスタムエージェント作成のための設定可能なツール",
+        "複数の自動化ドメインに対応したシステム",
+        "Railway、Vercel、GitHub Actionsによる自動デプロイ",
+        "解決した課題: Railway/Pyrightデプロイ修正、フロントエンド-バックエンド統合、Docker標準化、ヘルスチェック"
       ],
       "clark": [
-        "react-windowによる大規模トラックリストの仮想化で60fpsを実現",
-        "dnd-kitによるドラッグ＆ドロップのプレイリスト管理",
-        "Redisセッション管理 + Resendメール認証の統合",
-        "MusicBrainz、iTunes、Spotify APIによるメタデータ補完"
+        "ローカル音声ファイル用の完全なプレイヤー",
+        "大規模ライブラリ向けのreact-windowによる仮想化リスト",
+        "dnd-kitによるドラッグ＆ドロッププレイリスト管理",
+        "カラオケスタイルの歌詞同期",
+        "MusicBrainz、Spotify、iTunes、Geniusを使用した自動メタデータ拡張",
+        "Redisセッション管理 + Resendメール認証",
+        "解決した課題: Zustandによる複雑なレイアウト、リスト仮想化、マルチAPIメタデータ統合"
       ],
       "facilit": [
-        "CrewAIエージェント + Z-APIによるWhatsApp会話のインテリジェント処理",
-        "Flaskバックエンド + React Native (Expo) モバイルフロントエンド",
-        "実在の家電ビジネスクライアント向けに開発"
+        "CrewAIを使用したインテリジェントエージェント",
+        "WhatsApp通信のための完全なZ-API統合",
+        "Flaskで開発されたバックエンド",
+        "React Native (Expo)で開発されたモバイルアプリ",
+        "解決した課題: Kivy → React Native移行、npm依存関係の競合、フロントエンド-バックエンド-WhatsApp通信の再構築"
       ],
       "eude_ramos": [
-        "モダンなUI/UXデザインのレスポンシブ単一ページポートフォリオ",
-        "Next.jsとTypeScriptで構築し、最適なパフォーマンスを実現",
+        "モダンで完全にレスポンシブなインターフェース",
+        "Next.jsとTypeScriptで構築",
+        "パフォーマンス最適化されたレンダリングとSEO",
+        "検索エンジンインデックス向けにメタデータを設定",
+        "GitHub CI/CDによるVercelへの自動デプロイ"
+      ]
         "サーバーサイドレンダリングとメタデータでSEO最適化",
         "GitHub連携によるCI/CDでVercelにデプロイ"
       ]

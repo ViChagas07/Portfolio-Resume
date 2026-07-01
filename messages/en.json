@@ -49,33 +49,45 @@
     "view_code": "GitHub",
     "highlights": {
       "psi": [
-        "Multi-stage AI pipeline: OCR \u2192 extraction \u2192 7-phase LLM analysis \u2192 5-tier risk score (0\u2013100)",
+        "Multi-stage AI pipeline: OCR \u2192 extraction \u2192 7-phase LLM analysis \u2192 risk scoring (0\u2013100)",
         "FastAPI + Clean Architecture backend with SQLAlchemy ORM and Alembic",
-        "Multi-agent collaboration via CrewAI \u2014 Gemini + DeepSeek orchestration",
-        "Full CI/CD: GitHub Actions \u2192 Railway (API) + Vercel (frontend)"
+        "Multi-agent system using CrewAI orchestrating Gemini, DeepSeek, and OpenAI",
+        "RAG system for contextualizing agent analyses",
+        "Internationalized frontend using Next.js + next-intl",
+        "Full CI/CD: GitHub Actions \u2192 Railway (API) + Vercel (Frontend)",
+        "LGPD compliance through DPIA documentation and privacy policies",
+        "Challenges solved: modular multi-agent pipeline, NextAuth authentication, robust OCR, observability with Sentry/Prometheus/Grafana/PostHog"
       ],
       "pytomatiza": [
-        "CrewAI/LangChain agent pipelines for multi-domain workflow automation",
-        "Next.js frontend + FastAPI backend with Docker containerisation",
-        "Production deployments on Railway + Vercel with env-aware CI/CD",
-        "Configurable agent tools enabling non-technical users to compose automations"
+        "Full Stack architecture using Next.js, FastAPI, PostgreSQL, and Docker",
+        "Intelligent pipelines with CrewAI and LangChain",
+        "Configurable tools for creating custom agents",
+        "System ready for multiple automation domains",
+        "Automated deployment using Railway, Vercel, and GitHub Actions",
+        "Challenges solved: Railway/Pyright deploy fixes, frontend-backend integration, Docker standardization, health checks"
       ],
       "clark": [
-        "Virtualized large track lists with react-window for 60fps performance",
+        "Full-featured player for local audio files",
+        "Virtualized lists using react-window for large music libraries",
         "Drag-and-drop playlist management via dnd-kit",
-        "Redis session management + Resend email auth integration",
-        "MusicBrainz, iTunes & Spotify API metadata enrichment"
+        "Karaoke-style lyric synchronization",
+        "Automatic metadata enrichment using MusicBrainz, Spotify, iTunes, and Genius",
+        "Redis session management + Resend email authentication",
+        "Challenges solved: complex layout with Zustand, list virtualization, multi-API metadata integration"
       ],
       "facilit": [
-        "CrewAI agents + Z-API for intelligent WhatsApp conversation handling",
-        "Flask backend with React Native (Expo) mobile frontend",
-        "Built for a real home-appliance business client"
+        "Intelligent agents using CrewAI",
+        "Full Z-API integration for WhatsApp communication",
+        "Backend built with Flask",
+        "Mobile app built with React Native (Expo)",
+        "Challenges solved: Kivy \u2192 React Native migration, npm dependency conflicts, frontend-backend-WhatsApp communication restructuring"
       ],
       "eude_ramos": [
-        "Responsive single-page portfolio with modern UI/UX design",
-        "Built with Next.js and TypeScript for optimal performance",
-        "SEO-optimized with server-side rendering and metadata",
-        "Deployed on Vercel with CI/CD via GitHub integration"
+        "Modern and fully responsive interface",
+        "Built with Next.js and TypeScript",
+        "Performance-optimized rendering with SEO",
+        "Metadata configured for better search engine indexing",
+        "Automated deployment on Vercel with GitHub CI/CD"
       ]
     },
     "taglines": {

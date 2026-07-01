@@ -49,30 +49,46 @@
     "view_code": "GitHub",
     "highlights": {
       "psi": [
-        "多阶段 AI 流程：OCR \u2192 信息提取 \u2192 七阶段 LLM 分析 \u2192 五级风险评分 (0\u2013100)",
-        "FastAPI + 整洁架构后端，搭配 SQLAlchemy ORM 与 Alembic 数据迁移",
-        "通过 CrewAI 实现多智能体协作 \u2014 Gemini + DeepSeek 协同调度",
-        "完整 CI/CD：GitHub Actions \u2192 Railway (API) + Vercel (前端)"
+        "多阶段AI流程：OCR → 提取 → 七阶段LLM分析 → 风险评分 (0–100)",
+        "FastAPI + Clean Architecture后端，搭配SQLAlchemy ORM与Alembic",
+        "CrewAI多智能体系统，协调Gemini、DeepSeek与OpenAI",
+        "RAG系统为智能体分析提供上下文",
+        "Next.js + next-intl国际化前端",
+        "完整CI/CD：GitHub Actions → Railway (API) + Vercel (前端)",
+        "通过DPIA文档与隐私政策实现LGPD合规",
+        "已解决挑战：模块化多智能体流水线、NextAuth认证、稳健OCR、Sentry/Prometheus/Grafana/PostHog可观测性"
       ],
       "pytomatiza": [
-        "基于 CrewAI/LangChain 的智能体流水线，实现跨领域工作流自动化",
-        "Next.js 前端 + FastAPI 后端，Docker 容器化部署",
-        "通过环境感知 CI/CD 在 Railway + Vercel 上实现生产级部署",
-        "可配置的智能体工具，让非技术用户也能自由组合自动化流程"
+        "Next.js、FastAPI、PostgreSQL与Docker全栈架构",
+        "CrewAI与LangChain智能流水线",
+        "可配置工具用于创建自定义智能体",
+        "系统支持多个自动化领域",
+        "Railway、Vercel与GitHub Actions自动化部署",
+        "已解决挑战：Railway/Pyright部署修复、前后端集成、Docker标准化、健康检查"
       ],
       "clark": [
-        "使用 react-window 虚拟化大型曲目列表，实现 60fps 流畅性能",
-        "通过 dnd-kit 实现拖拽式播放列表管理",
-        "Redis 会话管理 + Resend 邮件认证集成",
-        "MusicBrainz、iTunes 及 Spotify API 元数据丰富"
+        "本地音频文件完整播放器",
+        "使用react-window虚拟化大型音乐库",
+        "dnd-kit拖拽式播放列表管理",
+        "卡拉OK风格歌词同步",
+        "MusicBrainz、Spotify、iTunes与Genius自动元数据丰富",
+        "Redis会话管理 + Resend邮件认证",
+        "已解决挑战：Zustand复杂布局、列表虚拟化、多API元数据集成"
       ],
       "facilit": [
-        "CrewAI智能体 + Z-API 实现WhatsApp对话智能处理",
-        "Flask后端 + React Native (Expo) 移动前端",
-        "为真实的家电企业客户开发"
+        "CrewAI智能代理",
+        "完整Z-API集成实现WhatsApp通信",
+        "Flask后端开发",
+        "React Native (Expo)移动应用开发",
+        "已解决挑战：Kivy → React Native迁移、npm依赖冲突、前后端WhatsApp通信重构"
       ],
       "eude_ramos": [
-        "具有现代UI/UX设计的响应式单页作品集",
+        "现代全响应式界面",
+        "Next.js与TypeScript构建",
+        "性能优化渲染与SEO",
+        "配置元数据以优化搜索引擎索引",
+        "GitHub CI/CD自动部署至Vercel"
+      ]
         "使用Next.js和TypeScript构建，性能优化",
         "通过服务端渲染和元数据实现SEO优化",
         "通过GitHub集成的CI/CD部署在Vercel上"

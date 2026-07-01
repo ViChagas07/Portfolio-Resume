@@ -49,33 +49,45 @@
     "view_code": "GitHub",
     "highlights": {
       "psi": [
-        "Mehrstufige KI-Pipeline: OCR \u2192 Extraktion \u2192 7-phasige LLM-Analyse \u2192 5-stufiger Risiko-Score (0\u2013100)",
-        "FastAPI + Clean-Architecture-Backend mit SQLAlchemy ORM und Alembic",
-        "Multi-Agenten-Zusammenarbeit via CrewAI \u2014 Gemini + DeepSeek Orchestrierung",
-        "Vollständige CI/CD: GitHub Actions \u2192 Railway (API) + Vercel (Frontend)"
+        "Mehrstufige KI-Pipeline: OCR \u2192 Extraktion \u2192 7-Phasen-LLM-Analyse \u2192 Risikobewertung (0\u2013100)",
+        "FastAPI + Clean Architecture Backend mit SQLAlchemy ORM und Alembic",
+        "Multi-Agenten-System mit CrewAI \u2013 Orchestrierung von Gemini, DeepSeek und OpenAI",
+        "RAG-System zur Kontextualisierung der Agentenanalysen",
+        "Internationalisiertes Frontend mit Next.js + next-intl",
+        "Vollst\u00E4ndige CI/CD: GitHub Actions \u2192 Railway (API) + Vercel (Frontend)",
+        "LGPD-Konformit\u00E4t durch DPIA-Dokumentation und Datenschutzrichtlinien",
+        "Gel\u00F6ste Herausforderungen: modulare Multi-Agenten-Pipeline, NextAuth-Authentifizierung, robustes OCR, Observability mit Sentry/Prometheus/Grafana/PostHog"
       ],
       "pytomatiza": [
-        "CrewAI/LangChain-Agenten-Pipelines für domänenübergreifende Workflow-Automatisierung",
-        "Next.js-Frontend + FastAPI-Backend mit Docker-Containerisierung",
-        "Produktions-Deployments auf Railway + Vercel mit umgebungsbewusster CI/CD",
-        "Konfigurierbare Agenten-Tools, mit denen auch nicht-technische Nutzer Automatisierungen zusammenstellen können"
+        "Full-Stack-Architektur mit Next.js, FastAPI, PostgreSQL und Docker",
+        "Intelligente Pipelines mit CrewAI und LangChain",
+        "Konfigurierbare Werkzeuge zur Erstellung benutzerdefinierter Agenten",
+        "System bereit f\u00FCr mehrere Automatisierungsdom\u00E4nen",
+        "Automatisiertes Deployment mit Railway, Vercel und GitHub Actions",
+        "Gel\u00F6ste Herausforderungen: Railway/Pyright-Deploy-Korrekturen, Frontend-Backend-Integration, Docker-Standardisierung, Health Checks"
       ],
       "clark": [
-        "Virtualisierte große Track-Listen mit react-window für 60fps-Performance",
-        "Drag-and-Drop-Playlist-Verwaltung via dnd-kit",
-        "Redis-Sitzungsverwaltung + Resend-E-Mail-Auth-Integration",
-        "MusicBrainz-, iTunes- & Spotify-API-Metadatenanreicherung"
+        "Vollst\u00E4ndiger Player f\u00FCr lokale Audiodateien",
+        "Virtualisierte Listen mit react-window f\u00FCr gro\u00DFe Musikbibliotheken",
+        "Drag-and-Drop-Playlist-Verwaltung mit dnd-kit",
+        "Karaoke-Style-Textsynchronisation",
+        "Automatische Metadatenanreicherung mit MusicBrainz, Spotify, iTunes und Genius",
+        "Redis-Sitzungsverwaltung + Resend-E-Mail-Authentifizierung",
+        "Gel\u00F6ste Herausforderungen: komplexes Layout mit Zustand, Listenvirtualisierung, Multi-API-Metadatenintegration"
       ],
       "facilit": [
-        "CrewAI-Agenten + Z-API für intelligente WhatsApp-Konversationsbearbeitung",
-        "Flask-Backend mit React Native (Expo) Mobile-Frontend",
-        "Entwickelt für einen echten Kunden aus der Haushaltsgerätebranche"
+        "Intelligente Agenten mit CrewAI",
+        "Vollst\u00E4ndige Z-API-Integration f\u00FCr WhatsApp-Kommunikation",
+        "Backend entwickelt mit Flask",
+        "Mobile App entwickelt mit React Native (Expo)",
+        "Gel\u00F6ste Herausforderungen: Kivy \u2192 React Native Migration, npm-Abh\u00E4ngigkeitskonflikte, Neustrukturierung der Frontend-Backend-WhatsApp-Kommunikation"
       ],
       "eude_ramos": [
-        "Responsives einseitiges Portfolio mit modernem UI/UX-Design",
-        "Erstellt mit Next.js und TypeScript für optimale Leistung",
-        "SEO-optimiert mit Server-Side Rendering und Metadaten",
-        "Bereitgestellt auf Vercel mit CI/CD über GitHub-Integration"
+        "Moderne und vollst\u00E4ndig responsive Oberfl\u00E4che",
+        "Entwickelt mit Next.js und TypeScript",
+        "Leistungsoptimiertes Rendering mit SEO",
+        "Metadaten f\u00FCr bessere Suchmaschinenindexierung konfiguriert",
+        "Automatisiertes Deployment auf Vercel mit GitHub CI/CD"
       ]
     },
     "taglines": {
