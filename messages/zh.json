@@ -89,10 +89,6 @@
         "配置元数据以优化搜索引擎索引",
         "GitHub CI/CD自动部署至Vercel"
       ]
-        "使用Next.js和TypeScript构建，性能优化",
-        "通过服务端渲染和元数据实现SEO优化",
-        "通过GitHub集成的CI/CD部署在Vercel上"
-      ]
     },
     "taglines": {
       "psi": "AI驱动的支付欺诈检测SaaS",
