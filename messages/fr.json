@@ -56,7 +56,11 @@
         "Frontend internationalis\u00E9 avec Next.js + next-intl",
         "CI/CD complet : GitHub Actions \u2192 Railway (API) + Vercel (Frontend)",
         "Conformit\u00E9 LGPD avec documentation DPIA et politiques de confidentialit\u00E9",
-        "D\u00E9fis relev\u00E9s : pipeline multi-agent modulaire, authentification NextAuth, OCR robuste, observabilit\u00E9 avec Sentry/Prometheus/Grafana/PostHog"
+        "Restructur\u00E9 le pipeline d'analyse pour une communication inter-agents plus fiable et modulaire",
+        "Corrig\u00E9 des probl\u00E8mes critiques d'authentification NextAuth, persistance de session et middleware App Router",
+        "R\u00E9solu les incoh\u00E9rences d'OCR et d'extraction de documents, am\u00E9liorant la qualit\u00E9 des analyses",
+        "Refactoris\u00E9 l'infrastructure de d\u00E9ploiement et les variables d'environnement pour Railway, Vercel et Cloudflare",
+        "Impl\u00E9ment\u00E9 l'observabilit\u00E9 avec Sentry, Prometheus, Grafana et PostHog pour le monitoring en production"
       ],
       "pytomatiza": [
         "Architecture Full Stack avec Next.js, FastAPI, PostgreSQL et Docker",
@@ -64,7 +68,11 @@
         "Outils configurables pour cr\u00E9er des agents personnalis\u00E9s",
         "Syst\u00E8me pr\u00EAt pour de multiples domaines d'automatisation",
         "D\u00E9ploiement automatis\u00E9 avec Railway, Vercel et GitHub Actions",
-        "D\u00E9fis relev\u00E9s : correction d\u00E9ploiements Railway/Pyright, int\u00E9gration frontend-backend, standardisation Docker, health checks"
+        "Corrig\u00E9 les probl\u00E8mes de d\u00E9ploiement Railway, y compris les blocages li\u00E9s \u00E0 Pyright",
+        "R\u00E9solu les \u00E9checs d'int\u00E9gration frontend-backend dus \u00E0 des configurations d'endpoints incorrectes",
+        "Refactoris\u00E9 le flux d'authentification et la communication inter-services pour am\u00E9liorer la stabilit\u00E9",
+        "Standardis\u00E9 l'infrastructure Docker pour la coh\u00E9rence entre d\u00E9veloppement local et production",
+        "Ajust\u00E9 les health checks, variables d'environnement et configuration des agents pour des d\u00E9ploiements fiables"
       ],
       "clark": [
         "Lecteur complet pour fichiers audio locaux",
@@ -73,14 +81,21 @@
         "Synchronisation des paroles en mode karaok\u00E9",
         "Enrichissement automatique des m\u00E9tadonn\u00E9es avec MusicBrainz, Spotify, iTunes et Genius",
         "Gestion de session avec Redis et authentification email via Resend",
-        "D\u00E9fis relev\u00E9s : layout complexe avec Zustand, virtualisation de listes, int\u00E9gration multi-API de m\u00E9tadonn\u00E9es"
+        "R\u00E9solu les conflits complexes de layout avec Sidebar, PlayerBar et composants superpos\u00E9s via Zustand",
+        "Refactoris\u00E9 l'architecture d'\u00E9tat partag\u00E9 pour \u00E9liminer les incoh\u00E9rences dans l'application",
+        "Optimis\u00E9 les performances avec la virtualisation de listes pour grandes biblioth\u00E8ques musicales",
+        "Int\u00E9gr\u00E9 de multiples APIs de m\u00E9tadonn\u00E9es cr\u00E9ant une couche unifi\u00E9e d'enrichissement automatique",
+        "Ajust\u00E9 la gestion des sessions et l'authentification avec Redis et Resend"
       ],
       "facilit": [
         "Agents intelligents avec CrewAI",
         "Int\u00E9gration compl\u00E8te avec Z-API pour communication WhatsApp",
         "Backend d\u00E9velopp\u00E9 avec Flask",
         "Application mobile d\u00E9velopp\u00E9e avec React Native (Expo)",
-        "D\u00E9fis relev\u00E9s : migration Kivy \u2192 React Native, conflits npm, restructuration communication frontend-backend-WhatsApp"
+        "Migr\u00E9 compl\u00E8tement le frontend de Kivy vers React Native (Expo)",
+        "R\u00E9solu les conflits complexes de d\u00E9pendances de l'\u00E9cosyst\u00E8me npm lors de la migration",
+        "Restructur\u00E9 la communication frontend-backend-WhatsApp pour la stabilit\u00E9 du service automatis\u00E9",
+        "Refactoris\u00E9 le flux d'agents pour produire des r\u00E9ponses plus organis\u00E9es et coh\u00E9rentes"
       ],
       "eude_ramos": [
         "Interface moderne et enti\u00E8rement responsive",

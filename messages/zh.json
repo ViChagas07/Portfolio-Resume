@@ -56,7 +56,11 @@
         "Next.js + next-intl国际化前端",
         "完整CI/CD：GitHub Actions → Railway (API) + Vercel (前端)",
         "通过DPIA文档与隐私政策实现LGPD合规",
-        "已解决挑战：模块化多智能体流水线、NextAuth认证、稳健OCR、Sentry/Prometheus/Grafana/PostHog可观测性"
+        "重构分析流水线，使智能体间通信更可靠和模块化",
+        "修复了NextAuth认证、会话持久化和App Router中间件的关键问题",
+        "解决了OCR和文档提取的不一致性，提高了分析质量",
+        "重构了Railway、Vercel和Cloudflare之间的部署基础设施和环境变量",
+        "使用Sentry、Prometheus、Grafana和PostHog实现了生产环境可观测性"
       ],
       "pytomatiza": [
         "Next.js、FastAPI、PostgreSQL与Docker全栈架构",
@@ -64,7 +68,11 @@
         "可配置工具用于创建自定义智能体",
         "系统支持多个自动化领域",
         "Railway、Vercel与GitHub Actions自动化部署",
-        "已解决挑战：Railway/Pyright部署修复、前后端集成、Docker标准化、健康检查"
+        "修复了Railway部署问题，包括Pyright导致的构建阻塞",
+        "解决了因端点配置错误导致的前后端集成失败",
+        "重构了认证流程和服务间通信以提高稳定性",
+        "标准化Docker基础设施，确保本地开发与生产环境一致",
+        "调整了健康检查、环境变量和智能体配置以实现可靠部署"
       ],
       "clark": [
         "本地音频文件完整播放器",
@@ -73,14 +81,21 @@
         "卡拉OK风格歌词同步",
         "MusicBrainz、Spotify、iTunes与Genius自动元数据丰富",
         "Redis会话管理 + Resend邮件认证",
-        "已解决挑战：Zustand复杂布局、列表虚拟化、多API元数据集成"
+        "使用Zustand解决了Sidebar、PlayerBar和重叠组件的复杂布局冲突",
+        "重构共享状态架构，消除应用程序中的不一致性",
+        "通过列表虚拟化优化大型音乐库的渲染性能",
+        "集成多个元数据API，创建统一的自动丰富层",
+        "调整了使用Redis和Resend的会话管理和认证问题"
       ],
       "facilit": [
         "CrewAI智能代理",
         "完整Z-API集成实现WhatsApp通信",
         "Flask后端开发",
         "React Native (Expo)移动应用开发",
-        "已解决挑战：Kivy → React Native迁移、npm依赖冲突、前后端WhatsApp通信重构"
+        "将前端从Kivy完全迁移至React Native (Expo)",
+        "解决了迁移过程中复杂的npm生态系统依赖冲突",
+        "重构了前后端WhatsApp通信以确保自动化服务稳定性",
+        "重构智能体流程以产生更有条理和一致的对话响应"
       ],
       "eude_ramos": [
         "现代全响应式界面",

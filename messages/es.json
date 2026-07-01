@@ -56,7 +56,11 @@
         "Frontend internacionalizado con Next.js + next-intl",
         "CI/CD completo: GitHub Actions \u2192 Railway (API) + Vercel (Frontend)",
         "Conformidad LGPD con documentaci\u00F3n DPIA y pol\u00EDticas de privacidad",
-        "Desaf\u00EDos superados: pipeline multiagente modular, autenticaci\u00F3n NextAuth, OCR robusto, observabilidad con Sentry/Prometheus/Grafana/PostHog"
+        "Reestructur\u00E9 el pipeline de an\u00E1lisis para una comunicaci\u00F3n entre agentes m\u00E1s fiable y modular",
+        "Correg\u00ED problemas cr\u00EDticos de autenticaci\u00F3n NextAuth, persistencia de sesi\u00F3n y middleware en App Router",
+        "Resolv\u00ED inconsistencias de OCR y extracci\u00F3n de documentos, mejorando la calidad de los an\u00E1lisis",
+        "Refactoriz\u00E9 la infraestructura de despliegue y variables de entorno para estabilidad entre Railway, Vercel y Cloudflare",
+        "Implement\u00E9 observabilidad con Sentry, Prometheus, Grafana y PostHog para monitoreo en producci\u00F3n"
       ],
       "pytomatiza": [
         "Arquitectura Full Stack con Next.js, FastAPI, PostgreSQL y Docker",
@@ -64,7 +68,11 @@
         "Herramientas configurables para crear agentes personalizados",
         "Sistema preparado para m\u00FAltiples dominios de automatizaci\u00F3n",
         "Despliegue automatizado con Railway, Vercel y GitHub Actions",
-        "Desaf\u00EDos superados: correcci\u00F3n de deploys Railway/Pyright, integraci\u00F3n frontend-backend, estandarizaci\u00F3n Docker, health checks"
+        "Correg\u00ED problemas de despliegue en Railway, incluyendo bloqueos por errores de Pyright",
+        "Resolv\u00ED fallos de integraci\u00F3n frontend-backend por configuraciones incorrectas de endpoints",
+        "Refactoriz\u00E9 el flujo de autenticaci\u00F3n y comunicaci\u00F3n entre servicios para mejorar la estabilidad",
+        "Estandaric\u00E9 la infraestructura Docker para consistencia entre desarrollo local y producci\u00F3n",
+        "Ajust\u00E9 health checks, variables de entorno y configuraci\u00F3n de agentes para despliegues fiables"
       ],
       "clark": [
         "Reproductor completo para archivos de audio locales",
@@ -73,14 +81,21 @@
         "Sincronizaci\u00F3n de letras en modo karaoke",
         "Enriquecimiento autom\u00E1tico de metadatos con MusicBrainz, Spotify, iTunes y Genius",
         "Gesti\u00F3n de sesiones con Redis y autenticaci\u00F3n por email v\u00EDa Resend",
-        "Desaf\u00EDos superados: layout complejo con Zustand, virtualizaci\u00F3n de listas, integraci\u00F3n multi-API de metadatos"
+        "Resolv\u00ED conflictos complejos de layout con Sidebar, PlayerBar y componentes superpuestos usando Zustand",
+        "Refactoriz\u00E9 la arquitectura de estados compartidos para eliminar inconsistencias en la aplicaci\u00F3n",
+        "Optimiz\u00E9 el rendimiento con virtualizaci\u00F3n de listas para grandes bibliotecas musicales sin p\u00E9rdida de fluidez",
+        "Integr\u00E9 m\u00FAltiples APIs de metadatos creando una capa unificada para enriquecimiento autom\u00E1tico",
+        "Ajust\u00E9 la gesti\u00F3n de sesiones y autenticaci\u00F3n utilizando Redis y Resend"
       ],
       "facilit": [
         "Agentes inteligentes con CrewAI",
         "Integraci\u00F3n completa con Z-API para comunicaci\u00F3n por WhatsApp",
         "Backend desarrollado con Flask",
         "App m\u00F3vil desarrollada con React Native (Expo)",
-        "Desaf\u00EDos superados: migraci\u00F3n Kivy \u2192 React Native, conflictos npm, reestructuraci\u00F3n de comunicaci\u00F3n frontend-backend-WhatsApp"
+        "Migr\u00E9 completamente el frontend de Kivy a React Native (Expo)",
+        "Resolv\u00ED conflictos complejos de dependencias del ecosistema npm durante la migraci\u00F3n",
+        "Reestructur\u00E9 la comunicaci\u00F3n entre frontend, backend y WhatsApp para estabilidad en el servicio",
+        "Refactoriz\u00E9 el flujo de agentes para producir respuestas m\u00E1s organizadas y consistentes"
       ],
       "eude_ramos": [
         "Interfaz moderna y totalmente responsive",

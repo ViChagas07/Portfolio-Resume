@@ -56,7 +56,11 @@
         "Frontend internacionalizado utilizando Next.js + next-intl",
         "CI/CD completo com GitHub Actions \u2192 Railway (API) + Vercel (Frontend)",
         "Conformidade com LGPD atrav\u00E9s de documenta\u00E7\u00E3o DPIA e pol\u00EDticas de privacidade",
-        "Desafios superados: pipeline multiagente modular, autentica\u00E7\u00E3o NextAuth, OCR robusto, observabilidade com Sentry/Prometheus/Grafana/PostHog"
+        "Reestruturei o pipeline de an\u00E1lise para tornar a comunica\u00E7\u00E3o entre agentes mais confi\u00E1vel e modular",
+        "Corrigi problemas cr\u00EDticos de autentica\u00E7\u00E3o com NextAuth, persist\u00EAncia de sess\u00E3o e middleware no App Router do Next.js",
+        "Solucionei inconsist\u00EAncias de OCR e extra\u00E7\u00E3o de documentos, aumentando a qualidade das an\u00E1lises",
+        "Refatorei a infraestrutura de deploy e vari\u00E1veis de ambiente para estabilidade entre Railway, Vercel e Cloudflare",
+        "Implementei observabilidade com Sentry, Prometheus, Grafana e PostHog para monitoramento em produ\u00E7\u00E3o"
       ],
       "pytomatiza": [
         "Arquitetura Full Stack utilizando Next.js, FastAPI, PostgreSQL e Docker",
@@ -64,23 +68,34 @@
         "Ferramentas configur\u00E1veis para cria\u00E7\u00E3o de agentes personalizados",
         "Sistema preparado para m\u00FAltiplos dom\u00EDnios de automa\u00E7\u00E3o",
         "Deploy automatizado utilizando Railway, Vercel e GitHub Actions",
-        "Desafios superados: corre\u00E7\u00E3o de deploys Railway/Pyright, integra\u00E7\u00E3o frontend-backend, padroniza\u00E7\u00E3o Docker, health checks"
+        "Corrigi problemas de deploy no Railway, incluindo bloqueios por erros do Pyright",
+        "Resolvi falhas de integra\u00E7\u00E3o entre frontend e backend por configura\u00E7\u00F5es incorretas de endpoints",
+        "Refatorei o fluxo de autentica\u00E7\u00E3o e comunica\u00E7\u00E3o entre servi\u00E7os para melhorar a estabilidade",
+        "Padronizei a infraestrutura Docker para consist\u00EAncia entre desenvolvimento local e produ\u00E7\u00E3o",
+        "Ajustei health checks, vari\u00E1veis de ambiente e configura\u00E7\u00E3o dos agentes para deploys confi\u00E1veis"
       ],
       "clark": [
         "Player completo para arquivos de \u00E1udio locais",
         "Listas virtualizadas utilizando react-window para grandes bibliotecas musicais",
         "Gerenciamento de playlists atrav\u00E9s de drag-and-drop com dnd-kit",
         "Sincroniza\u00E7\u00E3o de letras em modo karaok\u00EA",
-        "Enriquecimento autom\u00E1tico de metadados utilizando MusicBrainz, Spotify, iTunes e Genius",
+        "Enriquecimento autom\u00E1tico de metadados com MusicBrainz, Spotify, iTunes e Genius",
         "Gerenciamento de sess\u00E3o com Redis e autentica\u00E7\u00E3o por e-mail via Resend",
-        "Desafios superados: layout complexo com Zustand, virtualiza\u00E7\u00E3o de listas, integra\u00E7\u00E3o de m\u00FAltiplas APIs de metadados"
+        "Resolvi conflitos complexos de layout com Sidebar, PlayerBar e componentes sobrepostos usando Zustand",
+        "Refatorei a arquitetura de estados compartilhados para eliminar inconsist\u00EAncias na aplica\u00E7\u00E3o",
+        "Otimizei o desempenho com virtualiza\u00E7\u00E3o de listas para grandes bibliotecas musicais sem perda de fluidez",
+        "Integrei m\u00FAltiplas APIs de metadados criando camada unificada para enriquecimento autom\u00E1tico",
+        "Ajustei o gerenciamento de sess\u00F5es e autentica\u00E7\u00E3o utilizando Redis e Resend"
       ],
       "facilit": [
         "Agentes inteligentes utilizando CrewAI",
         "Integra\u00E7\u00E3o completa com Z-API para comunica\u00E7\u00E3o via WhatsApp",
         "Backend desenvolvido em Flask",
         "Aplicativo mobile desenvolvido em React Native (Expo)",
-        "Desafios superados: migra\u00E7\u00E3o Kivy \u2192 React Native, conflitos npm, reestrutura\u00E7\u00E3o da comunica\u00E7\u00E3o frontend-backend-WhatsApp"
+        "Migrei completamente o frontend de Kivy para React Native (Expo)",
+        "Resolvi conflitos complexos de depend\u00EAncias do ecossistema npm durante a migra\u00E7\u00E3o",
+        "Reestruturei a comunica\u00E7\u00E3o entre frontend, backend e WhatsApp para estabilidade no atendimento",
+        "Refatorei o fluxo dos agentes para produzir respostas mais organizadas e consistentes"
       ],
       "eude_ramos": [
         "Interface moderna e totalmente responsiva",

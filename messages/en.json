@@ -56,7 +56,11 @@
         "Internationalized frontend using Next.js + next-intl",
         "Full CI/CD: GitHub Actions \u2192 Railway (API) + Vercel (Frontend)",
         "LGPD compliance through DPIA documentation and privacy policies",
-        "Challenges solved: modular multi-agent pipeline, NextAuth authentication, robust OCR, observability with Sentry/Prometheus/Grafana/PostHog"
+        "Restructured the analysis pipeline making inter-agent communication more reliable and modular",
+        "Fixed critical NextAuth authentication, session persistence, and App Router middleware issues",
+        "Resolved OCR and document extraction inconsistencies, improving analysis quality",
+        "Refactored deployment infrastructure and environment variables across Railway, Vercel, and Cloudflare",
+        "Implemented observability with Sentry, Prometheus, Grafana, and PostHog for production monitoring"
       ],
       "pytomatiza": [
         "Full Stack architecture using Next.js, FastAPI, PostgreSQL, and Docker",
@@ -64,7 +68,11 @@
         "Configurable tools for creating custom agents",
         "System ready for multiple automation domains",
         "Automated deployment using Railway, Vercel, and GitHub Actions",
-        "Challenges solved: Railway/Pyright deploy fixes, frontend-backend integration, Docker standardization, health checks"
+        "Fixed Railway deployment issues, including Pyright-related build blocks",
+        "Resolved frontend-backend integration failures caused by incorrect endpoint configurations",
+        "Refactored authentication flow and inter-service communication for improved stability",
+        "Standardized Docker infrastructure for consistency between local development and production",
+        "Adjusted health checks, environment variables, and agent configurations for reliable deployments"
       ],
       "clark": [
         "Full-featured player for local audio files",
@@ -73,14 +81,21 @@
         "Karaoke-style lyric synchronization",
         "Automatic metadata enrichment using MusicBrainz, Spotify, iTunes, and Genius",
         "Redis session management + Resend email authentication",
-        "Challenges solved: complex layout with Zustand, list virtualization, multi-API metadata integration"
+        "Resolved complex layout conflicts with Sidebar, PlayerBar, and overlapping components using Zustand",
+        "Refactored shared state architecture to eliminate inconsistencies across application areas",
+        "Optimized rendering performance through list virtualization for large music libraries",
+        "Integrated multiple metadata APIs creating a unified enrichment layer for track information",
+        "Adjusted session management and authentication issues using Redis and Resend"
       ],
       "facilit": [
         "Intelligent agents using CrewAI",
         "Full Z-API integration for WhatsApp communication",
         "Backend built with Flask",
         "Mobile app built with React Native (Expo)",
-        "Challenges solved: Kivy \u2192 React Native migration, npm dependency conflicts, frontend-backend-WhatsApp communication restructuring"
+        "Completely migrated the frontend from Kivy to React Native (Expo)",
+        "Resolved complex npm ecosystem dependency conflicts during migration",
+        "Restructured frontend-backend-WhatsApp communication for automated service stability",
+        "Refactored agent flow to produce more organized and consistent conversation responses"
       ],
       "eude_ramos": [
         "Modern and fully responsive interface",
