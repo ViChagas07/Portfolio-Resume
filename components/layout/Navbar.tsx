@@ -126,7 +126,7 @@ export function Navbar() {
             />
             <span className="relative flex h-[34px] w-[34px] items-center justify-center overflow-hidden rounded-full">
               <Image
-                src="/nav-logo.jpg"
+                src="/nav-logo.png"
                 alt="Alisson Davi"
                 fill
                 sizes="34px"
