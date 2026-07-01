@@ -44,7 +44,7 @@ export function About() {
                 alt="Alisson Davi"
                 fill
                 sizes="(max-width: 768px) 224px, 256px"
-                className="object-cover"
+                className="object-cover object-[center_20%]"
               />
             </span>
           </div>
