@@ -85,7 +85,8 @@
         "Refactoriz\u00E9 la arquitectura de estados compartidos para eliminar inconsistencias en la aplicaci\u00F3n",
         "Optimiz\u00E9 el rendimiento con virtualizaci\u00F3n de listas para grandes bibliotecas musicales sin p\u00E9rdida de fluidez",
         "Integr\u00E9 m\u00FAltiples APIs de metadatos creando una capa unificada para enriquecimiento autom\u00E1tico",
-        "Ajust\u00E9 la gesti\u00F3n de sesiones y autenticaci\u00F3n utilizando Redis y Resend"
+        "Ajust\u00E9 la gesti\u00F3n de sesiones y autenticaci\u00F3n utilizando Redis y Resend",
+        "Gener\u00E9 tr\u00E1fico de usuarios con UpTimeRobot, evitando que el servidor de deploy del backend quedara inactivo y causara errores y retrasos en la recuperaci\u00F3n de cat\u00E1logos en la app"
       ],
       "facilit": [
         "Agentes inteligentes con CrewAI",

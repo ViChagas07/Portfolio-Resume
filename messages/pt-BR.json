@@ -85,7 +85,8 @@
         "Refatorei a arquitetura de estados compartilhados para eliminar inconsist\u00EAncias na aplica\u00E7\u00E3o",
         "Otimizei o desempenho com virtualiza\u00E7\u00E3o de listas para grandes bibliotecas musicais sem perda de fluidez",
         "Integrei m\u00FAltiplas APIs de metadados criando camada unificada para enriquecimento autom\u00E1tico",
-        "Ajustei o gerenciamento de sess\u00F5es e autentica\u00E7\u00E3o utilizando Redis e Resend"
+        "Ajustei o gerenciamento de sess\u00F5es e autentica\u00E7\u00E3o utilizando Redis e Resend",
+        "Criei tr\u00E1fego de usu\u00E1rios com UpTimeRobot, evitando que o servidor de deploy do back-end ficasse inoperante e causasse erros e delay no retorno de cat\u00E1logos no app"
       ],
       "facilit": [
         "Agentes inteligentes utilizando CrewAI",
