@@ -1,187 +1,187 @@
-{
-  "nav": {
-    "about": "About",
-    "skills": "Skills",
-    "projects": "Projects",
-    "experience": "Experience",
-    "contact": "Contact",
-    "skipToContent": "Skip to main content",
-    "languageLabel": "Change language, current: English"
-  },
-  "hero": {
-    "name": "Alisson Davi",
-    "subtitle": "AI Systems & Fullstack Engineer",
-    "location": "Salvador, BA \uD83C\uDDE7\uD83C\uDDF7 \u00B7 Remote Worldwide",
-    "cta_projects": "View Projects",
-    "cta_resume": "Download Resume",
-    "scroll_down": "Scroll down",
-    "typing_words": [
-      "Multi-Agent AI Systems",
-      "Python \u00B7 FastAPI \u00B7 CrewAI",
-      "Next.js \u00B7 TypeScript",
-      "Clean Architecture"
-    ]
-  },
-  "about": {
-    "title": "About Me",
-    "p1": "Self-taught Mid-Level Full-stack Engineer with hands-on experience designing and delivering production-grade SaaS applications from the ground up, skilled in backend, frontend, cloud infrastructure, AI-powered systems, authentication, observability, asynchronous processing, and CI/CD. Comfortable across the entire stack \u2014 building async Python/FastAPI backends with Clean Architecture, React/Next.js frontends, PostgreSQL data models, Redis caching layers, and cloud deployments on AWS/Vercel/Railway. Recently focused on integrating LLM-powered agents (LangChain, CrewAI) into real products, including a fraud-detection pipeline and a multi-tenant intelligent automation platform. Currently seeking an international remote role where I can make a meaningful contribution to a fast-moving team and keep growing.",
-    "p2": "",
-    "p3": ""
-  },
-  "skills": {
-    "title": "Technical Arsenal",
-    "categories": {
-      "languages": "Languages",
-      "frontend": "Frontend",
-      "backend": "Backend",
-      "architecture": "Architecture",
-      "ai": "AI / Agents",
-      "databases": "Databases",
-      "devops": "DevOps / Cloud",
-      "monitoring": "Monitoring & Observability",
-      "testing": "For Testing",
-      "tools": "Tools"
-    }
-  },
-  "projects": {
-    "title": "Featured Projects",
-    "live_demo": "Live Demo",
-    "view_code": "GitHub",
-    "highlights": {
-      "psi": [
-        "4-stage AI fraud detection pipeline processing real financial documents in production",
-        "Multi-agent system with CrewAI — Gemini, DeepSeek & OpenAI orchestration with skeptical-by-default design",
-        "3-method PDF extraction cascade (PyMuPDF primary) for maximum document coverage",
-        "5-tier risk classification (0–100) with explainable scoring",
-        "FastAPI + Clean Architecture + PostgreSQL + Alembic — scalable, auditable backend",
-        "RAG system for legal contextualization of agent analyses",
-        "Internationalized frontend with Next.js + next-intl + full CI/CD",
-        "LGPD compliance through DPIA documentation and privacy policies",
-        "Restructured multi-agent pipeline for reliable, modular inter-agent communication",
-        "NextAuth authentication with session persistence and App Router middleware",
-        "Fixed OCR and extraction inconsistencies — significantly improved analysis quality",
-        "Full observability with Sentry, Prometheus, Grafana, and PostHog in production"
-      ],
-      "pytomatiza": [
-        "Full Stack architecture using Next.js, FastAPI, PostgreSQL, and Docker",
-        "Intelligent pipelines with CrewAI and LangChain",
-        "Configurable tools for creating custom agents",
-        "System ready for multiple automation domains",
-        "Automated deployment using Railway, Vercel, and GitHub Actions",
-        "Fixed Railway deployment issues, including Pyright-related build blocks",
-        "Resolved frontend-backend integration failures caused by incorrect endpoint configurations",
-        "Refactored authentication flow and inter-service communication for improved stability",
-        "Standardized Docker infrastructure for consistency between local development and production",
-        "Adjusted health checks, environment variables, and agent configurations for reliable deployments"
-      ],
-      "clark": [
-        "Full-featured player for local audio files",
-        "Virtualized lists using react-window for large music libraries",
-        "Drag-and-drop playlist management via dnd-kit",
-        "Karaoke-style lyric synchronization",
-        "Automatic metadata enrichment using MusicBrainz, Spotify, iTunes, and Genius",
-        "Redis session management + Resend email authentication",
-        "Resolved complex layout conflicts with Sidebar, PlayerBar, and overlapping components using Zustand",
-        "Refactored shared state architecture to eliminate inconsistencies across application areas",
-        "Optimized rendering performance through list virtualization for large music libraries",
-        "Integrated multiple metadata APIs creating a unified enrichment layer for track information",
-        "Adjusted session management and authentication issues using Redis and Resend",
-        "Created user traffic with UpTimeRobot, preventing the backend deploy server from going idle and causing errors and delays in catalog retrieval within the app"
-      ],
-      "facilit": [
-        "Intelligent agents using CrewAI",
-        "Full Z-API integration for WhatsApp communication",
-        "Backend built with Flask",
-        "Mobile app built with React Native (Expo)",
-        "Completely migrated the frontend from Kivy to React Native (Expo)",
-        "Resolved complex npm ecosystem dependency conflicts during migration",
-        "Restructured frontend-backend-WhatsApp communication for automated service stability",
-        "Refactored agent flow to produce more organized and consistent conversation responses"
-      ],
-      "eude_ramos": [
-        "Modern and fully responsive interface",
-        "Built with Next.js and TypeScript",
-        "Performance-optimized rendering with SEO",
-        "Metadata configured for better search engine indexing",
-        "Automated deployment on Vercel with GitHub CI/CD"
-      ]
-    },
-    "taglines": {
-      "psi": "Production Multi-Agent Fraud Detection Pipeline",
-      "pytomatiza": "Intelligent Automation Platform with AI Agents",
-      "clark": "Superman-Themed Full-Featured Music Player",
-      "facilit": "WhatsApp AI Customer Service Automation",
-      "eude_ramos": "Professional Portfolio Website for Social Worker"
-    }
-  },
-  "experience": {
-    "title": "Experience",
-    "education_title": "Education & Certifications",
-    "freelance": {
-      "title": "Full-stack Software Engineer",
-      "subtitle": "Solo / Freelance",
-      "period": "2024 \u2013 Present"
-    },
-    "it_intern": {
-      "title": "IT Support Intern",
-      "subtitle": "Col\u00E9gio G\u00F3es Calmon",
-      "period": "2023 \u2013 2024"
-    }
-  },
-  "certifications": {
-    "title": "Certifications",
-    "js_ts": {
-      "name": "JavaScript & TypeScript Beginner \u2192 Advanced",
-      "issuer": "Udemy",
-      "hours": "146h",
-      "year": "2024"
-    },
-    "python": {
-      "name": "Python 3 Beginner \u2192 Advanced",
-      "issuer": "Udemy",
-      "hours": "141h",
-      "year": "2025"
-    },
-    "git": {
-      "name": "Git & GitHub Beginner \u2192 Advanced",
-      "issuer": "Udemy",
-      "hours": "19h",
-      "year": "2025"
-    },
-    "excel": {
-      "name": "Excel Complete",
-      "issuer": "Udemy",
-      "hours": "28h",
-      "year": "2025"
-    },
-    "technical_diploma": {
-      "name": "Technical Diploma in Computer Science",
-      "issuer": "ICEIA",
-      "hours": "6 semesters",
-      "year": "2023"
-    },
-    "bsc": {
-      "name": "BSc Software Engineering",
-      "issuer": "UNIJORGE",
-      "hours": "8 semesters",
-      "year": "2024 \u2013 Present"
-    },
-    "english": {
-      "name": "English B2",
-      "issuer": "CCAA",
-      "hours": "11 semesters",
-      "year": "2024"
-    }
-  },
-  "contact": {
-    "title": "Let's Build Something Together!",
-    "subtitle": "Open to international remote opportunities",
-    "github": "GitHub",
-    "linkedin": "LinkedIn",
-    "instagram": "Instagram",
-    "whatsapp": "WhatsApp",
-    "email": "alissonchagas986@gmail.com",
-    "location": "Salvador, Bahia \uD83C\uDDE7\uD83C\uDDF7",
-    "footer": "Built with Next.js \u00B7 Deployed on Vercel \u00B7 \u00A9 2025 Alisson Davi"
-  }
+﻿{
+    "nav":  {
+                "about":  "About",
+                "skills":  "Skills",
+                "projects":  "Projects",
+                "experience":  "Experience",
+                "contact":  "Contact",
+                "skipToContent":  "Skip to main content",
+                "languageLabel":  "Change language, current: English"
+            },
+    "hero":  {
+                 "name":  "Alisson Davi",
+                 "subtitle":  "AI Systems \u0026 Fullstack Engineer",
+                 "location":  "Salvador, BA 🇧🇷 · Remote Worldwide",
+                 "cta_projects":  "View Projects",
+                 "cta_resume":  "Download Resume",
+                 "scroll_down":  "Scroll down",
+                 "typing_words":  [
+                                      "Multi-Agent AI Systems",
+                                      "Python · FastAPI · CrewAI",
+                                      "Next.js · TypeScript",
+                                      "Clean Architecture"
+                                  ]
+             },
+    "about":  {
+                  "title":  "About Me",
+                  "p1":  "Self-taught AI Systems Engineer — I build production multi-agent systems solo, end-to-end, that make real decisions on real documents. I designed and shipped a 4-stage fraud detection pipeline with CrewAI and LangChain that processes Brazilian financial documents (boletos bancários, payroll stubs) using skeptical-by-default system design, a 3-method PDF extraction cascade, and 5-tier risk classification. Comfortable across the full stack — async Python/FastAPI backends with Clean Architecture, React/Next.js frontends, PostgreSQL, Redis, Docker, and cloud deployments on AWS/Vercel/Railway. Currently seeking a remote role where I can make a meaningful contribution to a fast-moving team and keep growing.",
+                  "p2":  "",
+                  "p3":  ""
+              },
+    "skills":  {
+                   "title":  "Technical Arsenal",
+                   "categories":  {
+                                      "languages":  "Languages",
+                                      "frontend":  "Frontend",
+                                      "backend":  "Backend",
+                                      "architecture":  "Architecture",
+                                      "ai":  "AI Systems / Agent Engineering",
+                                      "databases":  "Databases",
+                                      "devops":  "DevOps / Cloud",
+                                      "monitoring":  "Monitoring \u0026 Observability",
+                                      "testing":  "For Testing",
+                                      "tools":  "Tools"
+                                  }
+               },
+    "projects":  {
+                     "title":  "Featured Projects",
+                     "live_demo":  "Live Demo",
+                     "view_code":  "GitHub",
+                     "highlights":  {
+                                        "psi":  [
+                                                    "4-stage AI fraud detection pipeline processing real financial documents in production",
+                                                    "Multi-agent system with CrewAI — Gemini, DeepSeek \u0026 OpenAI orchestration with skeptical-by-default design",
+                                                    "3-method PDF extraction cascade (PyMuPDF primary) for maximum document coverage",
+                                                    "5-tier risk classification (0–100) with explainable scoring",
+                                                    "FastAPI + Clean Architecture + PostgreSQL + Alembic — scalable, auditable backend",
+                                                    "RAG system for legal contextualization of agent analyses",
+                                                    "Internationalized frontend with Next.js + next-intl + full CI/CD",
+                                                    "LGPD compliance through DPIA documentation and privacy policies",
+                                                    "Restructured multi-agent pipeline for reliable, modular inter-agent communication",
+                                                    "NextAuth authentication with session persistence and App Router middleware",
+                                                    "Fixed OCR and extraction inconsistencies — significantly improved analysis quality",
+                                                    "Full observability with Sentry, Prometheus, Grafana, and PostHog in production"
+                                                ],
+                                        "pytomatiza":  [
+                                                           "Full Stack architecture using Next.js, FastAPI, PostgreSQL, and Docker",
+                                                           "Intelligent pipelines with CrewAI and LangChain",
+                                                           "Configurable tools for creating custom agents",
+                                                           "System ready for multiple automation domains",
+                                                           "Automated deployment using Railway, Vercel, and GitHub Actions",
+                                                           "Fixed Railway deployment issues, including Pyright-related build blocks",
+                                                           "Resolved frontend-backend integration failures caused by incorrect endpoint configurations",
+                                                           "Refactored authentication flow and inter-service communication for improved stability",
+                                                           "Standardized Docker infrastructure for consistency between local development and production",
+                                                           "Adjusted health checks, environment variables, and agent configurations for reliable deployments"
+                                                       ],
+                                        "clark":  [
+                                                      "Full-featured player for local audio files",
+                                                      "Virtualized lists using react-window for large music libraries",
+                                                      "Drag-and-drop playlist management via dnd-kit",
+                                                      "Karaoke-style lyric synchronization",
+                                                      "Automatic metadata enrichment using MusicBrainz, Spotify, iTunes, and Genius",
+                                                      "Redis session management + Resend email authentication",
+                                                      "Resolved complex layout conflicts with Sidebar, PlayerBar, and overlapping components using Zustand",
+                                                      "Refactored shared state architecture to eliminate inconsistencies across application areas",
+                                                      "Optimized rendering performance through list virtualization for large music libraries",
+                                                      "Integrated multiple metadata APIs creating a unified enrichment layer for track information",
+                                                      "Adjusted session management and authentication issues using Redis and Resend",
+                                                      "Created user traffic with UpTimeRobot, preventing the backend deploy server from going idle and causing errors and delays in catalog retrieval within the app"
+                                                  ],
+                                        "facilit":  [
+                                                        "Intelligent agents using CrewAI",
+                                                        "Full Z-API integration for WhatsApp communication",
+                                                        "Backend built with Flask",
+                                                        "Mobile app built with React Native (Expo)",
+                                                        "Completely migrated the frontend from Kivy to React Native (Expo)",
+                                                        "Resolved complex npm ecosystem dependency conflicts during migration",
+                                                        "Restructured frontend-backend-WhatsApp communication for automated service stability",
+                                                        "Refactored agent flow to produce more organized and consistent conversation responses"
+                                                    ],
+                                        "eude_ramos":  [
+                                                           "Modern and fully responsive interface",
+                                                           "Built with Next.js and TypeScript",
+                                                           "Performance-optimized rendering with SEO",
+                                                           "Metadata configured for better search engine indexing",
+                                                           "Automated deployment on Vercel with GitHub CI/CD"
+                                                       ]
+                                    },
+                     "taglines":  {
+                                      "psi":  "Production Multi-Agent Fraud Detection Pipeline",
+                                      "pytomatiza":  "Intelligent Automation Platform with AI Agents",
+                                      "clark":  "Superman-Themed Full-Featured Music Player",
+                                      "facilit":  "WhatsApp AI Customer Service Automation",
+                                      "eude_ramos":  "Professional Portfolio Website for Social Worker"
+                                  }
+                 },
+    "experience":  {
+                       "title":  "Experience",
+                       "education_title":  "Education \u0026 Certifications",
+                       "freelance":  {
+                                         "title":  "Full-stack Software Engineer",
+                                         "subtitle":  "Solo / Freelance",
+                                         "period":  "2024 – Present"
+                                     },
+                       "it_intern":  {
+                                         "title":  "IT Support Intern",
+                                         "subtitle":  "Colégio Góes Calmon",
+                                         "period":  "2023 – 2024"
+                                     }
+                   },
+    "certifications":  {
+                           "title":  "Certifications",
+                           "js_ts":  {
+                                         "name":  "JavaScript \u0026 TypeScript Beginner → Advanced",
+                                         "issuer":  "Udemy",
+                                         "hours":  "146h",
+                                         "year":  "2024"
+                                     },
+                           "python":  {
+                                          "name":  "Python 3 Beginner → Advanced",
+                                          "issuer":  "Udemy",
+                                          "hours":  "141h",
+                                          "year":  "2025"
+                                      },
+                           "git":  {
+                                       "name":  "Git \u0026 GitHub Beginner → Advanced",
+                                       "issuer":  "Udemy",
+                                       "hours":  "19h",
+                                       "year":  "2025"
+                                   },
+                           "excel":  {
+                                         "name":  "Excel Complete",
+                                         "issuer":  "Udemy",
+                                         "hours":  "28h",
+                                         "year":  "2025"
+                                     },
+                           "technical_diploma":  {
+                                                     "name":  "Technical Diploma in Computer Science",
+                                                     "issuer":  "ICEIA",
+                                                     "hours":  "6 semesters",
+                                                     "year":  "2023"
+                                                 },
+                           "bsc":  {
+                                       "name":  "BSc Software Engineering",
+                                       "issuer":  "UNIJORGE",
+                                       "hours":  "8 semesters",
+                                       "year":  "2024 – Present"
+                                   },
+                           "english":  {
+                                           "name":  "English B2",
+                                           "issuer":  "CCAA",
+                                           "hours":  "11 semesters",
+                                           "year":  "2024"
+                                       }
+                       },
+    "contact":  {
+                    "title":  "Let\u0027s Build Something Together!",
+                    "subtitle":  "Open to international remote opportunities",
+                    "github":  "GitHub",
+                    "linkedin":  "LinkedIn",
+                    "instagram":  "Instagram",
+                    "whatsapp":  "WhatsApp",
+                    "email":  "alissonchagas986@gmail.com",
+                    "location":  "Salvador, Bahia 🇧🇷",
+                    "footer":  "Built with Next.js · Deployed on Vercel · © 2025 Alisson Davi"
+                }
 }

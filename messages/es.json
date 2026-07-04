@@ -24,7 +24,7 @@
              },
     "about":  {
                   "title":  "Sobre mí",
-                  "p1":  "Ingeniero Full-stack autodidacta de nivel Medio con experiencia práctica diseñando y entregando aplicaciones SaaS en producción desde cero, con experiencia en backend, frontend, infraestructura en la nube, sistemas con IA, autenticación, observabilidad, procesamiento asíncrono y CI/CD. Cómodo en todo el stack — construyendo backends asíncronos en Python/FastAPI con Clean Architecture, frontends React/Next.js, modelos de datos PostgreSQL, capas de caché Redis y despliegues en la nube en AWS/Vercel/Railway. Recientemente enfocado en integrar agentes impulsados por LLMs (LangChain, CrewAI) en productos reales, incluyendo un pipeline de detección de fraude y una plataforma multi-tenant de automatización inteligente. Actualmente buscando un puesto remoto internacional donde pueda contribuir de manera significativa a un equipo ágil y seguir creciendo.",
+                  "p1":  "Ingeniero de Sistemas de IA autodidacta — construyo sistemas multiagente en producción solo, de principio a fin, que toman decisiones reales sobre documentos reales. Diseñé y entregué un pipeline de detección de fraudes en 4 etapas con CrewAI y LangChain que procesa documentos financieros brasileños usando diseño escéptico por defecto, cascada de extracción PDF en 3 métodos y clasificación de riesgo en 5 niveles. Cómodo en todo el stack — backends asíncronos Python/FastAPI con Clean Architecture, frontends React/Next.js, PostgreSQL, Redis, Docker y despliegues en AWS/Vercel/Railway. Buscando un puesto remoto donde pueda contribuir significativamente a un equipo ágil y seguir creciendo.",
                   "p2":  "",
                   "p3":  ""
               },
@@ -35,7 +35,7 @@
                                       "frontend":  "Frontend",
                                       "backend":  "Backend",
                                       "architecture":  "Arquitectura",
-                                      "ai":  "IA / Agentes",
+                                      "ai":  "Sistemas de IA / Agentes",
                                       "databases":  "Bases de Datos",
                                       "devops":  "DevOps / Nube",
                                       "monitoring":  "Monitoreo y Observabilidad",

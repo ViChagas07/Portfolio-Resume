@@ -24,7 +24,7 @@
              },
     "about":  {
                   "title":  "关于我",
-                  "p1":  "自学成才的中级全栈工程师，拥有从零开始设计和交付生产级SaaS应用的实践经验，精通后端、前端、云基础设施、AI驱动系统、身份认证、可观测性、异步处理和CI/CD。熟悉整个技术栈 — 使用Clean Architecture构建异步Python/FastAPI后端、React/Next.js前端、PostgreSQL数据模型、Redis缓存层以及在AWS/Vercel/Railway上的云部署。最近专注于将LLM驱动的智能体（LangChain、CrewAI）集成到实际产品中，包括欺诈检测管道和多租户智能自动化平台。目前正在寻找一个国际远程职位，希望能够为快节奏的团队做出有意义的贡献并持续成长。",
+                  "p1":  "自学成才的AI系统工程师 — 我独自端到端构建生产级多智能体系统，对真实文档做出真实决策。我使用CrewAI和LangChain设计并交付了一个4阶段欺诈检测流水线，采用默认怀疑设计、3方法PDF提取级联和5级风险分类，处理巴西金融文档。熟悉整个技术栈 — 使用Clean Architecture的异步Python/FastAPI后端、React/Next.js前端、PostgreSQL、Redis、Docker以及在AWS/Vercel/Railway上的云部署。正在寻找能够为快节奏团队做出有意义贡献并持续成长的远程职位。",
                   "p2":  "",
                   "p3":  ""
               },
@@ -35,7 +35,7 @@
                                       "frontend":  "前端",
                                       "backend":  "后端",
                                       "architecture":  "架构",
-                                      "ai":  "AI / 智能体",
+                                      "ai":  "AI系统 / 智能体工程",
                                       "databases":  "数据库",
                                       "devops":  "DevOps / 云服务",
                                       "monitoring":  "监控与可观测性",

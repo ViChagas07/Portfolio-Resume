@@ -24,7 +24,7 @@
              },
     "about":  {
                   "title":  "À propos de moi",
-                  "p1":  "Ingénieur Full-stack autodidacte de niveau Intermédiaire avec une expérience pratique dans la conception et la livraison d\u0027applications SaaS en production à partir de zéro, compétent en backend, frontend, infrastructure cloud, systèmes d\u0027IA, authentification, observabilité, traitement asynchrone et CI/CD. À l\u0027aise sur l\u0027ensemble du stack — construction de backends asynchrones Python/FastAPI avec Clean Architecture, frontends React/Next.js, modèles de données PostgreSQL, couches de cache Redis et déploiements cloud sur AWS/Vercel/Railway. Récemment concentré sur l\u0027intégration d\u0027agents LLM (LangChain, CrewAI) dans des produits réels, y compris un pipeline de détection de fraude et une plateforme multi-tenant d\u0027automatisation intelligente. Actuellement à la recherche d\u0027un poste à distance international où je puisse contribuer de manière significative à une équipe dynamique et continuer à progresser.",
+                  "p1":  "Ingénieur Systèmes IA autodidacte — je construis des systèmes multi-agents en production seul, de bout en bout, qui prennent des décisions réelles sur des documents réels. J\u0027ai conçu et livré un pipeline de détection de fraudes en 4 étapes avec CrewAI et LangChain qui traite des documents financiers brésiliens avec une conception sceptique par défaut, une cascade d\u0027extraction PDF en 3 méthodes et une classification des risques en 5 niveaux. À l\u0027aise sur l\u0027ensemble du stack — backends asynchrones Python/FastAPI avec Clean Architecture, frontends React/Next.js, PostgreSQL, Redis, Docker et déploiements sur AWS/Vercel/Railway. À la recherche d\u0027un poste à distance où je puisse contribuer de manière significative à une équipe dynamique et continuer à progresser.",
                   "p2":  "",
                   "p3":  ""
               },
@@ -35,7 +35,7 @@
                                       "frontend":  "Frontend",
                                       "backend":  "Backend",
                                       "architecture":  "Architecture",
-                                      "ai":  "IA / Agents",
+                                      "ai":  "Systèmes IA / Ingénierie d\u0027Agents",
                                       "databases":  "Bases de données",
                                       "devops":  "DevOps / Cloud",
                                       "monitoring":  "Supervision \u0026 Observabilité",

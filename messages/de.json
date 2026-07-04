@@ -24,7 +24,7 @@
              },
     "about":  {
                   "title":  "Über mich",
-                  "p1":  "Autodidaktischer Mid-Level Full-stack Engineer mit praktischer Erfahrung im Entwurf und der Bereitstellung von produktionsreifen SaaS-Anwendungen von Grund auf, versiert in Backend, Frontend, Cloud-Infrastruktur, KI-gestützten Systemen, Authentifizierung, Observability, asynchroner Verarbeitung und CI/CD. Sicher im gesamten Stack — Aufbau asynchroner Python/FastAPI-Backends mit Clean Architecture, React/Next.js-Frontends, PostgreSQL-Datenmodellen, Redis-Caching-Schichten und Cloud-Deployments auf AWS/Vercel/Railway. Kürzlich fokussiert auf die Integration von LLM-gestützten Agenten (LangChain, CrewAI) in reale Produkte, einschließlich einer Betrugserkennungs-Pipeline und einer mandantenfähigen intelligenten Automatisierungsplattform. Derzeit auf der Suche nach einer internationalen Remote-Position, in der ich einen bedeutenden Beitrag zu einem schnellen Team leisten und weiter wachsen kann.",
+                  "p1":  "Autodidaktischer KI-Systemingenieur — ich baue produktive Multi-Agenten-Systeme allein, von Anfang bis Ende, die echte Entscheidungen über echte Dokumente treffen. Ich entwarf und lieferte eine 4-stufige Betrugserkennungs-Pipeline mit CrewAI und LangChain, die brasilianische Finanzdokumente mit skeptischem Design, einer 3-stufigen PDF-Extraktionskaskade und 5-stufiger Risikoklassifizierung verarbeitet. Sicher im gesamten Stack — asynchrone Python/FastAPI-Backends mit Clean Architecture, React/Next.js-Frontends, PostgreSQL, Redis, Docker und Cloud-Deployments auf AWS/Vercel/Railway. Auf der Suche nach einer Remote-Position, in der ich einen bedeutenden Beitrag zu einem schnellen Team leisten und weiter wachsen kann.",
                   "p2":  "",
                   "p3":  ""
               },
@@ -35,7 +35,7 @@
                                       "frontend":  "Frontend",
                                       "backend":  "Backend",
                                       "architecture":  "Architektur",
-                                      "ai":  "KI / Agenten",
+                                      "ai":  "KI-Systeme / Agent Engineering",
                                       "databases":  "Datenbanken",
                                       "devops":  "DevOps / Cloud",
                                       "monitoring":  "Monitoring \u0026 Observability",
