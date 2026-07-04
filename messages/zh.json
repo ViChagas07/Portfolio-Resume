@@ -49,18 +49,18 @@
                      "view_code":  "GitHub",
                      "highlights":  {
                                         "psi":  [
-                                                    "多阶段AI流程：OCR → 提取 → 七阶段LLM分析 → 风险评分 (0–100)",
-                                                    "FastAPI + Clean Architecture后端，搭配SQLAlchemy ORM与Alembic",
-                                                    "CrewAI多智能体系统，协调Gemini、DeepSeek与OpenAI",
-                                                    "RAG系统为智能体分析提供上下文",
-                                                    "Next.js + next-intl国际化前端",
-                                                    "完整CI/CD：GitHub Actions → Railway (API) + Vercel (前端)",
-                                                    "通过DPIA文档与隐私政策实现LGPD合规",
-                                                    "重构分析流水线，使智能体间通信更可靠和模块化",
-                                                    "修复了NextAuth认证、会话持久化和App Router中间件的关键问题",
-                                                    "解决了OCR和文档提取的不一致性，提高了分析质量",
-                                                    "重构了Railway、Vercel和Cloudflare之间的部署基础设施和环境变量",
-                                                    "使用Sentry、Prometheus、Grafana和PostHog实现了生产环境可观测性"
+                                                    "4阶段AI欺诈检测流水线，处理真实金融文档",
+                                                    "CrewAI多智能体系统 — Gemini、DeepSeek和OpenAI的默认怀疑设计编排",
+                                                    "3方法PDF提取级联（PyMuPDF为主）实现最大文档覆盖",
+                                                    "5级风险分类（0–100）含可解释评分",
+                                                    "FastAPI + Clean Architecture + PostgreSQL + Alembic — 可扩展、可审计的后端",
+                                                    "RAG系统用于智能体分析的法律情境化",
+                                                    "Next.js + next-intl国际化前端 + 完整CI/CD",
+                                                    "通过DPIA文档和隐私政策实现LGPD合规",
+                                                    "重构多智能体流水线，实现可靠的模块化智能体间通信",
+                                                    "带会话持久化和App Router中间件的NextAuth认证",
+                                                    "修复OCR和提取不一致问题 — 显著提升分析质量",
+                                                    "Sentry、Prometheus、Grafana、PostHog的生产环境完整可观测性"
                                                 ],
                                         "pytomatiza":  [
                                                            "Next.js、FastAPI、PostgreSQL与Docker全栈架构",
@@ -107,7 +107,7 @@
                                                        ]
                                     },
                      "taglines":  {
-                                      "psi":  "AI驱动的支付欺诈检测SaaS",
+                                      "psi":  "生产环境多智能体欺诈检测流水线",
                                       "pytomatiza":  "AI智能体智能自动化平台",
                                       "clark":  "超人主题全功能音乐播放器",
                                       "facilit":  "WhatsApp AI客服自动化",

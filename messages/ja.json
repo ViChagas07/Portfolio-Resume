@@ -49,18 +49,18 @@
                      "view_code":  "GitHub",
                      "highlights":  {
                                         "psi":  [
-                                                    "多段階AIパイプライン: OCR → 抽出 → 7フェーズLLM分析 → リスクスコア (0–100)",
-                                                    "FastAPI + Clean Architecture + SQLAlchemy + Alembicバックエンド",
-                                                    "Gemini、DeepSeek、OpenAIをオーケストレーションするCrewAIマルチエージェントシステム",
-                                                    "エージェント分析を文脈化するRAGシステム",
-                                                    "Next.js + next-intlによる国際化フロントエンド",
-                                                    "完全なCI/CD: GitHub Actions → Railway (API) + Vercel (フロントエンド)",
+                                                    "実際の金融文書を処理する4段階AI不正検出パイプライン",
+                                                    "CrewAIによるマルチエージェントシステム — デフォルトで懐疑的な設計のGemini、DeepSeek、OpenAIオーケストレーション",
+                                                    "最大カバレッジのための3方式PDF抽出カスケード（PyMuPDFプライマリ）",
+                                                    "説明可能なスコアリング付き5段階リスク分類（0–100）",
+                                                    "FastAPI + Clean Architecture + PostgreSQL + Alembic — スケーラブルで監査可能なバックエンド",
+                                                    "エージェント分析の法的文脈化のためのRAGシステム",
+                                                    "Next.js + next-intl + 完全CI/CDによる国際化フロントエンド",
                                                     "DPIA文書とプライバシーポリシーによるLGPDコンプライアンス",
-                                                    "分析パイプラインを再構築し、エージェント間通信をより信頼性が高くモジュール化",
-                                                    "NextAuth認証、セッション永続化、App Routerミドルウェアの重大な問題を修正",
-                                                    "OCRと文書抽出の不整合を解決し、分析品質を向上",
-                                                    "Railway、Vercel、Cloudflare間のデプロイインフラと環境変数をリファクタリング",
-                                                    "Sentry、Prometheus、Grafana、PostHogによる本番監視の可観測性を実装"
+                                                    "エージェント間の信頼性の高いモジュール式通信のためパイプラインを再構築",
+                                                    "セッション永続化とApp Routerミドルウェア付きNextAuth認証",
+                                                    "OCRと抽出の不整合を修正 — 分析品質を大幅に向上",
+                                                    "Sentry、Prometheus、Grafana、PostHogによる本番環境の完全な可観測性"
                                                 ],
                                         "pytomatiza":  [
                                                            "Next.js、FastAPI、PostgreSQL、Dockerを使用したフルスタックアーキテクチャ",
@@ -107,7 +107,7 @@
                                                        ]
                                     },
                      "taglines":  {
-                                      "psi":  "AI搭載決済不正検出SaaS",
+                                      "psi":  "本番稼働中のマルチエージェント不正検出パイプライン",
                                       "pytomatiza":  "AIエージェントによるインテリジェント自動化プラットフォーム",
                                       "clark":  "スーパーマンテーマの高機能ミュージックプレイヤー",
                                       "facilit":  "WhatsApp AIカスタマーサービス自動化",

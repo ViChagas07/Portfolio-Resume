@@ -49,18 +49,18 @@
                      "view_code":  "GitHub",
                      "highlights":  {
                                         "psi":  [
-                                                    "Pipeline IA multi-étapes : OCR → extraction → analyse LLM en 7 phases → score de risque (0–100)",
-                                                    "Architecture FastAPI + Clean Architecture + SQLAlchemy + Alembic",
-                                                    "Système multi-agent avec CrewAI orchestrant Gemini, DeepSeek et OpenAI",
-                                                    "Système RAG pour contextualiser les analyses des agents",
-                                                    "Frontend internationalisé avec Next.js + next-intl",
-                                                    "CI/CD complet : GitHub Actions → Railway (API) + Vercel (Frontend)",
-                                                    "Conformité LGPD avec documentation DPIA et politiques de confidentialité",
-                                                    "Restructuré le pipeline d\u0027analyse pour une communication inter-agents plus fiable et modulaire",
-                                                    "Corrigé des problèmes critiques d\u0027authentification NextAuth, persistance de session et middleware App Router",
-                                                    "Résolu les incohérences d\u0027OCR et d\u0027extraction de documents, améliorant la qualité des analyses",
-                                                    "Refactorisé l\u0027infrastructure de déploiement et les variables d\u0027environnement pour Railway, Vercel et Cloudflare",
-                                                    "Implémenté l\u0027observabilité avec Sentry, Prometheus, Grafana et PostHog pour le monitoring en production"
+                                                    "Pipeline de détection de fraudes en 4 étapes avec IA traitant des documents financiers réels",
+                                                    "Système multi-agent avec CrewAI — orchestration Gemini, DeepSeek et OpenAI à conception sceptique par défaut",
+                                                    "Cascade d\u0027extraction PDF en 3 méthodes (PyMuPDF primaire) pour une couverture maximale",
+                                                    "Classification des risques en 5 niveaux (0–100) avec score explicable",
+                                                    "FastAPI + Clean Architecture + PostgreSQL + Alembic — backend évolutif et auditable",
+                                                    "Système RAG pour contextualisation juridique des analyses d\u0027agents",
+                                                    "Frontend internationalisé avec Next.js + next-intl + CI/CD complet",
+                                                    "Conformité LGPD via documentation DPIA et politiques de confidentialité",
+                                                    "Pipeline multi-agent restructuré pour communication fiable et modulaire entre agents",
+                                                    "Authentification NextAuth avec persistance de session et middleware App Router",
+                                                    "Correction des incohérences OCR et extraction — qualité d\u0027analyse améliorée",
+                                                    "Observabilité complète avec Sentry, Prometheus, Grafana et PostHog en production"
                                                 ],
                                         "pytomatiza":  [
                                                            "Architecture Full Stack avec Next.js, FastAPI, PostgreSQL et Docker",
@@ -107,7 +107,7 @@
                                                        ]
                                     },
                      "taglines":  {
-                                      "psi":  "SaaS de Détection de Fraude de Paiement par IA",
+                                      "psi":  "Pipeline Multi-Agent de Détection de Fraudes en Production",
                                       "pytomatiza":  "Plateforme d\u0027Automatisation Intelligente avec Agents IA",
                                       "clark":  "Lecteur de Musique Complet Thème Superman",
                                       "facilit":  "Automatisation du Service Client WhatsApp par IA",

@@ -49,18 +49,18 @@
                      "view_code":  "GitHub",
                      "highlights":  {
                                         "psi":  [
-                                                    "Mehrstufige KI-Pipeline: OCR → Extraktion → 7-Phasen-LLM-Analyse → Risikobewertung (0–100)",
-                                                    "FastAPI + Clean Architecture Backend mit SQLAlchemy ORM und Alembic",
-                                                    "Multi-Agenten-System mit CrewAI – Orchestrierung von Gemini, DeepSeek und OpenAI",
-                                                    "RAG-System zur Kontextualisierung der Agentenanalysen",
-                                                    "Internationalisiertes Frontend mit Next.js + next-intl",
-                                                    "Vollständige CI/CD: GitHub Actions → Railway (API) + Vercel (Frontend)",
+                                                    "4-stufige KI-Betrugserkennungs-Pipeline, die echte Finanzdokumente in Produktion verarbeitet",
+                                                    "Multi-Agenten-System mit CrewAI — Gemini, DeepSeek und OpenAI mit skeptischem Design",
+                                                    "3-stufige PDF-Extraktionskaskade (PyMuPDF primär) für maximale Dokumentenabdeckung",
+                                                    "5-stufige Risikoklassifizierung (0–100) mit erklärbarem Scoring",
+                                                    "FastAPI + Clean Architecture + PostgreSQL + Alembic — skalierbares, prüfbares Backend",
+                                                    "RAG-System zur rechtlichen Kontextualisierung der Agentenanalysen",
+                                                    "Internationalisiertes Frontend mit Next.js + next-intl + vollständiger CI/CD",
                                                     "LGPD-Konformität durch DPIA-Dokumentation und Datenschutzrichtlinien",
-                                                    "Analysepipeline für zuverlässigere und modularere Agentenkommunikation umstrukturiert",
-                                                    "Kritische NextAuth-Authentifizierungs-, Sitzungspersistenz- und App Router Middleware-Probleme behoben",
-                                                    "OCR- und Dokumentenextraktions-Inkonsistenzen gelöst und Analyse-Qualität verbessert",
-                                                    "Deployment-Infrastruktur und Umgebungsvariablen für Railway, Vercel und Cloudflare überarbeitet",
-                                                    "Observability mit Sentry, Prometheus, Grafana und PostHog für Produktionsüberwachung implementiert"
+                                                    "Multi-Agenten-Pipeline für zuverlässige, modulare Kommunikation umstrukturiert",
+                                                    "NextAuth-Authentifizierung mit Sitzungspersistenz und App Router Middleware",
+                                                    "OCR- und Extraktions-Inkonsistenzen behoben — Analyse-Qualität verbessert",
+                                                    "Vollständige Observability mit Sentry, Prometheus, Grafana und PostHog"
                                                 ],
                                         "pytomatiza":  [
                                                            "Full-Stack-Architektur mit Next.js, FastAPI, PostgreSQL und Docker",
@@ -107,7 +107,7 @@
                                                        ]
                                     },
                      "taglines":  {
-                                      "psi":  "KI-gestützte SaaS zur Zahlungsbetrugserkennung",
+                                      "psi":  "Multi-Agenten Betrugserkennungs-Pipeline in Produktion",
                                       "pytomatiza":  "Intelligente Automatisierungsplattform mit KI-Agenten",
                                       "clark":  "Superman-Themen-Vollfunktions-Musikplayer",
                                       "facilit":  "WhatsApp KI-Kundenservice-Automatisierung",
