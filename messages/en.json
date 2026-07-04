@@ -10,15 +10,15 @@
   },
   "hero": {
     "name": "Alisson Davi",
-    "subtitle": "Mid-Level Fullstack Software Engineer",
+    "subtitle": "AI Systems & Fullstack Engineer",
     "location": "Salvador, BA \uD83C\uDDE7\uD83C\uDDF7 \u00B7 Remote Worldwide",
     "cta_projects": "View Projects",
     "cta_resume": "Download Resume",
     "scroll_down": "Scroll down",
     "typing_words": [
-      "Python \u00B7 FastAPI",
+      "Multi-Agent AI Systems",
+      "Python \u00B7 FastAPI \u00B7 CrewAI",
       "Next.js \u00B7 TypeScript",
-      "AI Agents \u00B7 LangChain",
       "Clean Architecture"
     ]
   },
@@ -49,18 +49,18 @@
     "view_code": "GitHub",
     "highlights": {
       "psi": [
-        "Multi-stage AI pipeline: OCR \u2192 extraction \u2192 7-phase LLM analysis \u2192 risk scoring (0\u2013100)",
-        "FastAPI + Clean Architecture backend with SQLAlchemy ORM and Alembic",
-        "Multi-agent system using CrewAI orchestrating Gemini, DeepSeek, and OpenAI",
-        "RAG system for contextualizing agent analyses",
-        "Internationalized frontend using Next.js + next-intl",
-        "Full CI/CD: GitHub Actions \u2192 Railway (API) + Vercel (Frontend)",
+        "4-stage AI fraud detection pipeline processing real financial documents in production",
+        "Multi-agent system with CrewAI — Gemini, DeepSeek & OpenAI orchestration with skeptical-by-default design",
+        "3-method PDF extraction cascade (PyMuPDF primary) for maximum document coverage",
+        "5-tier risk classification (0–100) with explainable scoring",
+        "FastAPI + Clean Architecture + PostgreSQL + Alembic — scalable, auditable backend",
+        "RAG system for legal contextualization of agent analyses",
+        "Internationalized frontend with Next.js + next-intl + full CI/CD",
         "LGPD compliance through DPIA documentation and privacy policies",
-        "Restructured the analysis pipeline making inter-agent communication more reliable and modular",
-        "Fixed critical NextAuth authentication, session persistence, and App Router middleware issues",
-        "Resolved OCR and document extraction inconsistencies, improving analysis quality",
-        "Refactored deployment infrastructure and environment variables across Railway, Vercel, and Cloudflare",
-        "Implemented observability with Sentry, Prometheus, Grafana, and PostHog for production monitoring"
+        "Restructured multi-agent pipeline for reliable, modular inter-agent communication",
+        "NextAuth authentication with session persistence and App Router middleware",
+        "Fixed OCR and extraction inconsistencies — significantly improved analysis quality",
+        "Full observability with Sentry, Prometheus, Grafana, and PostHog in production"
       ],
       "pytomatiza": [
         "Full Stack architecture using Next.js, FastAPI, PostgreSQL, and Docker",
@@ -107,7 +107,7 @@
       ]
     },
     "taglines": {
-      "psi": "AI-Powered Payment Fraud Detection SaaS",
+      "psi": "Production Multi-Agent Fraud Detection Pipeline",
       "pytomatiza": "Intelligent Automation Platform with AI Agents",
       "clark": "Superman-Themed Full-Featured Music Player",
       "facilit": "WhatsApp AI Customer Service Automation",

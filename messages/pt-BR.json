@@ -10,15 +10,15 @@
   },
   "hero": {
     "name": "Alisson Davi",
-    "subtitle": "Engenheiro de Software Fullstack Pleno",
+    "subtitle": "Engenheiro de Sistemas de IA & Fullstack Pleno",
     "location": "Salvador, BA \uD83C\uDDE7\uD83C\uDDF7 \u00B7 Remoto Mundial",
     "cta_projects": "Ver Projetos",
-    "cta_resume": "Baixar Currículo",
+    "cta_resume": "Baixar Curr\u00EDculo",
     "scroll_down": "Rolar para baixo",
     "typing_words": [
-      "Python \u00B7 FastAPI",
+      "Sistemas Multi-Agente com IA",
+      "Python \u00B7 FastAPI \u00B7 CrewAI",
       "Next.js \u00B7 TypeScript",
-      "AI Agents \u00B7 LangChain",
       "Clean Architecture"
     ]
   },
@@ -49,18 +49,18 @@
     "view_code": "GitHub",
     "highlights": {
       "psi": [
-        "Pipeline de IA multi-etapas: OCR \u2192 extra\u00E7\u00E3o \u2192 an\u00E1lise LLM em 7 fases \u2192 pontua\u00E7\u00E3o de risco (0\u2013100)",
-        "Arquitetura baseada em FastAPI + Clean Architecture + SQLAlchemy + Alembic",
-        "Sistema multiagente utilizando CrewAI com orquestra\u00E7\u00E3o entre Gemini, DeepSeek e OpenAI",
-        "Sistema RAG para contextualizar an\u00E1lises dos agentes",
-        "Frontend internacionalizado utilizando Next.js + next-intl",
-        "CI/CD completo com GitHub Actions \u2192 Railway (API) + Vercel (Frontend)",
-        "Conformidade com LGPD atrav\u00E9s de documenta\u00E7\u00E3o DPIA e pol\u00EDticas de privacidade",
-        "Reestruturei o pipeline de an\u00E1lise para tornar a comunica\u00E7\u00E3o entre agentes mais confi\u00E1vel e modular",
-        "Corrigi problemas cr\u00EDticos de autentica\u00E7\u00E3o com NextAuth, persist\u00EAncia de sess\u00E3o e middleware no App Router do Next.js",
-        "Solucionei inconsist\u00EAncias de OCR e extra\u00E7\u00E3o de documentos, aumentando a qualidade das an\u00E1lises",
-        "Refatorei a infraestrutura de deploy e vari\u00E1veis de ambiente para estabilidade entre Railway, Vercel e Cloudflare",
-        "Implementei observabilidade com Sentry, Prometheus, Grafana e PostHog para monitoramento em produ\u00E7\u00E3o"
+        "Pipeline de detecção de fraudes em 4 estágios com IA processando documentos financeiros reais em produção",
+        "Sistema multiagente com CrewAI — orquestração entre Gemini, DeepSeek e OpenAI com design cético por padrão",
+        "Cascata de extração PDF em 3 métodos (PyMuPDF primário) para máxima cobertura de documentos",
+        "Classificação de risco em 5 níveis (0–100) com pontuação explicável",
+        "FastAPI + Clean Architecture + PostgreSQL + Alembic — backend escalável e auditável",
+        "Sistema RAG para contextualização jurídica das análises dos agentes",
+        "Frontend internacionalizado com Next.js + next-intl + CI/CD completo",
+        "Conformidade com LGPD através de documentação DPIA e políticas de privacidade",
+        "Pipeline multiagente reestruturado para comunicação confiável e modular entre agentes",
+        "Autenticação NextAuth com persistência de sessão e middleware no App Router do Next.js",
+        "Correção de inconsistências de OCR e extração — qualidade das análises significativamente ampliada",
+        "Observabilidade completa com Sentry, Prometheus, Grafana e PostHog em produção"
       ],
       "pytomatiza": [
         "Arquitetura Full Stack utilizando Next.js, FastAPI, PostgreSQL e Docker",
@@ -107,7 +107,7 @@
       ]
     },
     "taglines": {
-      "psi": "SaaS de Detecção de Fraudes em Pagamentos com IA",
+      "psi": "Pipeline Multi-Agente de Detecção de Fraudes em Produção",
       "pytomatiza": "Plataforma de Automação Inteligente com Agentes de IA",
       "clark": "Player de Música Completo Temático do Superman",
       "facilit": "Automação de Atendimento ao Cliente via WhatsApp com IA",

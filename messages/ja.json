@@ -1,187 +1,187 @@
-{
-  "nav": {
-    "about": "自己紹介",
-    "skills": "スキル",
-    "projects": "プロジェクト",
-    "experience": "経歴",
-    "contact": "お問い合わせ",
-    "skipToContent": "本文へスキップ",
-    "languageLabel": "言語を変更、現在: 英語"
-  },
-  "hero": {
-    "name": "Alisson Davi",
-    "subtitle": "中堅フルスタックソフトウェアエンジニア",
-    "location": "サルバドール, BA \uD83C\uDDE7\uD83C\uDDF7 \u00B7 世界中リモート可",
-    "cta_projects": "プロジェクトを見る",
-    "cta_resume": "履歴書をダウンロード",
-    "scroll_down": "スクロール",
-    "typing_words": [
-      "Python \u00B7 FastAPI",
-      "Next.js \u00B7 TypeScript",
-      "AI Agents \u00B7 LangChain",
-      "Clean Architecture"
-    ]
-  },
-  "about": {
-    "title": "私について",
-    "p1": "\u72EC\u5B66\u306E\u30DF\u30C3\u30C9\u30EC\u30D9\u30EB\u30FB\u30D5\u30EB\u30B9\u30BF\u30C3\u30AF\u30A8\u30F3\u30B8\u30CB\u30A2\u3002\u30D7\u30ED\u30C0\u30AF\u30B7\u30E7\u30F3\u30B0\u30EC\u30FC\u30C9\u306ESaaS\u30A2\u30D7\u30EA\u30B1\u30FC\u30B7\u30E7\u30F3\u3092\u30BC\u30ED\u304B\u3089\u8A2D\u8A08\u30FB\u63D0\u4F9B\u3057\u3066\u304D\u305F\u5B9F\u52D9\u7D4C\u9A13\u3092\u6301\u3061\u3001\u30D0\u30C3\u30AF\u30A8\u30F3\u30C9\u3001\u30D5\u30ED\u30F3\u30C8\u30A8\u30F3\u30C9\u3001\u30AF\u30E9\u30A6\u30C9\u30A4\u30F3\u30D5\u30E9\u3001AI\u30B7\u30B9\u30C6\u30E0\u3001\u8A8D\u8A3C\u3001\u53EF\u89B3\u6E2C\u6027\u3001\u975E\u540C\u671F\u51E6\u7406\u3001CI/CD\u306B\u7CBE\u901A\u3002\u30B9\u30BF\u30C3\u30AF\u5168\u4F53\u306B\u7CBE\u901A\u3057\u3001Clean Architecture\u306B\u3088\u308B\u975E\u540C\u671FPython/FastAPI\u30D0\u30C3\u30AF\u30A8\u30F3\u30C9\u3001React/Next.js\u30D5\u30ED\u30F3\u30C8\u30A8\u30F3\u30C9\u3001PostgreSQL\u30C7\u30FC\u30BF\u30E2\u30C7\u30EB\u3001Redis\u30AD\u30E3\u30C3\u30B7\u30E5\u30EC\u30A4\u30E4\u30FC\u3001AWS/Vercel/Railway\u3067\u306E\u30AF\u30E9\u30A6\u30C9\u30C7\u30D7\u30ED\u30A4\u3092\u6271\u3046\u3002\u6700\u8FD1\u306FLLM\u30A8\u30FC\u30B8\u30A7\u30F3\u30C8\uFF08LangChain\u3001CrewAI\uFF09\u3092\u5B9F\u88FD\u54C1\u306B\u7D71\u5408\u3059\u308B\u3053\u3068\u306B\u6CE8\u529B\u3057\u3001\u4E0D\u6B63\u691C\u51FA\u30D1\u30A4\u30D7\u30E9\u30A4\u30F3\u3084\u30DE\u30EB\u30C1\u30C6\u30CA\u30F3\u30C8\u306E\u30A4\u30F3\u30C6\u30EA\u30B8\u30A7\u30F3\u30C8\u81EA\u52D5\u5316\u30D7\u30E9\u30C3\u30C8\u30D5\u30A9\u30FC\u30E0\u3092\u958B\u767A\u3002\u73FE\u5728\u3001\u56FD\u969B\u7684\u306A\u30EA\u30E2\u30FC\u30C8\u30DD\u30B8\u30B7\u30E7\u30F3\u3092\u63A2\u3057\u3066\u304A\u308A\u3001\u8FC5\u901F\u306A\u30C1\u30FC\u30E0\u306B\u6709\u610F\u7FA9\u306A\u8CA2\u732E\u3092\u3057\u3001\u6210\u9577\u3057\u7D9A\u3051\u305F\u3044\u3068\u8003\u3048\u3066\u3044\u308B\u3002",
-    "p2": "",
-    "p3": ""
-  },
-  "skills": {
-    "title": "技術スタック",
-    "categories": {
-      "languages": "言語",
-      "frontend": "フロントエンド",
-      "backend": "バックエンド",
-      "architecture": "アーキテクチャ",
-      "ai": "AI / エージェント",
-      "databases": "データベース",
-      "devops": "DevOps / クラウド",
-      "monitoring": "監視と可観測性",
-      "testing": "テスト用",
-      "tools": "ツール"
-    }
-  },
-  "projects": {
-    "title": "主なプロジェクト",
-    "live_demo": "ライブデモ",
-    "view_code": "GitHub",
-    "highlights": {
-      "psi": [
-        "多段階AIパイプライン: OCR → 抽出 → 7フェーズLLM分析 → リスクスコア (0–100)",
-        "FastAPI + Clean Architecture + SQLAlchemy + Alembicバックエンド",
-        "Gemini、DeepSeek、OpenAIをオーケストレーションするCrewAIマルチエージェントシステム",
-        "エージェント分析を文脈化するRAGシステム",
-        "Next.js + next-intlによる国際化フロントエンド",
-        "完全なCI/CD: GitHub Actions → Railway (API) + Vercel (フロントエンド)",
-        "DPIA文書とプライバシーポリシーによるLGPDコンプライアンス",
-        "分析パイプラインを再構築し、エージェント間通信をより信頼性が高くモジュール化",
-        "NextAuth認証、セッション永続化、App Routerミドルウェアの重大な問題を修正",
-        "OCRと文書抽出の不整合を解決し、分析品質を向上",
-        "Railway、Vercel、Cloudflare間のデプロイインフラと環境変数をリファクタリング",
-        "Sentry、Prometheus、Grafana、PostHogによる本番監視の可観測性を実装"
-      ],
-      "pytomatiza": [
-        "Next.js、FastAPI、PostgreSQL、Dockerを使用したフルスタックアーキテクチャ",
-        "CrewAIとLangChainによるインテリジェントパイプライン",
-        "カスタムエージェント作成のための設定可能なツール",
-        "複数の自動化ドメインに対応したシステム",
-        "Railway、Vercel、GitHub Actionsによる自動デプロイ",
-        "Pyright関連のビルドブロックを含むRailwayデプロイ問題を修正",
-        "誤ったエンドポイント設定によるフロントエンド-バックエンド統合の失敗を解決",
-        "認証フローとサービス間通信をリファクタリングし安定性を向上",
-        "ローカル開発と本番環境の一貫性のためDockerインフラを標準化",
-        "信頼性の高いデプロイのためヘルスチェック、環境変数、エージェント設定を調整"
-      ],
-      "clark": [
-        "ローカル音声ファイル用の完全なプレイヤー",
-        "大規模ライブラリ向けのreact-windowによる仮想化リスト",
-        "dnd-kitによるドラッグ＆ドロッププレイリスト管理",
-        "カラオケスタイルの歌詞同期",
-        "MusicBrainz、Spotify、iTunes、Geniusを使用した自動メタデータ拡張",
-        "Redisセッション管理 + Resendメール認証",
-        "Zustandを使用してSidebar、PlayerBar、重複コンポーネントの複雑なレイアウト競合を解決",
-        "アプリケーション全体の不整合を排除するため共有状態アーキテクチャをリファクタリング",
-        "大規模音楽ライブラリのためのリスト仮想化でレンダリングパフォーマンスを最適化",
-        "複数のメタデータAPIを統合し、自動拡張のための統一レイヤーを作成",
-        "RedisとResendを使用したセッション管理と認証の問題を調整",
-        "UpTimeRobotでユーザートラフィックを作成し、バックエンドのデプロイサーバーがアイドル状態になりアプリ内のカタログ取得でエラーや遅延が発生するのを防止"
-      ],
-      "facilit": [
-        "CrewAIを使用したインテリジェントエージェント",
-        "WhatsApp通信のための完全なZ-API統合",
-        "Flaskで開発されたバックエンド",
-        "React Native (Expo)で開発されたモバイルアプリ",
-        "フロントエンドをKivyからReact Native (Expo)に完全移行",
-        "移行中の複雑なnpmエコシステム依存関係の競合を解決",
-        "自動化サービスの安定性のためフロントエンド-バックエンド-WhatsApp通信を再構築",
-        "より整理された一貫性のある会話応答を生成するためエージェントフローをリファクタリング"
-      ],
-      "eude_ramos": [
-        "モダンで完全にレスポンシブなインターフェース",
-        "Next.jsとTypeScriptで構築",
-        "パフォーマンス最適化されたレンダリングとSEO",
-        "検索エンジンインデックス向けにメタデータを設定",
-        "GitHub CI/CDによるVercelへの自動デプロイ"
-      ]
-    },
-    "taglines": {
-      "psi": "AI搭載決済不正検出SaaS",
-      "pytomatiza": "AIエージェントによるインテリジェント自動化プラットフォーム",
-      "clark": "スーパーマンテーマの高機能ミュージックプレイヤー",
-      "facilit": "WhatsApp AIカスタマーサービス自動化",
-      "eude_ramos": "ソーシャルワーカー向けプロフェッショナルポートフォリオサイト"
-    }
-  },
-  "experience": {
-    "title": "経歴",
-    "education_title": "学歴・資格",
-    "freelance": {
-      "title": "フルスタックソフトウェアエンジニア",
-      "subtitle": "個人事業 / フリーランス",
-      "period": "2024 \u2013 現在"
-    },
-    "it_intern": {
-      "title": "IT\u30B5\u30DD\u30FC\u30C8\u30A4\u30F3\u30BF\u30FC\u30F3",
-      "subtitle": "Col\u00E9gio G\u00F3es Calmon",
-      "period": "2023 \u2013 2024"
-    }
-  },
-  "certifications": {
-    "title": "資格",
-    "js_ts": {
-      "name": "JavaScript & TypeScript 入門 \u2192 上級",
-      "issuer": "Udemy",
-      "hours": "146h",
-      "year": "2024"
-    },
-    "python": {
-      "name": "Python 3 入門 \u2192 上級",
-      "issuer": "Udemy",
-      "hours": "141h",
-      "year": "2025"
-    },
-    "git": {
-      "name": "Git & GitHub 入門 \u2192 上級",
-      "issuer": "Udemy",
-      "hours": "19h",
-      "year": "2025"
-    },
-    "excel": {
-      "name": "Excel完全講座",
-      "issuer": "Udemy",
-      "hours": "28h",
-      "year": "2025"
-    },
-    "technical_diploma": {
-      "name": "\u60C5\u5831\u6280\u8853\u5C02\u9580\u8AB2\u7A0B\u4FEE\u4E86\u8A3C",
-      "issuer": "ICEIA",
-      "hours": "6学期",
-      "year": "2023"
-    },
-    "bsc": {
-      "name": "\u30BD\u30D5\u30C8\u30A6\u30A7\u30A2\u5DE5\u5B66\u5B66\u58EB",
-      "issuer": "UNIJORGE",
-      "hours": "8学期",
-      "year": "2024 \u2013 \u73FE\u5728"
-    },
-    "english": {
-      "name": "\u82F1\u8A9E B2",
-      "issuer": "CCAA",
-      "hours": "11学期",
-      "year": "2024"
-    }
-  },
-  "contact": {
-    "title": "一緒に何かを作りましょう！",
-    "subtitle": "海外リモート案件を募集中です",
-    "github": "GitHub",
-    "linkedin": "LinkedIn",
-    "instagram": "Instagram",
-    "whatsapp": "WhatsApp",
-    "email": "alissonchagas986@gmail.com",
-    "location": "サルバドール, バイーア \uD83C\uDDE7\uD83C\uDDF7",
-    "footer": "Next.jsで構築 \u00B7 Vercelにデプロイ \u00B7 \u00A9 2025 Alisson Davi"
-  }
+﻿{
+    "nav":  {
+                "about":  "自己紹介",
+                "skills":  "スキル",
+                "projects":  "プロジェクト",
+                "experience":  "経歴",
+                "contact":  "お問い合わせ",
+                "skipToContent":  "本文へスキップ",
+                "languageLabel":  "言語を変更、現在: 英語"
+            },
+    "hero":  {
+                 "name":  "Alisson Davi",
+                 "subtitle":  "AIシステム \u0026 フルスタックエンジニア",
+                 "location":  "サルバドール, BA 🇧🇷 · 世界中リモート可",
+                 "cta_projects":  "プロジェクトを見る",
+                 "cta_resume":  "履歴書をダウンロード",
+                 "scroll_down":  "スクロール",
+                 "typing_words":  [
+                                      "マルチエージェントAIシステム",
+                                      "Python · FastAPI · CrewAI",
+                                      "Next.js · TypeScript",
+                                      "Clean Architecture"
+                                  ]
+             },
+    "about":  {
+                  "title":  "私について",
+                  "p1":  "独学のミッドレベル・フルスタックエンジニア。プロダクショングレードのSaaSアプリケーションをゼロから設計・提供してきた実務経験を持ち、バックエンド、フロントエンド、クラウドインフラ、AIシステム、認証、可観測性、非同期処理、CI/CDに精通。スタック全体に精通し、Clean Architectureによる非同期Python/FastAPIバックエンド、React/Next.jsフロントエンド、PostgreSQLデータモデル、Redisキャッシュレイヤー、AWS/Vercel/Railwayでのクラウドデプロイを扱う。最近はLLMエージェント（LangChain、CrewAI）を実製品に統合することに注力し、不正検出パイプラインやマルチテナントのインテリジェント自動化プラットフォームを開発。現在、国際的なリモートポジションを探しており、迅速なチームに有意義な貢献をし、成長し続けたいと考えている。",
+                  "p2":  "",
+                  "p3":  ""
+              },
+    "skills":  {
+                   "title":  "技術スタック",
+                   "categories":  {
+                                      "languages":  "言語",
+                                      "frontend":  "フロントエンド",
+                                      "backend":  "バックエンド",
+                                      "architecture":  "アーキテクチャ",
+                                      "ai":  "AI / エージェント",
+                                      "databases":  "データベース",
+                                      "devops":  "DevOps / クラウド",
+                                      "monitoring":  "監視と可観測性",
+                                      "testing":  "テスト用",
+                                      "tools":  "ツール"
+                                  }
+               },
+    "projects":  {
+                     "title":  "主なプロジェクト",
+                     "live_demo":  "ライブデモ",
+                     "view_code":  "GitHub",
+                     "highlights":  {
+                                        "psi":  [
+                                                    "多段階AIパイプライン: OCR → 抽出 → 7フェーズLLM分析 → リスクスコア (0–100)",
+                                                    "FastAPI + Clean Architecture + SQLAlchemy + Alembicバックエンド",
+                                                    "Gemini、DeepSeek、OpenAIをオーケストレーションするCrewAIマルチエージェントシステム",
+                                                    "エージェント分析を文脈化するRAGシステム",
+                                                    "Next.js + next-intlによる国際化フロントエンド",
+                                                    "完全なCI/CD: GitHub Actions → Railway (API) + Vercel (フロントエンド)",
+                                                    "DPIA文書とプライバシーポリシーによるLGPDコンプライアンス",
+                                                    "分析パイプラインを再構築し、エージェント間通信をより信頼性が高くモジュール化",
+                                                    "NextAuth認証、セッション永続化、App Routerミドルウェアの重大な問題を修正",
+                                                    "OCRと文書抽出の不整合を解決し、分析品質を向上",
+                                                    "Railway、Vercel、Cloudflare間のデプロイインフラと環境変数をリファクタリング",
+                                                    "Sentry、Prometheus、Grafana、PostHogによる本番監視の可観測性を実装"
+                                                ],
+                                        "pytomatiza":  [
+                                                           "Next.js、FastAPI、PostgreSQL、Dockerを使用したフルスタックアーキテクチャ",
+                                                           "CrewAIとLangChainによるインテリジェントパイプライン",
+                                                           "カスタムエージェント作成のための設定可能なツール",
+                                                           "複数の自動化ドメインに対応したシステム",
+                                                           "Railway、Vercel、GitHub Actionsによる自動デプロイ",
+                                                           "Pyright関連のビルドブロックを含むRailwayデプロイ問題を修正",
+                                                           "誤ったエンドポイント設定によるフロントエンド-バックエンド統合の失敗を解決",
+                                                           "認証フローとサービス間通信をリファクタリングし安定性を向上",
+                                                           "ローカル開発と本番環境の一貫性のためDockerインフラを標準化",
+                                                           "信頼性の高いデプロイのためヘルスチェック、環境変数、エージェント設定を調整"
+                                                       ],
+                                        "clark":  [
+                                                      "ローカル音声ファイル用の完全なプレイヤー",
+                                                      "大規模ライブラリ向けのreact-windowによる仮想化リスト",
+                                                      "dnd-kitによるドラッグ＆ドロッププレイリスト管理",
+                                                      "カラオケスタイルの歌詞同期",
+                                                      "MusicBrainz、Spotify、iTunes、Geniusを使用した自動メタデータ拡張",
+                                                      "Redisセッション管理 + Resendメール認証",
+                                                      "Zustandを使用してSidebar、PlayerBar、重複コンポーネントの複雑なレイアウト競合を解決",
+                                                      "アプリケーション全体の不整合を排除するため共有状態アーキテクチャをリファクタリング",
+                                                      "大規模音楽ライブラリのためのリスト仮想化でレンダリングパフォーマンスを最適化",
+                                                      "複数のメタデータAPIを統合し、自動拡張のための統一レイヤーを作成",
+                                                      "RedisとResendを使用したセッション管理と認証の問題を調整",
+                                                      "UpTimeRobotでユーザートラフィックを作成し、バックエンドのデプロイサーバーがアイドル状態になりアプリ内のカタログ取得でエラーや遅延が発生するのを防止"
+                                                  ],
+                                        "facilit":  [
+                                                        "CrewAIを使用したインテリジェントエージェント",
+                                                        "WhatsApp通信のための完全なZ-API統合",
+                                                        "Flaskで開発されたバックエンド",
+                                                        "React Native (Expo)で開発されたモバイルアプリ",
+                                                        "フロントエンドをKivyからReact Native (Expo)に完全移行",
+                                                        "移行中の複雑なnpmエコシステム依存関係の競合を解決",
+                                                        "自動化サービスの安定性のためフロントエンド-バックエンド-WhatsApp通信を再構築",
+                                                        "より整理された一貫性のある会話応答を生成するためエージェントフローをリファクタリング"
+                                                    ],
+                                        "eude_ramos":  [
+                                                           "モダンで完全にレスポンシブなインターフェース",
+                                                           "Next.jsとTypeScriptで構築",
+                                                           "パフォーマンス最適化されたレンダリングとSEO",
+                                                           "検索エンジンインデックス向けにメタデータを設定",
+                                                           "GitHub CI/CDによるVercelへの自動デプロイ"
+                                                       ]
+                                    },
+                     "taglines":  {
+                                      "psi":  "AI搭載決済不正検出SaaS",
+                                      "pytomatiza":  "AIエージェントによるインテリジェント自動化プラットフォーム",
+                                      "clark":  "スーパーマンテーマの高機能ミュージックプレイヤー",
+                                      "facilit":  "WhatsApp AIカスタマーサービス自動化",
+                                      "eude_ramos":  "ソーシャルワーカー向けプロフェッショナルポートフォリオサイト"
+                                  }
+                 },
+    "experience":  {
+                       "title":  "経歴",
+                       "education_title":  "学歴・資格",
+                       "freelance":  {
+                                         "title":  "フルスタックソフトウェアエンジニア",
+                                         "subtitle":  "個人事業 / フリーランス",
+                                         "period":  "2024 – 現在"
+                                     },
+                       "it_intern":  {
+                                         "title":  "ITサポートインターン",
+                                         "subtitle":  "Colégio Góes Calmon",
+                                         "period":  "2023 – 2024"
+                                     }
+                   },
+    "certifications":  {
+                           "title":  "資格",
+                           "js_ts":  {
+                                         "name":  "JavaScript \u0026 TypeScript 入門 → 上級",
+                                         "issuer":  "Udemy",
+                                         "hours":  "146h",
+                                         "year":  "2024"
+                                     },
+                           "python":  {
+                                          "name":  "Python 3 入門 → 上級",
+                                          "issuer":  "Udemy",
+                                          "hours":  "141h",
+                                          "year":  "2025"
+                                      },
+                           "git":  {
+                                       "name":  "Git \u0026 GitHub 入門 → 上級",
+                                       "issuer":  "Udemy",
+                                       "hours":  "19h",
+                                       "year":  "2025"
+                                   },
+                           "excel":  {
+                                         "name":  "Excel完全講座",
+                                         "issuer":  "Udemy",
+                                         "hours":  "28h",
+                                         "year":  "2025"
+                                     },
+                           "technical_diploma":  {
+                                                     "name":  "情報技術専門課程修了証",
+                                                     "issuer":  "ICEIA",
+                                                     "hours":  "6学期",
+                                                     "year":  "2023"
+                                                 },
+                           "bsc":  {
+                                       "name":  "ソフトウェア工学学士",
+                                       "issuer":  "UNIJORGE",
+                                       "hours":  "8学期",
+                                       "year":  "2024 – 現在"
+                                   },
+                           "english":  {
+                                           "name":  "英語 B2",
+                                           "issuer":  "CCAA",
+                                           "hours":  "11学期",
+                                           "year":  "2024"
+                                       }
+                       },
+    "contact":  {
+                    "title":  "一緒に何かを作りましょう！",
+                    "subtitle":  "海外リモート案件を募集中です",
+                    "github":  "GitHub",
+                    "linkedin":  "LinkedIn",
+                    "instagram":  "Instagram",
+                    "whatsapp":  "WhatsApp",
+                    "email":  "alissonchagas986@gmail.com",
+                    "location":  "サルバドール, バイーア 🇧🇷",
+                    "footer":  "Next.jsで構築 · Vercelにデプロイ · © 2025 Alisson Davi"
+                }
 }

@@ -10,15 +10,15 @@
   },
   "hero": {
     "name": "Alisson Davi",
-    "subtitle": "Desarrollador Fullstack Semi-Senior",
+    "subtitle": "Ingeniero de Sistemas de IA & Fullstack",
     "location": "Salvador, BA \uD83C\uDDE7\uD83C\uDDF7 \u00B7 Remoto Global",
     "cta_projects": "Ver Proyectos",
     "cta_resume": "Descargar CV",
     "scroll_down": "Desplazar abajo",
     "typing_words": [
-      "Python \u00B7 FastAPI",
+      "Sistemas Multi-Agente de IA",
+      "Python \u00B7 FastAPI \u00B7 CrewAI",
       "Next.js \u00B7 TypeScript",
-      "AI Agents \u00B7 LangChain",
       "Clean Architecture"
     ]
   },
