@@ -119,6 +119,8 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
       "Prometheus",
       "Grafana",
       "PostHog",
+      "Winston",
+      "Loguru",
     ],
   },
   {
