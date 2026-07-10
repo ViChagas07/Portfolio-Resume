@@ -140,7 +140,7 @@ export function LanguageSwitcher() {
           ref={listRef}
           role="listbox"
           aria-label={t("languageLabel")}
-          className="absolute left-0 z-50 mt-2 min-w-[200px] rounded-xl border border-[var(--color-blue)]/40 bg-[var(--color-navy-light)] py-2 shadow-[0_0_30px_var(--color-blue-glow)]"
+          className="absolute right-0 z-50 mt-2 min-w-[200px] rounded-xl border border-[var(--color-blue)]/40 bg-[var(--color-navy-light)] py-2 shadow-[0_0_30px_var(--color-blue-glow)]"
         >
           {SUPPORTED_LOCALES.map((meta, idx) => (
             <li
