@@ -1,4 +1,4 @@
-{
+﻿{
     "nav":  {
                 "about":  "Sobre",
                 "skills":  "Habilidades",
@@ -183,5 +183,5 @@
                     "email":  "alissonchagas986@gmail.com",
                     "location":  "Salvador, Bahia 🇧🇷",
                     "footer":  "Feito com Next.js · Hospedado na Vercel · © 2025 Alisson Davi"
-                }
-}
+                } 
+            }
