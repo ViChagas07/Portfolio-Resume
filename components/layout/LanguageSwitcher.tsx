@@ -5,7 +5,12 @@ import { useLocale, useTranslations } from "next-intl";
 import { useRouter, usePathname } from "@/lib/navigation";
 import { SUPPORTED_LOCALES, type LocaleMeta } from "@/lib/constants";
 
-export function LanguageSwitcher() {
+export function LanguageSwitcher({
+  variant = "absolute",
+}: {
+  /** "absolute" = desktop dropdown overlay; "static" = mobile inline list (appears in document flow, no positioning tricks) */
+  variant?: "absolute" | "static";
+}) {
   const t = useTranslations("nav");
   const locale = useLocale();
   const router = useRouter();
@@ -86,7 +91,7 @@ export function LanguageSwitcher() {
   }, [open, close]);
 
   return (
-    <div className="relative inline-block">
+    <div className={variant === "absolute" ? "relative inline-block" : ""}>
       <button
         ref={triggerRef}
         onClick={() => setOpen((o) => !o)}
@@ -140,7 +145,11 @@ export function LanguageSwitcher() {
           ref={listRef}
           role="listbox"
           aria-label={t("languageLabel")}
-          className="absolute left-0 z-50 mt-2 min-w-[200px] rounded-xl border border-[var(--color-blue)]/40 bg-[var(--color-navy-light)] py-2 shadow-[0_0_30px_var(--color-blue-glow)]"
+          className={`z-50 mt-2 min-w-[200px] rounded-xl border border-[var(--color-blue)]/40 bg-[var(--color-navy-light)] py-2 shadow-[0_0_30px_var(--color-blue-glow)] ${
+            variant === "absolute"
+              ? "absolute left-0 w-max"
+              : "w-full"
+          }`}
         >
           {SUPPORTED_LOCALES.map((meta, idx) => (
             <li

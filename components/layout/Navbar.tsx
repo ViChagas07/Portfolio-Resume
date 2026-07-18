@@ -230,7 +230,7 @@ export function Navbar() {
 
             {/* Language switcher inside mobile menu */}
             <div className="mt-3 border-t border-white/[0.06] pt-3">
-              <LanguageSwitcher />
+              <LanguageSwitcher variant="static" />
             </div>
           </div>
         </div>
