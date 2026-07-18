@@ -5,13 +5,7 @@ import { useLocale, useTranslations } from "next-intl";
 import { useRouter, usePathname } from "@/lib/navigation";
 import { SUPPORTED_LOCALES, type LocaleMeta } from "@/lib/constants";
 
-type DropdownAlign = "left" | "right";
-
-export function LanguageSwitcher({
-  align = "right",
-}: {
-  align?: DropdownAlign;
-}) {
+export function LanguageSwitcher() {
   const t = useTranslations("nav");
   const locale = useLocale();
   const router = useRouter();
@@ -92,7 +86,7 @@ export function LanguageSwitcher({
   }, [open, close]);
 
   return (
-    <div className="relative">
+    <div className="relative inline-block">
       <button
         ref={triggerRef}
         onClick={() => setOpen((o) => !o)}
@@ -146,9 +140,7 @@ export function LanguageSwitcher({
           ref={listRef}
           role="listbox"
           aria-label={t("languageLabel")}
-          className={`absolute z-50 mt-2 min-w-[200px] rounded-xl border border-[var(--color-blue)]/40 bg-[var(--color-navy-light)] py-2 shadow-[0_0_30px_var(--color-blue-glow)] ${
-            align === "left" ? "left-0" : "right-0"
-          }`}
+          className="absolute left-0 z-50 mt-2 min-w-[200px] rounded-xl border border-[var(--color-blue)]/40 bg-[var(--color-navy-light)] py-2 shadow-[0_0_30px_var(--color-blue-glow)]"
         >
           {SUPPORTED_LOCALES.map((meta, idx) => (
             <li
