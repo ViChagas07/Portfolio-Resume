@@ -5,7 +5,13 @@ import { useLocale, useTranslations } from "next-intl";
 import { useRouter, usePathname } from "@/lib/navigation";
 import { SUPPORTED_LOCALES, type LocaleMeta } from "@/lib/constants";
 
-export function LanguageSwitcher() {
+type DropdownAlign = "left" | "right";
+
+export function LanguageSwitcher({
+  align = "right",
+}: {
+  align?: DropdownAlign;
+}) {
   const t = useTranslations("nav");
   const locale = useLocale();
   const router = useRouter();
@@ -140,7 +146,9 @@ export function LanguageSwitcher() {
           ref={listRef}
           role="listbox"
           aria-label={t("languageLabel")}
-          className="absolute right-0 z-50 mt-2 min-w-[200px] rounded-xl border border-[var(--color-blue)]/40 bg-[var(--color-navy-light)] py-2 shadow-[0_0_30px_var(--color-blue-glow)]"
+          className={`absolute z-50 mt-2 min-w-[200px] rounded-xl border border-[var(--color-blue)]/40 bg-[var(--color-navy-light)] py-2 shadow-[0_0_30px_var(--color-blue-glow)] ${
+            align === "left" ? "left-0" : "right-0"
+          }`}
         >
           {SUPPORTED_LOCALES.map((meta, idx) => (
             <li
