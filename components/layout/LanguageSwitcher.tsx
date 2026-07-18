@@ -8,7 +8,7 @@ import { SUPPORTED_LOCALES, type LocaleMeta } from "@/lib/constants";
 export function LanguageSwitcher({
   variant = "absolute",
 }: {
-  /** "absolute" = desktop dropdown overlay; "static" = mobile inline list (appears in document flow, no positioning tricks) */
+  /** "absolute" = desktop dropdown overlay (w-max, left-aligned); "static" = mobile dropdown overlay (w-56, anchored to button, overflow-protected) */
   variant?: "absolute" | "static";
 }) {
   const t = useTranslations("nav");
@@ -90,8 +90,11 @@ export function LanguageSwitcher({
     return () => document.removeEventListener("mousedown", handleClick);
   }, [open, close]);
 
+  // RTL-aware horizontal anchor class
+  const anchorX = isRtl ? "right-0" : "left-0";
+
   return (
-    <div className={variant === "absolute" ? "relative inline-block" : ""}>
+    <div className="relative inline-block">
       <button
         ref={triggerRef}
         onClick={() => setOpen((o) => !o)}
@@ -145,10 +148,10 @@ export function LanguageSwitcher({
           ref={listRef}
           role="listbox"
           aria-label={t("languageLabel")}
-          className={`z-50 mt-2 min-w-[200px] rounded-xl border border-[var(--color-blue)]/40 bg-[var(--color-navy-light)] py-2 shadow-[0_0_30px_var(--color-blue-glow)] ${
+          className={`animate-dropdown-in z-50 mt-2 rounded-xl border border-[var(--color-blue)]/40 bg-[var(--color-navy-light)] py-2 shadow-[0_0_30px_var(--color-blue-glow)] ${
             variant === "absolute"
-              ? "absolute left-0 w-max"
-              : "w-full"
+              ? `absolute ${anchorX} w-max`
+              : `absolute ${anchorX} w-56 max-w-[calc(100vw-2rem)] max-h-[70vh] overflow-y-auto`
           }`}
         >
           {SUPPORTED_LOCALES.map((meta, idx) => (
