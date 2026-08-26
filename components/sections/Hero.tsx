@@ -121,7 +121,7 @@ export function Hero() {
           {resumeOpen && (
             <div className="absolute right-0 z-50 mt-2 w-56 rounded-xl border border-[var(--color-blue)]/40 bg-[var(--color-navy-light)] py-2 shadow-[0_0_30px_var(--color-blue-glow)] sm:left-auto">
               <a
-                href="/resume-en.pdf"
+                href="/AD_Resume_EN.pdf"
                 download="AD_Resume_EN.pdf"
                 className="flex items-center gap-3 px-4 py-2.5 text-sm text-[var(--color-gray)] transition-colors hover:bg-[var(--color-blue)]/10 hover:text-white"
               >
@@ -129,8 +129,8 @@ export function Hero() {
                 <span>EN — English</span>
               </a>
               <a
-                href="/resume-pt.pdf"
-                download="AD_Currículo_PT-BR.pdf"
+                href="/AD_Curriculo_PT-BR.pdf"
+                download="AD_Curriculo_PT-BR.pdf"
                 className="flex items-center gap-3 px-4 py-2.5 text-sm text-[var(--color-gray)] transition-colors hover:bg-[var(--color-blue)]/10 hover:text-white"
               >
                 <span className="text-lg">🇧🇷</span>
