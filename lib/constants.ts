@@ -366,4 +366,11 @@ export const CERTIFICATIONS: Certification[] = [
     hoursKey: "certifications.english.hours",
     yearKey: "certifications.english.year",
   },
+  {
+    key: "toefl",
+    nameKey: "certifications.toefl.name",
+    issuerKey: "certifications.toefl.issuer",
+    hoursKey: "certifications.toefl.hours",
+    yearKey: "certifications.toefl.year",
+  },
 ];

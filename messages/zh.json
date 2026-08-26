@@ -167,11 +167,17 @@
                                        "year":  "2024 – 至今"
                                    },
                            "english":  {
-                                           "name":  "英语 B2",
+                                           "name":  "英语 C1",
                                            "issuer":  "CCAA",
                                            "hours":  "11 学期",
                                            "year":  "2024"
-                                       }
+                                       },
+                           "toefl":  {
+                                         "name":  "English — Professional Working Proficiency (CEFR B2) | TOEFL ITP: 553/677",
+                                         "issuer":  "ETS",
+                                         "hours":  "分数: 553/677",
+                                         "year":  "2026年8月"
+                                     }
                        },
     "contact":  {
                     "title":  "一起创造些伟大的东西！",

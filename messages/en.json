@@ -167,11 +167,17 @@
                                        "year":  "2024 – Present"
                                    },
                            "english":  {
-                                           "name":  "English B2",
+                                           "name":  "English C1",
                                            "issuer":  "CCAA",
                                            "hours":  "11 semesters",
                                            "year":  "2024"
-                                       }
+                                       },
+                           "toefl":  {
+                                         "name":  "English — Professional Working Proficiency (CEFR B2) | TOEFL ITP: 553/677",
+                                         "issuer":  "ETS",
+                                         "hours":  "Score: 553/677",
+                                         "year":  "Aug 2026"
+                                     }
                        },
     "contact":  {
                     "title":  "Let\u0027s Build Something Together!",

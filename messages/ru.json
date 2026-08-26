@@ -167,11 +167,17 @@
                                        "year":  "2024 – настоящее время"
                                    },
                            "english":  {
-                                           "name":  "Английский B2",
+                                           "name":  "Английский C1",
                                            "issuer":  "CCAA",
                                            "hours":  "11 семестров",
                                            "year":  "2024"
-                                       }
+                                       },
+                           "toefl":  {
+                                         "name":  "English — Professional Working Proficiency (CEFR B2) | TOEFL ITP: 553/677",
+                                         "issuer":  "ETS",
+                                         "hours":  "Балл: 553/677",
+                                         "year":  "Авг 2026"
+                                     }
                        },
     "contact":  {
                     "title":  "Создадим что-то вместе!",

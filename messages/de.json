@@ -167,11 +167,17 @@
                                        "year":  "2024 – Heute"
                                    },
                            "english":  {
-                                           "name":  "Englisch B2",
+                                           "name":  "Englisch C1",
                                            "issuer":  "CCAA",
                                            "hours":  "11 Semester",
                                            "year":  "2024"
-                                       }
+                                       },
+                           "toefl":  {
+                                         "name":  "English — Professional Working Proficiency (CEFR B2) | TOEFL ITP: 553/677",
+                                         "issuer":  "ETS",
+                                         "hours":  "Punktzahl: 553/677",
+                                         "year":  "Aug 2026"
+                                     }
                        },
     "contact":  {
                     "title":  "Lass uns zusammen etwas bauen!",
