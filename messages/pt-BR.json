@@ -24,7 +24,7 @@
              },
     "about":  {
                   "title":  "Sobre Mim",
-                  "p1":  "Engenheiro de Sistemas de IA autodidata — construo, sozinho e do zero, sistemas multiagente em produção que tomam decisões reais sobre documentos reais. Projetei e implementei um pipeline de detecção de fraudes em 4 estágios com CrewAI e LangChain que processa documentos financeiros brasileiros (boletos, contracheques) usando design cético por padrão, cascata de extração PDF em 3 métodos e classificação de risco em 5 níveis. Confortável em toda a stack — backends assíncronos em Python/FastAPI com Clean Architecture, frontends React/Next.js, PostgreSQL, Redis, Docker e deploys em AWS/Vercel/Railway. Atualmente em busca de uma vaga remota onde eu possa contribuir de maneira exímia com uma equipe ágil e continuar evoluindo.",
+                  "p1":  "Engenheiro de Software Full-Stack Pleno — construo, sozinho e do zero, sistemas multiagente em produção que tomam decisões reais sobre documentos reais. Projetei e implementei um pipeline de detecção de fraudes em 4 estágios com CrewAI e LangChain que processa documentos financeiros brasileiros (boletos, contracheques) usando design cético por padrão, cascata de extração PDF em 3 métodos e classificação de risco em 5 níveis. Confortável em toda a stack — backends assíncronos em Python/FastAPI com Clean Architecture, frontends React/Next.js, PostgreSQL, Redis, Docker e deploys em AWS/Vercel/Railway. Atualmente em busca de uma vaga remota onde eu possa contribuir de maneira exímia com uma equipe ágil e continuar evoluindo.",
                   "p2":  "",
                   "p3":  ""
               },

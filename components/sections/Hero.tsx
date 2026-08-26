@@ -122,7 +122,7 @@ export function Hero() {
             <div className="absolute right-0 z-50 mt-2 w-56 rounded-xl border border-[var(--color-blue)]/40 bg-[var(--color-navy-light)] py-2 shadow-[0_0_30px_var(--color-blue-glow)] sm:left-auto">
               <a
                 href="/resume-en.pdf"
-                download
+                download="AD_Resume_EN.pdf"
                 className="flex items-center gap-3 px-4 py-2.5 text-sm text-[var(--color-gray)] transition-colors hover:bg-[var(--color-blue)]/10 hover:text-white"
               >
                 <span className="text-lg">🇺🇸</span>
@@ -130,7 +130,7 @@ export function Hero() {
               </a>
               <a
                 href="/resume-pt.pdf"
-                download
+                download="AD_Currículo_PT-BR.pdf"
                 className="flex items-center gap-3 px-4 py-2.5 text-sm text-[var(--color-gray)] transition-colors hover:bg-[var(--color-blue)]/10 hover:text-white"
               >
                 <span className="text-lg">🇧🇷</span>

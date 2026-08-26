@@ -24,7 +24,7 @@
              },
     "about":  {
                   "title":  "Sobre mí",
-                  "p1":  "Ingeniero de Sistemas de IA autodidacta — construyo sistemas multiagente en producción solo, de principio a fin, que toman decisiones reales sobre documentos reales. Diseñé y entregué un pipeline de detección de fraudes en 4 etapas con CrewAI y LangChain que procesa documentos financieros brasileños usando diseño escéptico por defecto, cascada de extracción PDF en 3 métodos y clasificación de riesgo en 5 niveles. Cómodo en todo el stack — backends asíncronos Python/FastAPI con Clean Architecture, frontends React/Next.js, PostgreSQL, Redis, Docker y despliegues en AWS/Vercel/Railway. Buscando un puesto remoto donde pueda contribuir significativamente a un equipo ágil y seguir creciendo.",
+                  "p1":  "Ingeniero de Software Full-Stack Semi-Senior — construyo sistemas multiagente en producción solo, de principio a fin, que toman decisiones reales sobre documentos reales. Diseñé y entregué un pipeline de detección de fraudes en 4 etapas con CrewAI y LangChain que procesa documentos financieros brasileños usando diseño escéptico por defecto, cascada de extracción PDF en 3 métodos y clasificación de riesgo en 5 niveles. Cómodo en todo el stack — backends asíncronos Python/FastAPI con Clean Architecture, frontends React/Next.js, PostgreSQL, Redis, Docker y despliegues en AWS/Vercel/Railway. Buscando un puesto remoto donde pueda contribuir significativamente a un equipo ágil y seguir creciendo.",
                   "p2":  "",
                   "p3":  ""
               },

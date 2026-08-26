@@ -24,7 +24,7 @@
              },
     "about":  {
                   "title":  "关于我",
-                  "p1":  "自学成才的AI系统工程师 — 我独自端到端构建生产级多智能体系统，对真实文档做出真实决策。我使用CrewAI和LangChain设计并交付了一个4阶段欺诈检测流水线，采用默认怀疑设计、3方法PDF提取级联和5级风险分类，处理巴西金融文档。熟悉整个技术栈 — 使用Clean Architecture的异步Python/FastAPI后端、React/Next.js前端、PostgreSQL、Redis、Docker以及在AWS/Vercel/Railway上的云部署。正在寻找能够为快节奏团队做出有意义贡献并持续成长的远程职位。",
+                  "p1":  "中级全栈软件工程师 — 我独自端到端构建生产级多智能体系统，对真实文档做出真实决策。我使用CrewAI和LangChain设计并交付了一个4阶段欺诈检测流水线，采用默认怀疑设计、3方法PDF提取级联和5级风险分类，处理巴西金融文档。熟悉整个技术栈 — 使用Clean Architecture的异步Python/FastAPI后端、React/Next.js前端、PostgreSQL、Redis、Docker以及在AWS/Vercel/Railway上的云部署。正在寻找能够为快节奏团队做出有意义贡献并持续成长的远程职位。",
                   "p2":  "",
                   "p3":  ""
               },
