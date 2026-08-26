@@ -180,9 +180,14 @@ export function Contact() {
 
         {/* Email & Location */}
         <div className="mt-10 flex flex-col items-center gap-3 text-center">
-          <p className="font-mono text-sm text-[var(--color-gray)]">
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=alissonchagas986@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-mono text-sm text-[var(--color-gray)] transition-colors hover:text-[var(--color-blue)]"
+          >
             {t("email")}
-          </p>
+          </a>
           <div className="flex items-center gap-2 rounded-full border border-[var(--color-navy-lighter)] bg-[var(--color-navy)] px-4 py-2">
             <svg
               xmlns="http://www.w3.org/2000/svg"
