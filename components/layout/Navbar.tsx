@@ -3,7 +3,6 @@
 import { useCallback, useEffect, useState } from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import { Link } from "@/lib/navigation";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 
 const NAV_ITEMS = [
@@ -104,8 +103,9 @@ export function Navbar() {
         aria-label="Main navigation"
       >
         {/* ── LEFT: Logo + Brand ── */}
-        <Link
-          href="/"
+        <a
+          href="#hero"
+          onClick={closeMobile}
           className="flex items-center gap-2.5 transition-opacity hover:opacity-85"
           aria-label="Alisson Davi — Home"
         >
@@ -137,7 +137,7 @@ export function Navbar() {
           <span className="text-[15px] font-semibold text-white">
             Alisson Davi
           </span>
-        </Link>
+        </a>
 
         {/* ── CENTER: Nav links (absolutely centered) ── */}
         <ul className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-0 md:flex">
