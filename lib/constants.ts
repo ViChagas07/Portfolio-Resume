@@ -99,6 +99,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
       "Redis",
       "Alembic Migrations",
       "PgVector",
+      "ELK Stack",
     ],
   },
   {
