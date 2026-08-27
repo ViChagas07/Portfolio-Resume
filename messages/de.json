@@ -14,6 +14,9 @@
                  "location":  "Salvador, BA 🇧🇷 · Weltweit remote",
                  "cta_projects":  "Projekte ansehen",
                  "cta_resume":  "Lebenslauf herunterladen",
+                 "downloading":  "Wird heruntergeladen...",
+                 "download_done":  "Heruntergeladen!",
+                 "download_retry":  "Erneut versuchen",
                  "scroll_down":  "Nach unten scrollen",
                  "typing_words":  [
                                       "Multi-Agenten KI-Systeme",
@@ -24,7 +27,7 @@
              },
     "about":  {
                   "title":  "Über mich",
-                  "p1":  "Mid-Level Full-Stack Softwareentwickler — ich baue produktive Multi-Agenten-Systeme allein, von Anfang bis Ende, die echte Entscheidungen über echte Dokumente treffen. Ich entwarf und lieferte eine 4-stufige Betrugserkennungs-Pipeline mit CrewAI und LangChain, die brasilianische Finanzdokumente mit skeptischem Design, einer 3-stufigen PDF-Extraktionskaskade und 5-stufiger Risikoklassifizierung verarbeitet. Sicher im gesamten Stack — asynchrone Python/FastAPI-Backends mit Clean Architecture, React/Next.js-Frontends, PostgreSQL, Redis, Docker und Cloud-Deployments auf AWS/Vercel/Railway. Auf der Suche nach einer Remote-Position, in der ich einen bedeutenden Beitrag zu einem schnellen Team leisten und weiter wachsen kann.",
+                  "p1":  "Full-Stack Softwareentwickler — ich baue produktive Multi-Agenten-Systeme allein, von Anfang bis Ende, die echte Entscheidungen über echte Dokumente treffen. Ich entwarf und lieferte eine 4-stufige Betrugserkennungs-Pipeline mit CrewAI und LangChain, die brasilianische Finanzdokumente mit skeptischem Design, einer 3-stufigen PDF-Extraktionskaskade und 5-stufiger Risikoklassifizierung verarbeitet. Sicher im gesamten Stack — asynchrone Python/FastAPI-Backends mit Clean Architecture, React/Next.js-Frontends, PostgreSQL, Redis, Docker und Cloud-Deployments auf AWS/Vercel/Railway. Auf der Suche nach einer Remote-Position, in der ich einen bedeutenden Beitrag zu einem schnellen Team leisten und weiter wachsen kann.",
                   "p2":  "",
                   "p3":  ""
               },

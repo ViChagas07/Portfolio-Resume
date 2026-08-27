@@ -14,6 +14,9 @@
                  "location":  "Salvador, BA 🇧🇷 · Remote Worldwide",
                  "cta_projects":  "View Projects",
                  "cta_resume":  "Download Resume",
+                 "downloading":  "Downloading...",
+                 "download_done":  "Downloaded!",
+                 "download_retry":  "Try again",
                  "scroll_down":  "Scroll down",
                  "typing_words":  [
                                       "Multi-Agent AI Systems",
@@ -24,7 +27,7 @@
              },
     "about":  {
                   "title":  "About Me",
-                  "p1":  "Mid-Level Full-Stack Software Engineer — I build production multi-agent systems solo, end-to-end, that make real decisions on real documents. I designed and shipped a 4-stage fraud detection pipeline with CrewAI and LangChain that processes Brazilian financial documents (boletos bancários, payroll stubs) using skeptical-by-default system design, a 3-method PDF extraction cascade, and 5-tier risk classification. Comfortable across the full stack — async Python/FastAPI backends with Clean Architecture, React/Next.js frontends, PostgreSQL, Redis, Docker, and cloud deployments on AWS/Vercel/Railway. Currently seeking a remote role where I can make a meaningful contribution to a fast-moving team and keep growing.",
+                  "p1":  "Full-Stack Software Engineer — I build production multi-agent systems solo, end-to-end, that make real decisions on real documents. I designed and shipped a 4-stage fraud detection pipeline with CrewAI and LangChain that processes Brazilian financial documents (boletos bancários, payroll stubs) using skeptical-by-default system design, a 3-method PDF extraction cascade, and 5-tier risk classification. Comfortable across the full stack — async Python/FastAPI backends with Clean Architecture, React/Next.js frontends, PostgreSQL, Redis, Docker, and cloud deployments on AWS/Vercel/Railway. Currently seeking a remote role where I can make a meaningful contribution to a fast-moving team and keep growing.",
                   "p2":  "",
                   "p3":  ""
               },

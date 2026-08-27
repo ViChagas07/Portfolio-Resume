@@ -10,10 +10,13 @@
             },
     "hero":  {
                  "name":  "Alisson Davi",
-                 "subtitle":  "Engenheiro de Sistemas de IA \u0026 Fullstack Pleno",
+                 "subtitle":  "Engenheiro de Sistemas de IA \u0026 Fullstack",
                  "location":  "Salvador, BA 🇧🇷 · Remoto Mundial",
                  "cta_projects":  "Ver Projetos",
                  "cta_resume":  "Baixar Currículo",
+                 "downloading":  "Baixando...",
+                 "download_done":  "Baixado!",
+                 "download_retry":  "Tentar novamente",
                  "scroll_down":  "Rolar para baixo",
                  "typing_words":  [
                                       "Sistemas Multi-Agente com IA",
@@ -24,7 +27,7 @@
              },
     "about":  {
                   "title":  "Sobre Mim",
-                  "p1":  "Engenheiro de Software Full-Stack Pleno — construo, sozinho e do zero, sistemas multiagente em produção que tomam decisões reais sobre documentos reais. Projetei e implementei um pipeline de detecção de fraudes em 4 estágios com CrewAI e LangChain que processa documentos financeiros brasileiros (boletos, contracheques) usando design cético por padrão, cascata de extração PDF em 3 métodos e classificação de risco em 5 níveis. Confortável em toda a stack — backends assíncronos em Python/FastAPI com Clean Architecture, frontends React/Next.js, PostgreSQL, Redis, Docker e deploys em AWS/Vercel/Railway. Atualmente em busca de uma vaga remota onde eu possa contribuir de maneira exímia com uma equipe ágil e continuar evoluindo.",
+                  "p1":  "Engenheiro de Software Full-Stack — construo, sozinho e do zero, sistemas multiagente em produção que tomam decisões reais sobre documentos reais. Projetei e implementei um pipeline de detecção de fraudes em 4 estágios com CrewAI e LangChain que processa documentos financeiros brasileiros (boletos, contracheques) usando design cético por padrão, cascata de extração PDF em 3 métodos e classificação de risco em 5 níveis. Confortável em toda a stack — backends assíncronos em Python/FastAPI com Clean Architecture, frontends React/Next.js, PostgreSQL, Redis, Docker e deploys em AWS/Vercel/Railway. Atualmente em busca de uma vaga remota onde eu possa contribuir de maneira exímia com uma equipe ágil e continuar evoluindo.",
                   "p2":  "",
                   "p3":  ""
               },
