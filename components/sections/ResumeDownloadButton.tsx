@@ -113,7 +113,7 @@ export function ResumeDownloadButton({ className }: { className?: string }) {
         aria-busy={isBusy}
         aria-label={label}
         className={cn(
-          "inline-flex w-full items-center justify-center gap-2 rounded-lg border border-[var(--color-blue)] px-6 py-3 font-heading text-sm font-semibold text-[var(--color-blue)] transition-all duration-300",
+          "inline-flex w-full cursor-pointer items-center justify-center gap-2 rounded-lg border border-[var(--color-blue)] px-6 py-3 font-heading text-sm font-semibold text-[var(--color-blue)] transition-all duration-300",
           "enabled:hover:bg-[var(--color-blue)] enabled:hover:text-white enabled:hover:shadow-[0_0_30px_var(--color-blue-glow)]",
           "disabled:cursor-wait disabled:opacity-90",
           "sm:w-auto sm:min-w-[44px]",
