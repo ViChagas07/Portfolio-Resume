@@ -14,6 +14,9 @@
                  "location":  "サルバドール, BA 🇧🇷 · 世界中リモート可",
                  "cta_projects":  "プロジェクトを見る",
                  "cta_resume":  "履歴書をダウンロード",
+                 "downloading":  "ダウンロード中...",
+                 "download_done":  "ダウンロード完了!",
+                 "download_retry":  "再試行",
                  "scroll_down":  "スクロール",
                  "typing_words":  [
                                       "マルチエージェントAIシステム",

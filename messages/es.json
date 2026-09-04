@@ -14,6 +14,9 @@
                  "location":  "Salvador, BA 🇧🇷 · Remoto Global",
                  "cta_projects":  "Ver Proyectos",
                  "cta_resume":  "Descargar CV",
+                 "downloading":  "Descargando...",
+                 "download_done":  "¡Descargado!",
+                 "download_retry":  "Reintentar",
                  "scroll_down":  "Desplazar abajo",
                  "typing_words":  [
                                       "Sistemas Multi-Agente de IA",

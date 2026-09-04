@@ -22,6 +22,10 @@
 @theme inline {
   --color-background: var(--color-navy);
   --color-foreground: var(--color-white);
+  /* Tokens semânticos (shadcn-style) mapeados para a paleta EC Bahia */
+  --color-primary: var(--color-blue);
+  --color-destructive: var(--color-red);
+  --color-muted-foreground: var(--color-gray);
   --color-blue: var(--color-blue);
   --color-blue-light: var(--color-blue-light);
   --color-blue-dark: var(--color-blue-dark);
@@ -496,5 +500,32 @@ section, .section {
   .timeline-dot-red {
     background-color: #CC0000;
     box-shadow: 0 0 8px 2px rgba(204, 0, 0, 0.6);
+  }
+}
+
+/* ── Download Resume: circular progress ── */
+:root {
+  --animate-spin-around: spin-around 0.8s linear infinite;
+}
+
+@keyframes spin-around {
+  0% { transform: rotate(-90deg); }
+  100% { transform: rotate(270deg); }
+}
+
+/* Flash de sucesso: pulsa azul ↔ vermelho (EC Bahia) antes de voltar ao idle.
+   O stroke do anel usa currentColor, então animar `color` é suficiente. */
+@keyframes success-flash {
+  0%, 100% { color: var(--color-red); }
+  50% { color: var(--color-blue); }
+}
+
+.animate-success-flash {
+  animation: success-flash 0.6s ease-in-out 2;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-success-flash {
+    animation: none;
   }
 }

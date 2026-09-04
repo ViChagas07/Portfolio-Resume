@@ -14,6 +14,9 @@
                  "location":  "萨尔瓦多，巴伊亚 🇧🇷 · 全球远程",
                  "cta_projects":  "查看项目",
                  "cta_resume":  "下载简历",
+                 "downloading":  "下载中...",
+                 "download_done":  "已下载!",
+                 "download_retry":  "重试",
                  "scroll_down":  "向下滚动",
                  "typing_words":  [
                                       "多智能体AI系统",
