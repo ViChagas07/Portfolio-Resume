@@ -192,7 +192,7 @@ export const PROJECTS: Project[] = [
     liveUrl: "https://aimaginator.vercel.app",
     githubUrl: "https://github.com/ViChagas07/AImaginator",
     monogram: "AIM",
-    imagePath: "/projects/aimaginator.png",
+    imagePath: "/AImaginator_pic_transparent.png",
   },
   {
     key: "psi",
