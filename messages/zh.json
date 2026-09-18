@@ -51,6 +51,13 @@
                      "live_demo":  "在线演示",
                      "view_code":  "GitHub",
                      "highlights":  {
+                                        "aimaginator":  [
+                                                    "开发了一个全栈AI平台，从自然语言提示词生成和编辑图像，在应用端口（六边形架构）后用CrewAI/LangChain/LangGraph编排智能体管道，使框架可在不接触业务逻辑的情况下替换",
+                                                    "设计了LangGraph状态机管道（提示词解读→安全审查→生成/编辑→后处理），配备专用CrewAI智能体，包括SafetyReviewerAgent和结构化提示词分隔符，作为防提示词注入的纵深防御",
+                                                    "通过Eval-Driven Development (EDD)推动AI智能体质量——基于评分标准的评估涵盖安全、质量和延迟——同时结合pytest的TDD和Hypothesis的基于属性测试",
+                                                    "设计了通过Celery (RabbitMQ)的异步非阻塞生成，配合Redis Pub/Sub → Server-Sent Events (SSE)实时进度流式传输，以及PostgreSQL/SQLAlchemy异步持久化和Redis stale-while-revalidate缓存",
+                                                    "构建了Next.js 16 (App Router, TypeScript, Tailwind, shadcn/ui)前端，集成i18n (next-intl)和POUR无障碍，添加了Google SSO (OAuth 2.0 + OIDC with PKCE)、Prometheus/Grafana/Sentry可观测性和GitHub Actions CI/CD，遵循模块化单体+Clean Architecture"
+                                                ],
                                         "psi":  [
                                                     "4阶段AI欺诈检测流水线，处理真实金融文档",
                                                     "CrewAI多智能体系统 — Gemini、DeepSeek和OpenAI的默认怀疑设计编排",
@@ -109,8 +116,9 @@
                                                            "GitHub CI/CD自动部署至Vercel"
                                                        ]
                                     },
-                     "taglines":  {
-                                      "psi":  "生产环境多智能体欺诈检测流水线",
+"taglines":  {
+                                       "aimaginator":  "AI驱动的图像生成与编辑平台",
+                                       "psi":  "生产环境多智能体欺诈检测流水线",
                                       "pytomatiza":  "AI智能体智能自动化平台",
                                       "clark":  "超人主题全功能音乐播放器",
                                       "facilit":  "WhatsApp AI客服自动化",

@@ -167,6 +167,34 @@ export const SKILL_CATEGORY_ICONS: Record<string, string> = {
 
 export const PROJECTS: Project[] = [
   {
+    key: "aimaginator",
+    name: "AImaginator",
+    tagline: "AI-Powered Image Generation & Editing Platform",
+    highlights: [
+      "Developed a full-stack AI platform that generates and edits images from natural-language prompts, orchestrating an agentic pipeline with CrewAI/LangChain/LangGraph behind an application port (hexagonal architecture) so the framework is swappable without touching business logic",
+      "Engineered a LangGraph state-machine pipeline (prompt interpretation → safety review → generation/edit → post-processing) with specialized CrewAI agents, including a SafetyReviewerAgent and structured prompt delimiters as defense-in-depth against prompt injection",
+      "Drove quality through Eval-Driven Development (EDD) for the AI agents — rubric-based evals covering safety, quality, and latency — alongside TDD with pytest and Hypothesis property-based testing",
+      "Designed asynchronous, non-blocking generation via Celery (RabbitMQ) with real-time progress streaming through Redis Pub/Sub → Server-Sent Events (SSE), plus PostgreSQL/SQLAlchemy async persistence and Redis stale-while-revalidate caching",
+      "Built the Next.js 16 (App Router, TypeScript, Tailwind, shadcn/ui) frontend with i18n (next-intl) and POUR accessibility, and added Google SSO (OAuth 2.0 + OIDC with PKCE), Prometheus/Grafana/Sentry observability, and GitHub Actions CI/CD, following a modular monolith + Clean Architecture"
+    ],
+    techStack: [
+      "Next.js",
+      "FastAPI",
+      "CrewAI",
+      "LangChain",
+      "LangGraph",
+      "PostgreSQL",
+      "Redis",
+      "RabbitMQ",
+      "Celery",
+      "Python",
+    ],
+    liveUrl: "https://aimaginator.vercel.app",
+    githubUrl: "https://github.com/ViChagas07/AImaginator",
+    monogram: "AIM",
+    imagePath: "/projects/aimaginator.png",
+  },
+  {
     key: "psi",
     name: "PaySentinelIQ",
     tagline: "AI-Powered Payment Fraud Detection SaaS",

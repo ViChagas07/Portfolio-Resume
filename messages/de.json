@@ -51,6 +51,13 @@
                      "live_demo":  "Live-Demo",
                      "view_code":  "GitHub",
                      "highlights":  {
+                                        "aimaginator":  [
+                                                    "Ich entwickelte eine Full-Stack-KI-Plattform, die Bilder aus natürlichsprachlichen Prompts generiert und bearbeitet, wobei ein agentischer Pipeline mit CrewAI/LangChain/LangGraph hinter einem Anwendungsport (hexagonale Architektur) orchestriert wird, damit das Framework austauschbar ist, ohne die Geschäftslogik zu berühren",
+                                                    "Ich entwarf einen LangGraph-Zustandsautomaten-Pipeline (Prompt-Interpretation → Sicherheitsprüfung → Generierung/Bearbeitung → Nachbearbeitung) mit spezialisierten CrewAI-Agenten, einschließlich eines SafetyReviewerAgent und strukturierter Prompt-Delimiter als Defense-in-Depth gegen Prompt-Injection",
+                                                    "Ich trieb Qualität durch Eval-Driven Development (EDD) für KI-Agenten voran — rubrikbasierteEvals für Sicherheit, Qualität und Latenz — neben TDD mit pytest und Hypothesis eigenschaftsbasierten Tests",
+                                                    "Ich entwarf asynchrone, nicht-blockierende Generierung via Celery (RabbitMQ) mit Echtzeit-Fortschrittsstreaming durch Redis Pub/Sub → Server-Sent Events (SSE), plus PostgreSQL/SQLAlchemy asynchrone Persistenz und Redis stale-while-revalidate-Caching",
+                                                    "Ich baute das Next.js 16 (App Router, TypeScript, Tailwind, shadcn/ui) Frontend mit i18n (next-intl) und POUR-Zugänglichkeit, und fügte Google SSO (OAuth 2.0 + OIDC mit PKCE), Prometheus/Grafana/Sentry Observability und GitHub Actions CI/CD hinzu, folgend modularem Monolith + Clean Architecture"
+                                                ],
                                         "psi":  [
                                                     "4-stufige KI-Betrugserkennungs-Pipeline, die echte Finanzdokumente in Produktion verarbeitet",
                                                     "Multi-Agenten-System mit CrewAI — Gemini, DeepSeek und OpenAI mit skeptischem Design",
@@ -109,8 +116,9 @@
                                                            "Automatisiertes Deployment auf Vercel mit GitHub CI/CD"
                                                        ]
                                     },
-                     "taglines":  {
-                                      "psi":  "Multi-Agenten Betrugserkennungs-Pipeline in Produktion",
+"taglines":  {
+                                       "aimaginator":  "KI-gestützte Bildgenerierungs- & Bearbeitungsplattform",
+                                       "psi":  "Multi-Agenten Betrugserkennungs-Pipeline in Produktion",
                                       "pytomatiza":  "Intelligente Automatisierungsplattform mit KI-Agenten",
                                       "clark":  "Superman-Themen-Vollfunktions-Musikplayer",
                                       "facilit":  "WhatsApp KI-Kundenservice-Automatisierung",

@@ -51,6 +51,13 @@
                      "live_demo":  "Demonstração",
                      "view_code":  "GitHub",
                      "highlights":  {
+                                        "aimaginator":  [
+                                                    "Desenvolvi uma plataforma full-stack de IA que gera e edita imagens a partir de prompts em linguagem natural, orquestrando um pipeline agente com CrewAI/LangChain/LangGraph atrás de uma porta de aplicação (arquitetura hexagonal) para que o framework seja intercambiável sem tocar a lógica de negócio",
+                                                    "Projetei um pipeline de máquina de estados LangGraph (interpretação de prompt → revisão de segurança → geração/edição → pós-processamento) com agentes especializados CrewAI, incluindo um SafetyReviewerAgent e delimitadores de prompt estruturados como defesa em profundidade contra injeção de prompt",
+                                                    "Impulsionei a qualidade através de Eval-Driven Development (EDD) para os agentes de IA — avaliações baseadas em rubricas cobrindo segurança, qualidade e latência — junto com TDD com pytest e testes baseados em propriedades com Hypothesis",
+                                                    "Projetei geração assíncrona e não-bloqueante via Celery (RabbitMQ) com streaming de progresso em tempo real via Redis Pub/Sub → Server-Sent Events (SSE), além de persistência assíncrona PostgreSQL/SQLAlchemy e cache Redis stale-while-revalidate",
+                                                    "Construí o frontend Next.js 16 (App Router, TypeScript, Tailwind, shadcn/ui) com i18n (next-intl) e acessibilidade POUR, e adicionei Google SSO (OAuth 2.0 + OIDC com PKCE), observabilidade Prometheus/Grafana/Sentry e GitHub Actions CI/CD, seguindo monólito modular + Clean Architecture"
+                                                ],
                                         "psi":  [
                                                     "Pipeline de detecção de fraudes em 4 estágios com IA processando documentos financeiros reais em produção",
                                                     "Sistema multiagente com CrewAI — orquestração entre Gemini, DeepSeek e OpenAI com design cético por padrão",
@@ -109,8 +116,9 @@
                                                            "Deploy automatizado na Vercel com integração contínua via GitHub"
                                                        ]
                                     },
-                     "taglines":  {
-                                      "psi":  "Pipeline Multi-Agente de Detecção de Fraudes em Produção",
+"taglines":  {
+                                       "aimaginator":  "Plataforma de Geração e Edição de Imagens com IA",
+                                       "psi":  "Pipeline Multi-Agente de Detecção de Fraudes em Produção",
                                       "pytomatiza":  "Plataforma de Automação Inteligente com Agentes de IA",
                                       "clark":  "Player de Música Completo Temático do Superman",
                                       "facilit":  "Automação de Atendimento ao Cliente via WhatsApp com IA",

@@ -51,6 +51,13 @@
                      "live_demo":  "ライブデモ",
                      "view_code":  "GitHub",
                      "highlights":  {
+                                        "aimaginator":  [
+                                                    "自然言語プロンプトから画像を生成・編集するフルスタックAIプラットフォームを開発。CrewAI/LangChain/LangGraphを用いたエージェンティックパイプラインをアプリケーションポート（ヘキサゴナルアーキテクチャ）の背後でオーケストレーションし、フレームワークをビジネスロジックに触れずに交換可能にした",
+                                                    "LangGraphステートマシンパイプライン（プロンプト解釈→安全性レビュー→生成/編集→後処理）を設計し、SafetyReviewerAgentを含む専門的なCrewAIエージェントと構造化プロンプト区切り文字をプロンプトインジェクション対策の多層防御として実装",
+                                                    "AIエージェントのEval-Driven Development（EDD）で品質を推進 — 安全性、品質、レイテンシをカバーするルーブリックベースの評価 — と並行して、pytestとHypothesisによるプロパティベーステストでTDDを実施",
+                                                    "Celery（RabbitMQ）による非同期・ノンブロッキング生成を設計し、Redis Pub/Sub → Server-Sent Events（SSE）でリアルタイム進捗ストリーミングを実現。さらにPostgreSQL/SQLAlchemy非同期永続化とRedis stale-while-revalidateキャッシングを導入",
+                                                    "Next.js 16（App Router、TypeScript、Tailwind、shadcn/ui）フロントエンドをi18n（next-intl）とPOURアクセシビリティで構築。Google SSO（OAuth 2.0 + OIDC with PKCE）、Prometheus/Grafana/Sentry観測性、GitHub Actions CI/CDを追加。モジュラーモノリス＋Clean Architectureに準拠"
+                                                ],
                                         "psi":  [
                                                     "実際の金融文書を処理する4段階AI不正検出パイプライン",
                                                     "CrewAIによるマルチエージェントシステム — デフォルトで懐疑的な設計のGemini、DeepSeek、OpenAIオーケストレーション",
@@ -109,8 +116,9 @@
                                                            "GitHub CI/CDによるVercelへの自動デプロイ"
                                                        ]
                                     },
-                     "taglines":  {
-                                      "psi":  "本番稼働中のマルチエージェント不正検出パイプライン",
+"taglines":  {
+                                       "aimaginator":  "AI搭載画像生成・編集プラットフォーム",
+                                       "psi":  "本番稼働中のマルチエージェント不正検出パイプライン",
                                       "pytomatiza":  "AIエージェントによるインテリジェント自動化プラットフォーム",
                                       "clark":  "スーパーマンテーマの高機能ミュージックプレイヤー",
                                       "facilit":  "WhatsApp AIカスタマーサービス自動化",
