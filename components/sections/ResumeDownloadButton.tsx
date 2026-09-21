@@ -180,7 +180,7 @@ export function ResumeDownloadButton({ className }: { className?: string }) {
         <ul
           role="listbox"
           aria-label={t("resume_select_locale") || "Select resume language"}
-          className="absolute bottom-full left-0 mb-2 w-full sm:w-auto min-w-[160px] rounded-lg border border-[var(--color-navy-lighter)] bg-[var(--color-navy)] py-1 shadow-lg z-50 animate-fade-in"
+          className="absolute top-full left-0 mt-2 w-full sm:w-auto min-w-[160px] rounded-lg border border-[var(--color-navy-lighter)] bg-[var(--color-navy)] py-1 shadow-lg z-50 animate-fade-in"
         >
           {(["pt-BR", "en"] as ResumeLocale[]).map((locale) => (
             <li key={locale} role="option">
