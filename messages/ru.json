@@ -16,8 +16,9 @@
                  "cta_resume":  "Скачать резюме",
                  "downloading":  "Загрузка...",
                  "download_done":  "Загружено!",
-                 "download_retry":  "Повторить",
-                 "scroll_down":  "Листайте вниз",
+"download_retry":  "Повторить",
+                  "resume_select_locale":  "Выбрать язык резюме",
+                  "scroll_down":  "Листайте вниз",
                  "typing_words":  [
                                       "Мультиагентные ИИ-системы",
                                       "Python · FastAPI · CrewAI",

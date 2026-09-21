@@ -16,8 +16,9 @@
                  "cta_resume":  "تحميل السيرة الذاتية",
                  "downloading":  "جارٍ التحميل...",
                  "download_done":  "تم التحميل!",
-                 "download_retry":  "إعادة المحاولة",
-                 "scroll_down":  "اسحب للأسفل",
+"download_retry":  "إعادة المحاولة",
+                  "resume_select_locale":  "اختيار لغة السيرة الذاتية",
+                  "scroll_down":  "اسحب للأسفل",
                  "typing_words":  [
                                       "أنظمة الوكلاء المتعددين",
                                       "Python · FastAPI · CrewAI",

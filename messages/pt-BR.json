@@ -16,8 +16,9 @@
                  "cta_resume":  "Baixar Currículo",
                  "downloading":  "Baixando...",
                  "download_done":  "Baixado!",
-                 "download_retry":  "Tentar novamente",
-                 "scroll_down":  "Rolar para baixo",
+"download_retry":  "Tentar novamente",
+                  "resume_select_locale":  "Selecionar idioma do currículo",
+                  "scroll_down":  "Rolar para baixo",
                  "typing_words":  [
                                       "Sistemas Multi-Agente com IA",
                                       "Python · FastAPI · CrewAI",

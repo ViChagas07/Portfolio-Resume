@@ -16,8 +16,9 @@
                  "cta_resume":  "Download Resume",
                  "downloading":  "Downloading...",
                  "download_done":  "Downloaded!",
-                 "download_retry":  "Try again",
-                 "scroll_down":  "Scroll down",
+"download_retry":  "Try again",
+                  "resume_select_locale":  "Select resume language",
+                  "scroll_down":  "Scroll down",
                  "typing_words":  [
                                       "Multi-Agent AI Systems",
                                       "Python · FastAPI · CrewAI",

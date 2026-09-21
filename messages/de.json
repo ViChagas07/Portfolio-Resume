@@ -16,8 +16,9 @@
                  "cta_resume":  "Lebenslauf herunterladen",
                  "downloading":  "Wird heruntergeladen...",
                  "download_done":  "Heruntergeladen!",
-                 "download_retry":  "Erneut versuchen",
-                 "scroll_down":  "Nach unten scrollen",
+"download_retry":  "Erneut versuchen",
+                  "resume_select_locale":  "Lebenslauf-Sprache auswählen",
+                  "scroll_down":  "Nach unten scrollen",
                  "typing_words":  [
                                       "Multi-Agenten KI-Systeme",
                                       "Python · FastAPI · CrewAI",

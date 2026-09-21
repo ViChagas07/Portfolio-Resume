@@ -16,8 +16,9 @@
                  "cta_resume":  "履歴書をダウンロード",
                  "downloading":  "ダウンロード中...",
                  "download_done":  "ダウンロード完了!",
-                 "download_retry":  "再試行",
-                 "scroll_down":  "スクロール",
+"download_retry":  "再試行",
+                  "resume_select_locale":  "履歴書の言語を選択",
+                  "scroll_down":  "スクロール",
                  "typing_words":  [
                                       "マルチエージェントAIシステム",
                                       "Python · FastAPI · CrewAI",

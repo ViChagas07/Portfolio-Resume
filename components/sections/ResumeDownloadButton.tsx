@@ -1,8 +1,8 @@
 "use client";
 
 import * as React from "react";
-import { AlertTriangle, Check, Download } from "lucide-react";
-import { useLocale, useTranslations } from "next-intl";
+import { AlertTriangle, Check, Download, ChevronDown } from "lucide-react";
+import { useTranslations } from "next-intl";
 import {
   CircularProgress,
   CircularProgressIndicator,
@@ -12,42 +12,54 @@ import {
 import { cn } from "@/lib/utils";
 
 type DownloadState = "idle" | "downloading" | "success" | "error";
+type ResumeLocale = "pt-BR" | "en";
 
-/**
- * O currículo só existe em EN e PT-BR.
- * Locale "en"  → /AD_Resume_EN.pdf
- * Locale "pt-BR" → /AD_Curriculo_PT-BR.pdf
- * Demais locales (es, fr, de, ja, zh, ru, ar) caem no inglês,
- * que é o idioma padrão do site e o fallback internacional.
- */
-const RESUME_FILES: Record<string, string> = {
+const RESUME_FILES: Record<ResumeLocale, string> = {
   en: "/AD_Resume_EN.pdf",
   "pt-BR": "/AD_Curriculo_PT-BR.pdf",
+};
+
+const RESUME_LABELS: Record<ResumeLocale, string> = {
+  "pt-BR": "PT-BR",
+  en: "EN",
 };
 
 const SUCCESS_RESET_MS = 1500;
 
 export function ResumeDownloadButton({ className }: { className?: string }) {
-  const locale = useLocale();
   const t = useTranslations("hero");
   const [state, setState] = React.useState<DownloadState>("idle");
   const [progress, setProgress] = React.useState<number | null>(null);
+  const [isOpen, setIsOpen] = React.useState(false);
+  const [selectedLocale, setSelectedLocale] = React.useState<ResumeLocale>("pt-BR");
   const resetTimerRef = React.useRef<ReturnType<typeof setTimeout> | null>(null);
+  const dropdownRef = React.useRef<HTMLDivElement>(null);
 
-  // Limpa o timer de "sucesso" se o componente desmontar antes.
   React.useEffect(() => {
     return () => {
       if (resetTimerRef.current) clearTimeout(resetTimerRef.current);
     };
   }, []);
 
-  const resumeUrl = RESUME_FILES[locale] ?? RESUME_FILES.en;
-  const filename = resumeUrl.split("/").pop() ?? "resume.pdf";
+  React.useEffect(() => {
+    function handleClickOutside(event: MouseEvent) {
+      if (dropdownRef.current && !dropdownRef.current.contains(event.target as Node)) {
+        setIsOpen(false);
+      }
+    }
+    document.addEventListener("mousedown", handleClickOutside);
+    return () => document.removeEventListener("mousedown", handleClickOutside);
+  }, []);
 
-  const handleDownload = React.useCallback(async () => {
+  const handleDownload = React.useCallback(async (locale: ResumeLocale) => {
     if (state === "downloading") return;
+
+    const resumeUrl = RESUME_FILES[locale];
+    const filename = resumeUrl.split("/").pop() ?? "resume.pdf";
+
     setState("downloading");
     setProgress(null);
+    setIsOpen(false);
 
     try {
       const response = await fetch(resumeUrl);
@@ -60,7 +72,6 @@ export function ResumeDownloadButton({ className }: { className?: string }) {
       const chunks: Uint8Array[] = [];
       let received = 0;
 
-      // Sem Content-Length (alguns CDNs/edge), progress fica null → spinner indeterminado.
       while (true) {
         const { done, value } = await reader.read();
         if (done) break;
@@ -90,7 +101,7 @@ export function ResumeDownloadButton({ className }: { className?: string }) {
     } catch {
       setState("error");
     }
-  }, [resumeUrl, filename, state]);
+  }, [state]);
 
   const isBusy = state === "downloading";
   const isSuccess = state === "success";
@@ -104,14 +115,21 @@ export function ResumeDownloadButton({ className }: { className?: string }) {
         ? t("downloading")
         : t("cta_resume");
 
+  const flags: Record<ResumeLocale, string> = {
+    "pt-BR": "🇧🇷",
+    en: "🇬🇧",
+  };
+
   return (
-    <>
+    <div className={cn("relative inline-flex", className)} ref={dropdownRef}>
       <button
         type="button"
-        onClick={handleDownload}
+        onClick={() => setIsOpen(!isOpen)}
         disabled={isBusy}
         aria-busy={isBusy}
         aria-label={label}
+        aria-haspopup="listbox"
+        aria-expanded={isOpen}
         className={cn(
           "inline-flex w-full cursor-pointer items-center justify-center gap-2 rounded-lg border border-[var(--color-blue)] px-6 py-3 font-heading text-sm font-semibold text-[var(--color-blue)] transition-all duration-300",
           "enabled:hover:bg-[var(--color-blue)] enabled:hover:text-white enabled:hover:shadow-[0_0_30px_var(--color-blue-glow)]",
@@ -144,15 +162,49 @@ export function ResumeDownloadButton({ className }: { className?: string }) {
           {isBusy && progress !== null ? ` ${progress}%` : ""}
         </span>
 
+        {!isBusy && !isSuccess && !isError && (
+          <ChevronDown
+            className={cn(
+              "size-4 transition-transform duration-200",
+              isOpen && "rotate-180"
+            )}
+            aria-hidden="true"
+          />
+        )}
+
         {isSuccess && <Check className="size-4 text-destructive" aria-hidden="true" />}
         {isError && <AlertTriangle className="size-4 text-destructive" aria-hidden="true" />}
       </button>
 
-      {/* Região ao vivo: anuncia apenas transições de estado (não cada %),
-          evitando spam para leitores de tela. */}
+      {isOpen && !isBusy && !isSuccess && !isError && (
+        <ul
+          role="listbox"
+          aria-label={t("resume_select_locale") || "Select resume language"}
+          className="absolute bottom-full left-0 mb-2 w-full sm:w-auto min-w-[160px] rounded-lg border border-[var(--color-navy-lighter)] bg-[var(--color-navy)] py-1 shadow-lg z-50 animate-fade-in"
+        >
+          {(["pt-BR", "en"] as ResumeLocale[]).map((locale) => (
+            <li key={locale} role="option">
+              <button
+                type="button"
+                onClick={() => handleDownload(locale)}
+                disabled={isBusy}
+                className={cn(
+                  "w-full flex items-center gap-3 px-4 py-2.5 text-left font-medium text-sm text-[var(--color-gray-light)] transition-colors",
+                  "hover:bg-[var(--color-blue)]/10 hover:text-white",
+                  "focus:outline-none focus:bg-[var(--color-blue)]/10 focus:text-white",
+                )}
+              >
+                <span aria-hidden="true">{flags[locale]}</span>
+                <span>{RESUME_LABELS[locale]}</span>
+              </button>
+            </li>
+          ))}
+        </ul>
+      )}
+
       <span className="sr-only" role="status" aria-live="polite">
         {state === "idle" ? "" : label}
       </span>
-    </>
+    </div>
   );
 }
