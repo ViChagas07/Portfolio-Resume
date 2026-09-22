@@ -184,12 +184,18 @@
                                            "hours":  "11 семестров",
                                            "year":  "2024"
                                        },
-                           "toefl":  {
-                                         "name":  "English — Professional Working Proficiency (CEFR B2) | TOEFL ITP: 553/677",
-                                         "issuer":  "ETS",
-                                         "hours":  "Балл: 553/677",
-                                         "year":  "Авг 2026"
-                                     }
+"toefl":  {
+                                          "name":  "English — Professional Working Proficiency (CEFR B2) | TOEFL ITP: 553/677",
+                                          "issuer":  "ETS",
+                                          "hours":  "Балл: 553/677",
+                                          "year":  "Авг 2026"
+                                      },
+                            "aws_saa":  {
+                                          "name":  "Подготовка к экзамену AWS SAA-C03",
+                                          "issuer":  "Udemy",
+                                          "hours":  "40ч",
+                                          "year":  "2025"
+                                      }
                        },
     "contact":  {
                     "title":  "Создадим что-то вместе!",

@@ -402,4 +402,11 @@ export const CERTIFICATIONS: Certification[] = [
     hoursKey: "certifications.toefl.hours",
     yearKey: "certifications.toefl.year",
   },
+  {
+    key: "aws_saa",
+    nameKey: "certifications.aws_saa.name",
+    issuerKey: "certifications.aws_saa.issuer",
+    hoursKey: "certifications.aws_saa.hours",
+    yearKey: "certifications.aws_saa.year",
+  },
 ];
