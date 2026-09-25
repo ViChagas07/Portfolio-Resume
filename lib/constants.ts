@@ -287,27 +287,6 @@ export const PROJECTS: Project[] = [
     imagePath: "/projects/facilitbot.jpg",
   },
   {
-    key: "eude_ramos",
-    name: "Portfólio para Assistente Social",
-    tagline: "Professional Portfolio Website for Social Worker",
-    highlights: [
-      "Responsive single-page portfolio with modern UI/UX design",
-      "Built with Next.js and TypeScript for optimal performance",
-      "SEO-optimized with server-side rendering and metadata",
-      "Deployed on Vercel with CI/CD via GitHub integration",
-    ],
-    techStack: [
-      "Next.js",
-      "TypeScript",
-      "Tailwind CSS",
-      "Vercel",
-    ],
-    githubUrl: "https://github.com/ViChagas07/Eude_Ramos",
-    liveUrl: "https://eude-ramos.vercel.app",
-    monogram: "ER",
-    imagePath: "/projects/eude-ramos.png",
-  },
-  {
     key: "filldoc",
     name: "FillDoc",
     tagline: "Intelligent Document Automation Platform",
@@ -350,6 +329,27 @@ export const PROJECTS: Project[] = [
     githubUrl: "https://github.com/ViChagas07/JetecPlus",
     monogram: "JP",
     imagePath: "/projects/jetec-plus.jpg",
+  },
+  {
+    key: "eude_ramos",
+    name: "Portfólio para Assistente Social",
+    tagline: "Professional Portfolio Website for Social Worker",
+    highlights: [
+      "Responsive single-page portfolio with modern UI/UX design",
+      "Built with Next.js and TypeScript for optimal performance",
+      "SEO-optimized with server-side rendering and metadata",
+      "Deployed on Vercel with CI/CD via GitHub integration",
+    ],
+    techStack: [
+      "Next.js",
+      "TypeScript",
+      "Tailwind CSS",
+      "Vercel",
+    ],
+    githubUrl: "https://github.com/ViChagas07/Eude_Ramos",
+    liveUrl: "https://eude-ramos.vercel.app",
+    monogram: "ER",
+    imagePath: "/projects/eude-ramos.png",
   },
 ];
 
