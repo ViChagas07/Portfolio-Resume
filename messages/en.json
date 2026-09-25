@@ -109,22 +109,36 @@
                                                         "Restructured frontend-backend-WhatsApp communication for automated service stability",
                                                         "Refactored agent flow to produce more organized and consistent conversation responses"
                                                     ],
-                                        "eude_ramos":  [
+"eude_ramos":  [
                                                            "Modern and fully responsive interface",
                                                            "Built with Next.js and TypeScript",
                                                            "Performance-optimized rendering with SEO",
                                                            "Metadata configured for better search engine indexing",
                                                            "Automated deployment on Vercel with GitHub CI/CD"
-                                                       ]
-                                    },
+                                                       ],
+                                        "filldoc": [
+                                            "AI-powered intelligent document automation platform",
+                                            "Document generation and form filling from templates",
+                                            "Multi-agent pipeline for document processing and validation",
+                                            "Containerized deployment with CI/CD on Vercel and Railway"
+                                        ],
+                                        "jetec_plus": [
+                                            "Comprehensive CMMS for industrial equipment maintenance",
+                                            "Work order management and preventive maintenance scheduling",
+                                            "Asset tracking with QR codes and mobile access",
+                                            "Built with Next.js, TypeScript, and PostgreSQL"
+                                        ]
+                                     },
 "taglines":  {
-                                       "aimaginator":  "AI-Powered Image Generation & Editing Platform",
-                                       "psi":  "Production Multi-Agent Fraud Detection Pipeline",
-                                      "pytomatiza":  "Intelligent Automation Platform with AI Agents",
-                                      "clark":  "Superman-Themed Full-Featured Music Player",
-                                      "facilit":  "WhatsApp AI Customer Service Automation",
-                                      "eude_ramos":  "Professional Portfolio Website for Social Worker"
-                                  }
+                                        "aimaginator":  "AI-Powered Image Generation & Editing Platform",
+                                        "psi":  "Production Multi-Agent Fraud Detection Pipeline",
+                                       "pytomatiza":  "Intelligent Automation Platform with AI Agents",
+                                       "clark":  "Superman-Themed Full-Featured Music Player",
+                                       "facilit":  "WhatsApp AI Customer Service Automation",
+                                       "eude_ramos":  "Professional Portfolio Website for Social Worker",
+                                       "filldoc": "Intelligent Document Automation Platform",
+                                       "jetec_plus": "Industrial Maintenance Management System"
+                                   }
                  },
     "experience":  {
                        "title":  "Experience",

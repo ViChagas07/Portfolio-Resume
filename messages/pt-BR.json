@@ -109,22 +109,36 @@
                                                         "Reestruturei a comunicação entre frontend, backend e WhatsApp para estabilidade no atendimento",
                                                         "Refatorei o fluxo dos agentes para produzir respostas mais organizadas e consistentes"
                                                     ],
-                                        "eude_ramos":  [
+"eude_ramos":  [
                                                            "Interface moderna e totalmente responsiva",
                                                            "Desenvolvido com Next.js e TypeScript",
                                                            "Renderização otimizada para desempenho e SEO",
                                                            "Metadados configurados para melhor indexação nos mecanismos de busca",
                                                            "Deploy automatizado na Vercel com integração contínua via GitHub"
-                                                       ]
-                                    },
+                                                       ],
+                                        "filldoc": [
+                                            "Plataforma inteligente de automação de documentos com IA",
+                                            "Geração e preenchimento de formulários a partir de templates",
+                                            "Pipeline multi-agente para processamento e validação",
+                                            "Deploy containerizado com CI/CD na Vercel e Railway"
+                                        ],
+                                        "jetec_plus": [
+                                            "Sistema completo de gestão de manutenção industrial (CMMS)",
+                                            "Gerenciamento de ordens de serviço e manutenção preventiva",
+                                            "Rastreamento de ativos com QR codes e acesso móvel",
+                                            "Construído com Next.js, TypeScript e PostgreSQL"
+                                        ]
+                                     },
 "taglines":  {
-                                       "aimaginator":  "Plataforma de Geração e Edição de Imagens com IA",
-                                       "psi":  "Pipeline Multi-Agente de Detecção de Fraudes em Produção",
-                                      "pytomatiza":  "Plataforma de Automação Inteligente com Agentes de IA",
-                                      "clark":  "Player de Música Completo Temático do Superman",
-                                      "facilit":  "Automação de Atendimento ao Cliente via WhatsApp com IA",
-                                      "eude_ramos":  "Site Portfólio Profissional para Assistente Social"
-                                  }
+                                        "aimaginator":  "Plataforma de Geração e Edição de Imagens com IA",
+                                        "psi":  "Pipeline Multi-Agente de Detecção de Fraudes em Produção",
+                                       "pytomatiza":  "Plataforma de Automação Inteligente com Agentes de IA",
+                                       "clark":  "Player de Música Completo Temático do Superman",
+                                       "facilit":  "Automação de Atendimento ao Cliente via WhatsApp com IA",
+                                       "eude_ramos":  "Site Portfólio Profissional para Assistente Social",
+                                       "filldoc": "Plataforma Inteligente de Automação de Documentos",
+                                       "jetec_plus": "Sistema de Gestão de Manutenção Industrial"
+                                   }
                  },
     "experience":  {
                        "title":  "Experiência",

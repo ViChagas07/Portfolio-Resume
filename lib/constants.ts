@@ -307,6 +307,50 @@ export const PROJECTS: Project[] = [
     monogram: "ER",
     imagePath: "/projects/eude-ramos.png",
   },
+  {
+    key: "filldoc",
+    name: "FillDoc",
+    tagline: "Intelligent Document Automation Platform",
+    highlights: [
+      "AI-powered document generation and form filling from templates",
+      "Multi-agent pipeline for document processing and validation",
+      "Next.js frontend with FastAPI backend and PostgreSQL",
+      "Dockerized deployment with CI/CD on Vercel and Railway",
+    ],
+    techStack: [
+      "Next.js",
+      "FastAPI",
+      "PostgreSQL",
+      "Docker",
+      "Python",
+      "TypeScript",
+    ],
+    liveUrl: "https://filldoc.vercel.app",
+    githubUrl: "https://github.com/ViChagas07/FillDoc",
+    monogram: "FD",
+    imagePath: "/projects/filldoc-logo.png",
+  },
+  {
+    key: "jetec_plus",
+    name: "Jetec+",
+    tagline: "Industrial Maintenance Management System",
+    highlights: [
+      "Comprehensive CMMS for industrial equipment maintenance",
+      "Work order management, preventive maintenance scheduling",
+      "Asset tracking with QR codes and mobile access",
+      "Built with Next.js, TypeScript, and PostgreSQL",
+    ],
+    techStack: [
+      "Next.js",
+      "TypeScript",
+      "PostgreSQL",
+      "Tailwind CSS",
+      "Vercel",
+    ],
+    githubUrl: "https://github.com/ViChagas07/JetecPlus",
+    monogram: "JP",
+    imagePath: "/projects/jetec-plus.jpg",
+  },
 ];
 
 /* ── Experience timeline ── */
