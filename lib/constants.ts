@@ -291,10 +291,12 @@ export const PROJECTS: Project[] = [
     name: "FillDoc",
     tagline: "Intelligent Document Automation Platform",
     highlights: [
-      "AI-powered document generation and form filling from templates",
-      "Multi-agent pipeline for document processing and validation",
-      "Next.js frontend with FastAPI backend and PostgreSQL",
-      "Dockerized deployment with CI/CD on Vercel and Railway",
+      "Two unified paths: PDF with AcroForm (pypdf) + creation from scratch with {{...}} placeholders (fpdf2) — automatic detection and smart fallback",
+      "Componentized Next.js 14 frontend: Stepper, generic FieldMapper (reused in both paths), PdfPreview, ThemeToggle (Light/Dark/System)",
+      "Stateless-ish FastAPI backend with sessions: dynamic .xlsx upload (free columns), field↔column mapping, ZIP generation with names per column",
+      "Standalone Windows executable (~85 MB) via PyInstaller: bundles Poppler (pdftoppm + 30 DLLs) — PDF preview runs on any Windows without installing anything",
+      "Static frontend export served by FastAPI itself (StaticFiles) — single binary, zero external dependencies",
+      "Docker Compose for dev/demo + Poetry + Ruff/Black + 14 pytest tests"
     ],
     techStack: [
       "Next.js",
@@ -314,10 +316,14 @@ export const PROJECTS: Project[] = [
     name: "Jetec+",
     tagline: "Industrial Maintenance Management System",
     highlights: [
-      "Comprehensive CMMS for industrial equipment maintenance",
-      "Work order management, preventive maintenance scheduling",
-      "Asset tracking with QR codes and mobile access",
-      "Built with Next.js, TypeScript, and PostgreSQL",
+      "Jetec+ - Competitor Price Monitor (Desktop): Native desktop app (Tauri + Next.js) monitoring refrigeration competitor prices and auto-updating a local Excel spreadsheet",
+      "Python backend (FastAPI + Playwright + openpyxl) with headless automation, isolated error handling per item, and PyAutoGUI fallback for native dialogs",
+      "Complete dependency management migration to Poetry (pyproject.toml, lockfile, dev/prod groups, poetry export for PyInstaller), eliminating loose requirements.txt",
+      "Docker Compose for dev/demo: backend with Playwright + Chromium + system deps (--with-deps), Next.js dev frontend, persistent volumes, healthcheck, PyAutoGUI disabled via DISABLE_PYAUTOGUI (lazy import + runtime guard)",
+      "Final packaging as single Windows executable (Tauri sidecar + PyInstaller onefile), no external dependencies for end users",
+      "100% local architecture (loopback HTTP, SQLite, .xlsx spreadsheet), no cloud or third-party services",
+      "Resolution of complex npm/Playwright/PyInstaller dependency conflicts in migration to Poetry + Docker",
+      "Scraping flow refactor (JSON-LD → meta tags → CSS → regex) with robust 'product not found' detection and visual summary (up/down/maintained/errors)"
     ],
     techStack: [
       "Next.js",

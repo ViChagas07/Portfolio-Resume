@@ -117,16 +117,22 @@
                                                            "Deploy automatizado na Vercel com integração contínua via GitHub"
                                                        ],
                                         "filldoc": [
-                                            "Plataforma inteligente de automação de documentos com IA",
-                                            "Geração e preenchimento de formulários a partir de templates",
-                                            "Pipeline multi-agente para processamento e validação",
-                                            "Deploy containerizado com CI/CD na Vercel e Railway"
+                                            "Dois caminhos unificados: PDF com AcroForm (pypdf) + criação do zero com placeholders {{...}} (fpdf2) — detecção automática e fallback inteligente",
+                                            "Frontend Next.js 14 componentizado: Stepper, FieldMapper genérico (reutilizado nos 2 caminhos), PdfPreview, ThemeToggle (Claro/Escuro/Sistema)",
+                                            "Backend FastAPI stateless-ish com sessões: upload dinâmico de .xlsx (colunas livres), mapeamento campo↔coluna, geração ZIP com nomes por coluna",
+                                            "Executável Windows standalone (~85 MB) via PyInstaller: bundla Poppler (pdftoppm + 30 DLLs) — preview de PDF roda em qualquer Windows sem instalar nada",
+                                            "Frontend estático exportado servido pelo próprio FastAPI (StaticFiles) — single binary, zero dependências externas",
+                                            "Docker Compose para dev/demo + Poetry + Ruff/Black + 14 testes pytest"
                                         ],
                                         "jetec_plus": [
-                                            "Sistema completo de gestão de manutenção industrial (CMMS)",
-                                            "Gerenciamento de ordens de serviço e manutenção preventiva",
-                                            "Rastreamento de ativos com QR codes e acesso móvel",
-                                            "Construído com Next.js, TypeScript e PostgreSQL"
+                                            "Jetec+ - Monitor de Preços de Concorrentes (Desktop): Aplicativo desktop nativo (Tauri + Next.js) que monitora preços de concorrentes de refrigeração e atualiza automaticamente uma planilha Excel local",
+                                            "Backend em Python (FastAPI + Playwright + openpyxl) com automação headless, tratamento isolado de erros por item e fallback PyAutoGUI para diálogos nativos",
+                                            "Migração completa do gerenciamento de dependências para Poetry (pyproject.toml, lockfile, grupos dev/prod, poetry export para PyInstaller), eliminando requirements.txt solto",
+                                            "Docker Compose para desenvolvimento/demonstração: backend com Playwright + Chromium + deps de sistema (--with-deps), frontend Next.js dev, volumes persistentes, healthcheck, PyAutoGUI desabilitado via DISABLE_PYAUTOGUI (import lazy + guard em runtime)",
+                                            "Empacotamento final como único executável Windows (Tauri sidecar + PyInstaller onefile), sem dependências externas para o usuário final",
+                                            "Arquitetura 100% local (loopback HTTP, SQLite, planilha .xlsx), sem nuvem nem serviços terceiros",
+                                            "Resolução de conflitos complexos de dependências npm/Playwright/PyInstaller na migração para Poetry + Docker",
+                                            "Refatoração do fluxo de scraping (JSON-LD → meta tags → CSS → regex) com detecção robusta de \"produto não encontrado\" e resumo visual (subiu/desceu/manteve/erros)"
                                         ]
                                      },
 "taglines":  {
@@ -136,8 +142,8 @@
                                        "clark":  "Player de Música Completo Temático do Superman",
                                        "facilit":  "Automação de Atendimento ao Cliente via WhatsApp com IA",
                                        "eude_ramos":  "Site Portfólio Profissional para Assistente Social",
-                                       "filldoc": "Plataforma Inteligente de Automação de Documentos",
-                                       "jetec_plus": "Sistema de Gestão de Manutenção Industrial"
+                                       "filldoc": "Gerador de PDFs em Lote",
+                                       "jetec_plus": "Monitor de Preços de Concorrentes (Desktop)"
                                    }
                  },
     "experience":  {
