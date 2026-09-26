@@ -78,6 +78,8 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
       "SOLID",
       "Dependency Injection",
       "Domain-Driven Patterns",
+      "Spec-Driven Development",
+      "Context Engineering",
     ],
   },
   {
@@ -85,8 +87,9 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
     skills: [
       "LangChain",
       "CrewAI",
+      "LangGraph",
+      "GraphiFy",
       "LLM Orchestration",
-      "OpenAI API",
       "Opencode",
       "BAAI/bge-m3",
     ],
@@ -130,6 +133,7 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
       "Pytest",
       "Unittest",
       "Jest",
+      "Vitest",
       "React Testing Library",
     ],
   },
