@@ -308,7 +308,6 @@ export const PROJECTS: Project[] = [
       "Python",
       "TypeScript",
     ],
-    liveUrl: "https://filldoc.vercel.app",
     githubUrl: "https://github.com/ViChagas07/FillDoc",
     monogram: "FD",
     imagePath: "/projects/filldoc-logo.png",
