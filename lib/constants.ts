@@ -332,7 +332,7 @@ export const PROJECTS: Project[] = [
       "Tailwind CSS",
       "Vercel",
     ],
-    githubUrl: "https://github.com/ViChagas07/JetecPlus",
+    githubUrl: "https://github.com/ViChagas07/Jetec-",
     monogram: "JP",
     imagePath: "/projects/jetec-plus.jpg",
   },
