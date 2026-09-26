@@ -145,7 +145,6 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
       "OWASP ZAP",
       "Celery",
       "RabbitMQ",
-      "Resend",
       "UpTimeRobot",
     ],
   },
