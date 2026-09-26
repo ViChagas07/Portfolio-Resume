@@ -110,8 +110,6 @@ export const SKILL_CATEGORIES: SkillCategory[] = [
     skills: [
       "Docker/Docker Compose",
       "AWS",
-      "Railway",
-      "Vercel",
       "Cloudflare",
       "GitHub Actions",
     ],
