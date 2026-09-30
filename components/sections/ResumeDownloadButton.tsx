@@ -15,8 +15,8 @@ type DownloadState = "idle" | "downloading" | "success" | "error";
 type ResumeLocale = "pt-BR" | "en";
 
 const RESUME_FILES: Record<ResumeLocale, string> = {
-  en: "/AD_Resume_EN.pdf",
-  "pt-BR": "/AD_Curriculo_PT-BR.pdf",
+  en: "/Alisson_Chagas_Resume_.pdf",
+  "pt-BR": "/Alisson_Chagas_Curriculo_.pdf",
 };
 
 const RESUME_LABELS: Record<ResumeLocale, string> = {
