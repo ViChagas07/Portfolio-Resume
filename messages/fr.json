@@ -114,8 +114,19 @@
                                                            "Développé avec Next.js et TypeScript",
                                                            "Rendu optimisé pour performance et SEO",
                                                            "Métadonnées configurées pour un meilleur référencement",
-                                                           "Déploiement automatisé sur Vercel avec CI/CD GitHub"
-                                                       ]
+                                                        "Déploiement automatisé sur Vercel avec CI/CD GitHub"
+                                                    ],
+                                        "regua_do_barbeiro": [
+                                            "Tarification et disponibilité côté serveur avec un instantané de prix immuable : le frontend ne fixe jamais les prix et l'historique reste intact lorsque la grille tarifaire change.",
+                                            "Réservation de 10 minutes avec une contrainte GiST EXCLUDE PostgreSQL et un verrou Redis : pas de double réservation lors de clics simultanés, et les réservations expirées libèrent le créneau automatiquement.",
+                                            "Stripe Checkout avec Pix et carte, confirmation uniquement via webhook signé et idempotence : les redirections ne confirment jamais le paiement et les événements en double ne créent pas de réservations en double. Remboursement automatique hors de la fenêtre de 12 heures.",
+                                            "Programme de fidélité 9+1 avec un grand livre append-only : la 10e coupe est gratuite sans tableur annexe ni modification manuelle du solde.",
+                                            "Rappels par e-mail localisés avec heures de silence et désabonnement. Envoyés via outbox + worker ARQ : une panne d'e-mail ne fait jamais tomber la réservation.",
+                                            "Feuille miroir Excel (openpyxl) mise à jour par un worker avec écritures atomiques : le propriétaire conserve son flux de travail existant, sans saisie manuelle.",
+                                            "Admin avec RBAC (staff, admin, owner) et 404 pour les non-staff : les permissions sont appliquées côté serveur.",
+                                            "Cache avec Stale-While-Revalidate, jitter de ±20 % sur le TTL et single-flight (SET NX PX) : protection directe contre le cache stampede/thundering herd, avec une seule requête qui recalcule pendant que les autres reçoivent des données obsolètes (stale).",
+                                            "11 langues, dont l'arabe en RTL."
+                                        ]
                                     },
 "taglines":  {
                                        "aimaginator":  "Plateforme de Génération et d'Édition d'Images par IA",
@@ -123,7 +134,8 @@
                                       "pytomatiza":  "Plateforme d\u0027Automatisation Intelligente avec Agents IA",
                                       "clark":  "Lecteur de Musique Complet Thème Superman",
                                       "facilit":  "Automatisation du Service Client WhatsApp par IA",
-                                      "eude_ramos":  "Site Portfolio Professionnel pour Travailleur Social"
+                                      "eude_ramos":  "Site Portfolio Professionnel pour Travailleur Social",
+                                      "regua_do_barbeiro":  "Plateforme de Réservation de Barbier avec Tarification Côté Serveur"
                                   }
                  },
     "experience":  {

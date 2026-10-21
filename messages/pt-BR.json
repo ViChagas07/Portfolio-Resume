@@ -114,8 +114,19 @@
                                                            "Desenvolvido com Next.js e TypeScript",
                                                            "Renderização otimizada para desempenho e SEO",
                                                            "Metadados configurados para melhor indexação nos mecanismos de busca",
-                                                           "Deploy automatizado na Vercel com integração contínua via GitHub"
-                                                       ],
+                                                        "Deploy automatizado na Vercel com integração contínua via GitHub"
+                                                    ],
+                                        "regua_do_barbeiro": [
+                                            "Preços e disponibilidade no servidor com snapshot imutável de preço: o frontend nunca define preços, e o histórico permanece intacto quando a tabela de preços muda.",
+                                            "Reserva de 10 minutos com constraint GiST EXCLUDE no PostgreSQL e lock no Redis: sem dupla reserva em cliques simultâneos, e reservas expiradas liberam o horário automaticamente.",
+                                            "Stripe Checkout com Pix e cartão, confirmação apenas via webhook assinado e idempotência: redirecionamentos nunca confirmam o pagamento, e eventos duplicados não criam reservas duplicadas. Reembolso automático fora da janela de 12 horas.",
+                                            "Programa de fidelidade 9+1 com ledger append-only: o 10º corte é grátis sem planilha paralela ou edição manual de saldo.",
+                                            "Lembretes por e-mail localizados com horários de silêncio e descadastro. Enviados via outbox + worker ARQ: uma falha de e-mail nunca derruba o agendamento.",
+                                            "Planilha espelho em Excel (openpyxl) atualizada por um worker com escritas atômicas: o proprietário mantém o fluxo de trabalho que já usava, sem lançamento manual.",
+                                            "Admin com RBAC (staff, admin, owner) e 404 para não-staff: as permissões são aplicadas no servidor.",
+                                            "Cache com Stale-While-Revalidate, jitter de ±20% no TTL e single-flight (SET NX PX): proteção direta contra cache stampede/thundering herd, com apenas uma requisição recalculando enquanto as demais recebem dados obsoletos (stale).",
+                                            "11 idiomas, incluindo árabe em RTL."
+                                        ],
                                         "filldoc": [
                                             "Dois caminhos unificados: PDF com AcroForm (pypdf) + criação do zero com placeholders {{...}} (fpdf2) — detecção automática e fallback inteligente",
                                             "Frontend Next.js 14 componentizado: Stepper, FieldMapper genérico (reutilizado nos 2 caminhos), PdfPreview, ThemeToggle (Claro/Escuro/Sistema)",
@@ -142,6 +153,7 @@
                                        "clark":  "Player de Música Completo Temático do Superman",
                                        "facilit":  "Automação de Atendimento ao Cliente via WhatsApp com IA",
                                        "eude_ramos":  "Site Portfólio Profissional para Assistente Social",
+                                       "regua_do_barbeiro":  "Plataforma de Agendamento para Barbearia com Preços no Servidor",
                                        "filldoc": "Gerador de PDFs em Lote",
                                        "jetec_plus": "Monitor de Preços de Concorrentes (Desktop)"
                                    }

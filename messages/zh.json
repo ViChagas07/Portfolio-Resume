@@ -115,7 +115,18 @@
                                                            "性能优化渲染与SEO",
                                                            "配置元数据以优化搜索引擎索引",
                                                            "GitHub CI/CD自动部署至Vercel"
-                                                       ]
+                                                       ],
+                                        "regua_do_barbeiro": [
+                                            "服务端定价与可用性校验，配合不可变的价格快照：前端从不设置价格，价格表变更时历史记录依然完整。",
+                                            "10 分钟占位，使用 PostgreSQL GiST EXCLUDE 约束和 Redis 锁：同时点击也不会重复预订，过期占位会自动释放时段。",
+                                            "Stripe Checkout 支持 Pix 和银行卡，仅通过签名 Webhook 和幂等性确认：重定向永远不会确认支付，重复事件也不会创建重复预订。超出 12 小时窗口自动退款。",
+                                            "9+1 会员计划，采用仅追加账本：第 10 次理发免费，无需额外表格或手动修改余额。",
+                                            "本地化邮件提醒，支持免打扰时段和退订。通过 outbox + ARQ worker 发送：邮件故障绝不会拖垮预订。",
+                                            "由 worker 以原子写入更新的 Excel 镜像表（openpyxl）：店主保留原有工作流程，无需手动录入。",
+                                            "带 RBAC（staff、admin、owner）的管理后台，非 staff 返回 404：权限在服务端强制执行。",
+                                            "缓存采用 Stale-While-Revalidate、±20% TTL 抖动和 single-flight（SET NX PX）：直接防御缓存击穿/惊群，只有一个请求重新计算，其余请求获取旧数据。",
+                                            "11 种语言，包括 RTL 阿拉伯语。"
+                                        ]
                                     },
 "taglines":  {
                                        "aimaginator":  "AI驱动的图像生成与编辑平台",
@@ -123,7 +134,8 @@
                                       "pytomatiza":  "AI智能体智能自动化平台",
                                       "clark":  "超人主题全功能音乐播放器",
                                       "facilit":  "WhatsApp AI客服自动化",
-                                      "eude_ramos":  "社会工作者专业作品集网站"
+                                      "eude_ramos":  "社会工作者专业作品集网站",
+                                      "regua_do_barbeiro":  "服务端定价的理发店预约平台"
                                   }
                  },
     "experience":  {

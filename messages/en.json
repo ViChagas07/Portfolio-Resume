@@ -114,8 +114,19 @@
                                                            "Built with Next.js and TypeScript",
                                                            "Performance-optimized rendering with SEO",
                                                            "Metadata configured for better search engine indexing",
-                                                           "Automated deployment on Vercel with GitHub CI/CD"
-                                                       ],
+                                                        "Automated deployment on Vercel with GitHub CI/CD"
+                                                    ],
+                                        "regua_do_barbeiro": [
+                                            "Server-side pricing and availability with an immutable price snapshot: the frontend never sets prices, and history stays intact when the price table changes.",
+                                            "10-minute hold with a PostgreSQL GiST EXCLUDE constraint and a Redis lock: no double booking under simultaneous clicks, and expired holds release the slot automatically.",
+                                            "Stripe Checkout with Pix and card, confirmation only via signed webhook and idempotency: redirects never confirm payment, and duplicate events don't create duplicate bookings. Automatic refund outside the 12-hour window.",
+                                            "9+1 loyalty program with an append-only ledger: the 10th haircut is free without a side spreadsheet or manual balance edits.",
+                                            "Localized email reminders with quiet hours and unsubscribe. Sent through an outbox + ARQ worker: an email failure never takes down the booking.",
+                                            "Excel mirror sheet (openpyxl) updated by a worker with atomic writes: the owner keeps the workflow he already had, with no manual entry.",
+                                            "Admin with RBAC (staff, admin, owner) and 404 for non-staff: permissions are enforced on the server.",
+                                            "Cache with Stale-While-Revalidate, ±20% TTL jitter, and single-flight (SET NX PX): direct protection against cache stampede/thundering herd, with only one request recomputing while the rest get stale data.",
+                                            "11 languages, including Arabic in RTL."
+                                        ],
                                         "filldoc": [
                                             "Two unified paths: PDF with AcroForm (pypdf) + creation from scratch with {{...}} placeholders (fpdf2) — automatic detection and smart fallback",
                                             "Componentized Next.js 14 frontend: Stepper, generic FieldMapper (reused in both paths), PdfPreview, ThemeToggle (Light/Dark/System)",
@@ -142,6 +153,7 @@
                                        "clark":  "Superman-Themed Full-Featured Music Player",
                                        "facilit":  "WhatsApp AI Customer Service Automation",
                                        "eude_ramos":  "Professional Portfolio Website for Social Worker",
+                                       "regua_do_barbeiro":  "Barbershop Booking Platform with Server-Side Pricing",
                                        "filldoc": "Batch PDF Generator",
                                        "jetec_plus": "Competitor Price Monitor (Desktop)"
                                    }

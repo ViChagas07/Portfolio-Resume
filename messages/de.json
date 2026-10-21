@@ -114,8 +114,19 @@
                                                            "Entwickelt mit Next.js und TypeScript",
                                                            "Leistungsoptimiertes Rendering mit SEO",
                                                            "Metadaten für bessere Suchmaschinenindexierung konfiguriert",
-                                                           "Automatisiertes Deployment auf Vercel mit GitHub CI/CD"
-                                                       ]
+                                                        "Automatisiertes Deployment auf Vercel mit GitHub CI/CD"
+                                                    ],
+                                        "regua_do_barbeiro": [
+                                            "Serverseitige Preis- und Verfügbarkeitsberechnung mit unveränderlichem Preis-Snapshot: Das Frontend setzt nie Preise, und der Verlauf bleibt intakt, wenn sich die Preistabelle ändert.",
+                                            "10-Minuten-Haltezeit mit PostgreSQL-GiST-EXCLUDE-Constraint und Redis-Lock: keine Doppelbuchung bei gleichzeitigen Klicks, und abgelaufene Haltezeiten geben den Slot automatisch frei.",
+                                            "Stripe Checkout mit Pix und Karte, Bestätigung nur über signierten Webhook und Idempotenz: Weiterleitungen bestätigen nie die Zahlung, und doppelte Events erzeugen keine doppelten Buchungen. Automatische Rückerstattung außerhalb des 12-Stunden-Fensters.",
+                                            "9+1-Treueprogramm mit Append-only-Ledger: Der 10. Haarschnitt ist kostenlos, ohne separate Tabelle oder manuelle Saldoänderungen.",
+                                            "Lokalisierte E-Mail-Erinnerungen mit Ruhezeiten und Abmeldung. Versand über Outbox + ARQ-Worker: Ein E-Mail-Fehler bringt die Buchung nie zum Absturz.",
+                                            "Excel-Spiegeltabelle (openpyxl), von einem Worker mit atomaren Schreibvorgängen aktualisiert: Der Inhaber behält seinen bestehenden Workflow, ohne manuelle Eingabe.",
+                                            "Admin mit RBAC (Staff, Admin, Owner) und 404 für Nicht-Staff: Berechtigungen werden serverseitig durchgesetzt.",
+                                            "Cache mit Stale-While-Revalidate, ±20 % TTL-Jitter und Single-Flight (SET NX PX): direkter Schutz gegen Cache Stampede/Thundering Herd, wobei nur eine Anfrage neu berechnet, während die übrigen veraltete Daten erhalten.",
+                                            "11 Sprachen, darunter Arabisch in RTL."
+                                        ]
                                     },
 "taglines":  {
                                        "aimaginator":  "KI-gestützte Bildgenerierungs- & Bearbeitungsplattform",
@@ -123,7 +134,8 @@
                                       "pytomatiza":  "Intelligente Automatisierungsplattform mit KI-Agenten",
                                       "clark":  "Superman-Themen-Vollfunktions-Musikplayer",
                                       "facilit":  "WhatsApp KI-Kundenservice-Automatisierung",
-                                      "eude_ramos":  "Professionelle Portfolio-Website für Sozialarbeiter"
+                                      "eude_ramos":  "Professionelle Portfolio-Website für Sozialarbeiter",
+                                      "regua_do_barbeiro":  "Barbier-Buchungsplattform mit serverseitiger Preisberechnung"
                                   }
                  },
     "experience":  {
